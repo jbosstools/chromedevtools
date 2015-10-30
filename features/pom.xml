@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.chromium.sdk.chromedevtools</groupId>
+		<artifactId>parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../parent</relativePath>
+	</parent>
+	<groupId>org.chromium.sdk.chromedevtools</groupId>
+	<artifactId>features</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>org.chromium.debug</module>
+		<module>org.chromium.debug.jsdtbridge</module>
+		<module>org.chromium.sdk</module>
+		<!-- module>org.chromium.sdk.wip.source</module-->
+		<module>org.chromium.sdk.wipbackends</module>
+		<!-- module>org.chromium.source</module-->
+	</modules>
+</project>

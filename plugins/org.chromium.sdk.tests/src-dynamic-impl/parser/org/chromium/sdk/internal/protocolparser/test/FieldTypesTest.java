@@ -47,12 +47,12 @@ public class FieldTypesTest {
   }
 
   @JsonType
-  interface TypeWithNullableLong {
+  public interface TypeWithNullableLong {
     Long val();
   }
 
   @JsonParserRoot
-  interface TypeWithNullableLongParser {
+  public interface TypeWithNullableLongParser {
     @JsonParseMethod
     TypeWithNullableLong parseTypeWithNullableLong(JSONObject json)
         throws JsonProtocolParseException;
@@ -82,12 +82,12 @@ public class FieldTypesTest {
   }
 
   @JsonType
-  interface TypeWithLong {
+  public interface TypeWithLong {
     long val();
   }
 
   @JsonParserRoot
-  interface TypeWithLongParser {
+  public interface TypeWithLongParser {
     @JsonParseMethod
     TypeWithLong parseTypeWithLong(JSONObject json) throws JsonProtocolParseException;
   }
@@ -113,17 +113,17 @@ public class FieldTypesTest {
   }
 
   @JsonType
-  interface Something {
+  public interface Something {
   }
 
   @JsonType
-  interface TypeWithNullableSomething {
+  public interface TypeWithNullableSomething {
     @JsonNullable
     Something data();
   }
 
   @JsonParserRoot
-  interface TypeWithNullableSomethingParser {
+  public interface TypeWithNullableSomethingParser {
     @JsonParseMethod
     TypeWithNullableSomething parseTypeWithNullableSomething(JSONObject json)
         throws JsonProtocolParseException;
@@ -153,12 +153,12 @@ public class FieldTypesTest {
   }
 
   @JsonType
-  interface TypeWithSomething {
+  public interface TypeWithSomething {
     Something data();
   }
 
   @JsonParserRoot
-  interface TypeWithSomethingParser {
+  public interface TypeWithSomethingParser {
     @JsonParseMethod
     TypeWithSomething parseTypeWithSomething(JSONObject json) throws JsonProtocolParseException;
   }
@@ -210,7 +210,7 @@ public class FieldTypesTest {
   }
 
   @JsonParserRoot
-  interface SeveralTypesWithSomethingParser {
+  public interface SeveralTypesWithSomethingParser {
     @JsonParseMethod
     TypeWithSomething parseTypeWithSomething(JSONObject json) throws JsonProtocolParseException;
 
@@ -247,19 +247,19 @@ public class FieldTypesTest {
   }
 
   @JsonType
-  interface TypeWithOptionalLong {
+  public interface TypeWithOptionalLong {
     @JsonOptionalField
     Long val();
   }
 
   @JsonType
-  interface TypeWithOptionalSomething {
+  public interface TypeWithOptionalSomething {
     @JsonOptionalField
     Something data();
   }
 
   @JsonParserRoot
-  interface SeveralTypesWithLongParser {
+  public interface SeveralTypesWithLongParser {
 
     @JsonParseMethod
     TypeWithOptionalLong parseTypeWithOptionalLong(JSONObject emptyJson)

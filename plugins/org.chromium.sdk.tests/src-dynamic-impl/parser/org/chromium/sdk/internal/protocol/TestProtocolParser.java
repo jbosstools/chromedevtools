@@ -80,17 +80,17 @@ public class TestProtocolParser {
   }
 
   @JsonType
-  interface SimpleData {
+  public interface SimpleData {
     Cases a();
   }
   @JsonType(subtypesChosenManually=true)
-  interface Cases {
+  public interface Cases {
     @JsonSubtypeCasting List<Object> asList() throws JsonProtocolParseException;
     @JsonSubtypeCasting long asNumber() throws JsonProtocolParseException;
   }
 
   @JsonParserRoot
-  interface TestParser {
+  public interface TestParser {
 
     @JsonParseMethod
     SimpleData parseSimpleData(JSONObject json) throws JsonProtocolParseException;
