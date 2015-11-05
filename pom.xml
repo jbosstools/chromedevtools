@@ -9,5 +9,6 @@
   <modules>
     <module>features</module>
     <module>plugins</module>
+    <module>site</module>
   </modules>
 </project>

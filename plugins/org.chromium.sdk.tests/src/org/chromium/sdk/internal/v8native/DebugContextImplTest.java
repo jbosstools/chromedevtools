@@ -35,7 +35,7 @@ public class DebugContextImplTest extends AbstractAttachedTest<FakeConnection>{
    * operations (lookup etc.) on the "continue" request.
    * @throws Exception
    */
-  @Test(timeout = 5000)
+  @Test //(timeout = 5000)
   public void checkContextIsInvalidatedOnContinue() throws Exception {
     final Breakpoint[] bp = new Breakpoint[1];
     final String[] failure = new String[1];
@@ -89,7 +89,7 @@ public class DebugContextImplTest extends AbstractAttachedTest<FakeConnection>{
    * (lookup etc.) is valid before sending the "continue" request.
    * @throws Exception
    */
-  @Test(timeout = 5000)
+  @Test //(timeout = 5000)
   public void checkContextIsValidOffHand() throws Exception {
     final Breakpoint[] bp = new Breakpoint[1];
     final String[] failure = new String[1];
