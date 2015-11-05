@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	<description>To install these features, point Eclipse at this site.</description>
+	<category-def label="Google Chrome Developer Tools" name="chromedevtools"/>
+	<category-def label="Google Chrome Developer Tools (Advanced)" name="chromedevtools.ext"/>
+	<feature id="org.chromium.debug.jsdtbridge"><category name="chromedevtools"/></feature>
+	<feature id="org.chromium.debug"><category name="chromedevtools"/></feature>
+	<feature id="org.chromium.sdk.wipbackends"><category name="chromedevtools"/></feature>
+	
+	<feature id="org.chromium.sdk"><category name="chromedevtools.ext"/></feature>
+	<!-- feature id="org.chromium.sdk.wip.source"><category name="chromedevtools.ext"/></feature>
+	<feature id="org.chromium.source"><category name="chromedevtools.ext"/></feature-->
+</site>
