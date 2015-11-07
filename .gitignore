@@ -32,3 +32,10 @@ utils/org.chromium.sdk.tests.system/bin
 utils/org.chromium.sdk.tests.system/build-output
 utils/org.chromium.sdk.tests.system.runner/.settings
 utils/org.chromium.sdk.tests.system.runner/bin
+target
+.project
+builder/.project
+builder/.settings/
+builder/pom.xml
+builder/repack/pom.xml
+

@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@89368
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.debugger;
 
@@ -16,15 +16,27 @@ public interface SetScriptSourceData {
   java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> callFrames();
 
   /**
-   VM-specific description of the changes applied.
+   Whether current call stack  was modified after applying the changes.
    */
   @org.chromium.sdk.internal.protocolparser.JsonOptionalField
-  Result result();
+  Boolean stackChanged();
 
   /**
-   VM-specific description of the changes applied.
+   Async stack trace, if any.
    */
-  @org.chromium.sdk.internal.protocolparser.JsonType(allowsOtherProperties=true)
-  public interface Result extends org.chromium.sdk.internal.protocolparser.JsonObjectBased {
-  }
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue asyncStackTrace();
+  
+  /**
+  VM-specific description of the changes applied.
+  */
+ @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+ org.chromium.sdk.internal.wip.protocol.input.debugger.SetScriptSourceData.Result result();
+
+ /**
+  VM-specific description of the changes applied.
+  */
+ @org.chromium.sdk.internal.protocolparser.JsonType(allowsOtherProperties=true)
+ public interface Result extends org.chromium.sdk.internal.protocolparser.JsonObjectBased {
+ }
 }

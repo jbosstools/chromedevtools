@@ -1,16 +1,16 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@130398
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.output.page;
 
 /**
-Overrides the Geolocation Position or Error.
+Overrides the Geolocation Position or Error. Omitting any of the parameters emulates position unavailable.
  */
 public class SetGeolocationOverrideParams extends org.chromium.sdk.internal.wip.protocol.output.WipParams {
   /**
-   @param latitudeOpt Mock longitude
-   @param longitudeOpt Mock latitude
+   @param latitudeOpt Mock latitude
+   @param longitudeOpt Mock longitude
    @param accuracyOpt Mock accuracy
    */
   public SetGeolocationOverrideParams(Number latitudeOpt, Number longitudeOpt, Number accuracyOpt) {

@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@102140
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.network;
 
@@ -18,6 +18,11 @@ public interface LoadingFinishedEventData {
    Timestamp.
    */
   Number/*See org.chromium.sdk.internal.wip.protocol.common.network.TimestampTypedef*/ timestamp();
+
+  /**
+   Total number of bytes received for this request.
+   */
+  Number encodedDataLength();
 
   public static final org.chromium.sdk.internal.wip.protocol.input.WipEventType<org.chromium.sdk.internal.wip.protocol.input.network.LoadingFinishedEventData> TYPE
       = new org.chromium.sdk.internal.wip.protocol.input.WipEventType<org.chromium.sdk.internal.wip.protocol.input.network.LoadingFinishedEventData>("Network.loadingFinished", org.chromium.sdk.internal.wip.protocol.input.network.LoadingFinishedEventData.class) {

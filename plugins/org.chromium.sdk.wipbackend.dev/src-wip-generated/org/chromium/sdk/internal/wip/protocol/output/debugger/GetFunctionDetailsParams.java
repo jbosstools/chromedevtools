@@ -1,15 +1,15 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@106352
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.output.debugger;
 
 /**
-Returns detailed informtation on given function.
+Returns detailed information on given function.
  */
 public class GetFunctionDetailsParams extends org.chromium.sdk.internal.wip.protocol.output.WipParamsWithResponse<org.chromium.sdk.internal.wip.protocol.input.debugger.GetFunctionDetailsData> {
   /**
-   @param functionId Id of the function to get location for.
+   @param functionId Id of the function to get details for.
    */
   public GetFunctionDetailsParams(String/*See org.chromium.sdk.internal.wip.protocol.common.runtime.RemoteObjectIdTypedef*/ functionId) {
     this.put("functionId", functionId);

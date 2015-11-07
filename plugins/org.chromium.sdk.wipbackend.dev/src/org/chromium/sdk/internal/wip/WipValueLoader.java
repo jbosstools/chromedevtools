@@ -350,7 +350,7 @@ public abstract class WipValueLoader implements RemoteValueMapping {
     final GetPropertiesParams request;
     {
       boolean ownProperties = true;
-      request = new GetPropertiesParams(objectId, ownProperties);
+      request = new GetPropertiesParams(objectId, ownProperties, null, null);
     }
 
     CallbackSemaphore callbackSemaphore = new CallbackSemaphore();

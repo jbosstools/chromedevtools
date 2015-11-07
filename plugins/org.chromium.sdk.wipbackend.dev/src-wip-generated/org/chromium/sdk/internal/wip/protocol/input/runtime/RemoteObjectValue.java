@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@130398
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.runtime;
 
@@ -27,7 +27,7 @@ public interface RemoteObjectValue {
   String className();
 
   /**
-   Remote object value (in case of primitive values or JSON values if it was requested).
+   Remote object value in case of primitive values or JSON values (if it was requested), or description string if the value can not be JSON-stringified (like NaN, Infinity, -Infinity, -0).
    */
   @org.chromium.sdk.internal.protocolparser.JsonOptionalField
   @org.chromium.sdk.internal.protocolparser.JsonNullable
@@ -46,10 +46,13 @@ public interface RemoteObjectValue {
   String/*See org.chromium.sdk.internal.wip.protocol.common.runtime.RemoteObjectIdTypedef*/ objectId();
 
   /**
-   Preview containsing abbreviated property values.
+   Preview containing abbreviated property values. Specified for <code>object</code> type values only.
    */
   @org.chromium.sdk.internal.protocolparser.JsonOptionalField
   org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue preview();
+
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  org.chromium.sdk.internal.wip.protocol.input.runtime.CustomPreviewValue customPreview();
 
   /**
    Object type.
@@ -61,6 +64,7 @@ public interface RemoteObjectValue {
     STRING,
     NUMBER,
     BOOLEAN,
+    SYMBOL,
   }
   /**
    Object subtype hint. Specified for <code>object</code> type values only.
@@ -71,5 +75,10 @@ public interface RemoteObjectValue {
     NODE,
     REGEXP,
     DATE,
+    MAP,
+    SET,
+    ITERATOR,
+    GENERATOR,
+    ERROR,
   }
 }

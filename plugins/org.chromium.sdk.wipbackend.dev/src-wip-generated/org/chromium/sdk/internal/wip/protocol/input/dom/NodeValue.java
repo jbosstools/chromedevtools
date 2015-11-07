@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@140428
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.dom;
 
@@ -101,10 +101,22 @@ public interface NodeValue {
   String value();
 
   /**
+   Pseudo element type for this node.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  org.chromium.sdk.internal.wip.protocol.input.dom.PseudoTypeEnum pseudoType();
+
+  /**
+   Shadow root type.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootTypeEnum shadowRootType();
+
+  /**
    Frame ID for frame owner elements.
    */
   @org.chromium.sdk.internal.protocolparser.JsonOptionalField
-  String/*See org.chromium.sdk.internal.wip.protocol.common.network.FrameIdTypedef*/ frameId();
+  String/*See org.chromium.sdk.internal.wip.protocol.common.page.FrameIdTypedef*/ frameId();
 
   /**
    Content document for frame owner elements.
@@ -119,9 +131,27 @@ public interface NodeValue {
   java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> shadowRoots();
 
   /**
-   Content document fragment for template elements
+   Content document fragment for template elements.
    */
   @org.chromium.sdk.internal.protocolparser.JsonOptionalField
   org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue templateContent();
+
+  /**
+   Pseudo elements associated with this node.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> pseudoElements();
+
+  /**
+   Import document for the HTMLImport links.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue importedDocument();
+
+  /**
+   Distributed nodes for given insertion point.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.BackendNodeValue> distributedNodes();
 
 }

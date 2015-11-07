@@ -5,327 +5,407 @@ package org.chromium.sdk.internal.wip.protocol;
 
 public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip.protocol.input.WipProtocolParser {
   @Override public org.chromium.sdk.internal.wip.protocol.input.dom.DocumentUpdatedEventData parseDOMDocumentUpdatedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_44.parse(obj);
+    return Value_63.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.page.GetResourceContentData parsePageGetResourceContentData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_110.parse(obj);
+    return Value_142.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.network.LoadingFailedEventData parseNetworkLoadingFailedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_74.parse(obj);
+    return Value_105.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.dom.RequestNodeData parseDOMRequestNodeData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_60.parse(obj);
+    return Value_85.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.GetNavigationHistoryData parsePageGetNavigationHistoryData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_141.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.dom.GetOuterHTMLData parseDOMGetOuterHTMLData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_49.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.network.LoadResourceForFrontendData parseNetworkLoadResourceForFrontendData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_73.parse(obj);
+    return Value_70.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.GetPropertiesData parseRuntimeGetPropertiesData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_125.parse(obj);
+    return Value_163.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.GetPromiseByIdData parseDebuggerGetPromiseByIdData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_31.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.network.WebSocketWillSendHandshakeRequestEventData parseNetworkWebSocketWillSendHandshakeRequestEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_92.parse(obj);
+    return Value_123.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.dom.PushNodeByPathToFrontendData parseDOMPushNodeByPathToFrontendData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_57.parse(obj);
+    return Value_80.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.PushNodesByBackendIdsToFrontendData parseDOMPushNodesByBackendIdsToFrontendData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_81.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.network.RequestServedFromCacheEventData parseNetworkRequestServedFromCacheEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_76.parse(obj);
+    return Value_107.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeRemovedEventData parseDOMChildNodeRemovedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_43.parse(obj);
+    return Value_60.parse(obj);
   }
 
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.CanContinuouslyPaintData parsePageCanContinuouslyPaintData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_94.parse(obj);
+  @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.IsRunRequiredData parseRuntimeIsRunRequiredData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_165.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.CanScreencastData parsePageCanScreencastData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_125.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.ScreencastVisibilityChangedEventData parsePageScreencastVisibilityChangedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_153.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.dom.InlineStyleInvalidatedEventData parseDOMInlineStyleInvalidatedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_51.parse(obj);
+    return Value_73.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.network.CanClearBrowserCacheData parseNetworkCanClearBrowserCacheData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_67.parse(obj);
+    return Value_92.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.page.SearchInResourceData parsePageSearchInResourceData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_117.parse(obj);
+    return Value_154.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.RunScriptData parseDebuggerRunScriptData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_29.parse(obj);
+    return Value_42.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.ColorPickedEventData parsePageColorPickedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_127.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.network.LoadingFinishedEventData parseNetworkLoadingFinishedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_75.parse(obj);
+    return Value_106.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.WipCommandResponse parseWipCommandResponse(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
     return Value_0.parse(obj);
   }
 
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.SearchInResourcesData parsePageSearchInResourcesData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_118.parse(obj);
-  }
-
   @Override public org.chromium.sdk.internal.wip.protocol.input.network.DataReceivedEventData parseNetworkDataReceivedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_69.parse(obj);
+    return Value_98.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.page.FrameNavigatedEventData parsePageFrameNavigatedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_101.parse(obj);
+    return Value_132.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.ExecutionContextDestroyedEventData parseRuntimeExecutionContextDestroyedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_161.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.dom.SetChildNodesEventData parseDOMSetChildNodesEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_62.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.GetResourceTreeData parsePageGetResourceTreeData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_111.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.GetScriptExecutionStatusData parsePageGetScriptExecutionStatusData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_112.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.GetScriptSourceData parseDebuggerGetScriptSourceData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_21.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.PerformSearchData parseDOMPerformSearchData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_55.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.RestartFrameData parseDebuggerRestartFrameData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_26.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.SetScriptSourceData parseDebuggerSetScriptSourceData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_36.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.EvaluateData parseRuntimeEvaluateData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_122.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.GetAttributesData parseDOMGetAttributesData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_46.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.JavascriptDialogOpeningEventData parsePageJavascriptDialogOpeningEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_114.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.ResumedEventData parseDebuggerResumedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_28.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameErrorEventData parseNetworkWebSocketFrameErrorEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_85.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.console.MessageRepeatCountUpdatedEventData parseConsoleMessageRepeatCountUpdatedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_12.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameReceivedEventData parseNetworkWebSocketFrameReceivedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_86.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.PushNodeByBackendIdToFrontendData parseDOMPushNodeByBackendIdToFrontendData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_56.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.CaptureScreenshotData parsePageCaptureScreenshotData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_96.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.network.WebSocketClosedEventData parseNetworkWebSocketClosedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_83.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.FrameDetachedEventData parsePageFrameDetachedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_100.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeCountUpdatedEventData parseDOMChildNodeCountUpdatedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_41.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.ScriptFailedToParseEventData parseDebuggerScriptFailedToParseEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_31.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.FrameScheduledNavigationEventData parsePageFrameScheduledNavigationEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_104.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.AddScriptToEvaluateOnLoadData parsePageAddScriptToEvaluateOnLoadData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_93.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.GetSearchResultsData parseDOMGetSearchResultsData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_50.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.console.MessageAddedEventData parseConsoleMessageAddedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_11.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.ScriptParsedEventData parseDebuggerScriptParsedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_32.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.QuerySelectorAllData parseDOMQuerySelectorAllData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_58.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue parseRemoteObjectValue(java.lang.Object obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_130.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.GetEventListenersForNodeData parseDOMGetEventListenersForNodeData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_48.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.network.ResponseReceivedEventData parseNetworkResponseReceivedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_81.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.FrameStartedLoadingEventData parsePageFrameStartedLoadingEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_105.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.CompileScriptData parseDebuggerCompileScriptData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_17.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.network.WebSocketHandshakeResponseReceivedEventData parseNetworkWebSocketHandshakeResponseReceivedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_89.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.PausedEventData parseDebuggerPausedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_24.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.network.WebSocketCreatedEventData parseNetworkWebSocketCreatedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_84.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.GetCookiesData parsePageGetCookiesData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_109.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootPushedEventData parseDOMShadowRootPushedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_65.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.SearchInContentData parseDebuggerSearchInContentData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_33.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameSentEventData parseNetworkWebSocketFrameSentEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
     return Value_87.parse(obj);
   }
 
-  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeInsertedEventData parseDOMChildNodeInsertedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_42.parse(obj);
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.GetResourceTreeData parsePageGetResourceTreeData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_143.parse(obj);
   }
 
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.CanShowFPSCounterData parsePageCanShowFPSCounterData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_95.parse(obj);
+  @Override public org.chromium.sdk.internal.wip.protocol.input.network.GetCertificateDetailsData parseNetworkGetCertificateDetailsData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_100.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.GetGeneratorObjectDetailsData parseDebuggerGetGeneratorObjectDetailsData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_30.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.GetScriptSourceData parseDebuggerGetScriptSourceData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_32.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.GetStepInPositionsData parseDebuggerGetStepInPositionsData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_33.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.PerformSearchData parseDOMPerformSearchData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_77.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.RestartFrameData parseDebuggerRestartFrameData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_40.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.SetScriptSourceData parseDebuggerSetScriptSourceData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_50.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.EvaluateData parseRuntimeEvaluateData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_158.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.GetAttributesData parseDOMGetAttributesData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_64.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.GetBoxModelData parseDOMGetBoxModelData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_65.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.JavascriptDialogOpeningEventData parsePageJavascriptDialogOpeningEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_147.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.ResumedEventData parseDebuggerResumedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_41.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.CopyToData parseDOMCopyToData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_61.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameErrorEventData parseNetworkWebSocketFrameErrorEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_116.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.console.MessageRepeatCountUpdatedEventData parseConsoleMessageRepeatCountUpdatedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_13.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameReceivedEventData parseNetworkWebSocketFrameReceivedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_117.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.GetNodeForLocationData parseDOMGetNodeForLocationData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_69.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.CaptureScreenshotData parsePageCaptureScreenshotData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_126.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.network.WebSocketClosedEventData parseNetworkWebSocketClosedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_114.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.FrameDetachedEventData parsePageFrameDetachedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_131.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeCountUpdatedEventData parseDOMChildNodeCountUpdatedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_58.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.PseudoElementAddedEventData parseDOMPseudoElementAddedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_78.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.ScriptFailedToParseEventData parseDebuggerScriptFailedToParseEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_44.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.FrameScheduledNavigationEventData parsePageFrameScheduledNavigationEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_136.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.NavigateData parsePageNavigateData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_149.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateChangedEventData parseSecuritySecurityStateChangedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_171.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.AddScriptToEvaluateOnLoadData parsePageAddScriptToEvaluateOnLoadData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_124.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.GetSearchResultsData parseDOMGetSearchResultsData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_72.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.console.MessageAddedEventData parseConsoleMessageAddedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_12.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.ScriptParsedEventData parseDebuggerScriptParsedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_45.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.QuerySelectorAllData parseDOMQuerySelectorAllData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_82.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue parseRemoteObjectValue(java.lang.Object obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_169.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.network.ResponseReceivedEventData parseNetworkResponseReceivedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_111.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.FrameStartedLoadingEventData parsePageFrameStartedLoadingEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_137.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.network.EventSourceMessageReceivedEventData parseNetworkEventSourceMessageReceivedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_99.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.CompileScriptData parseDebuggerCompileScriptData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_22.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.PseudoElementRemovedEventData parseDOMPseudoElementRemovedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_79.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.network.WebSocketHandshakeResponseReceivedEventData parseNetworkWebSocketHandshakeResponseReceivedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_120.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.PausedEventData parseDebuggerPausedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_36.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.network.WebSocketCreatedEventData parseNetworkWebSocketCreatedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_115.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.GetCookiesData parsePageGetCookiesData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_140.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootPushedEventData parseDOMShadowRootPushedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_90.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.network.GetCookiesData parseNetworkGetCookiesData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_101.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.SearchInContentData parseDebuggerSearchInContentData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_46.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameSentEventData parseNetworkWebSocketFrameSentEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_118.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeInsertedEventData parseDOMChildNodeInsertedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_59.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.DistributedNodesUpdatedEventData parseDOMDistributedNodesUpdatedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_62.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.WipEvent parseWipEvent(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
     return Value_5.parse(obj);
   }
 
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.GetBacktraceData parseDebuggerGetBacktraceData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_27.parse(obj);
+  }
+
   @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.GlobalObjectClearedEventData parseDebuggerGlobalObjectClearedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_22.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.QuerySelectorData parseDOMQuerySelectorData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_59.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.SetNodeNameData parseDOMSetNodeNameData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_63.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.InspectNodeRequestedEventData parseDOMInspectNodeRequestedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_52.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.SetBreakpointData parseDebuggerSetBreakpointData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_35.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.SetBreakpointByUrlData parseDebuggerSetBreakpointByUrlData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
     return Value_34.parse(obj);
   }
 
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.QuerySelectorData parseDOMQuerySelectorData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_83.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.SetNodeNameData parseDOMSetNodeNameData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_88.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.ExecutionContextsClearedEventData parseRuntimeExecutionContextsClearedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_162.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.InterstitialShownEventData parsePageInterstitialShownEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_145.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.InterstitialHiddenEventData parsePageInterstitialHiddenEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_144.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.InspectNodeRequestedEventData parseDOMInspectNodeRequestedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_74.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.SetBreakpointData parseDebuggerSetBreakpointData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_49.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.SetBreakpointByUrlData parseDebuggerSetBreakpointByUrlData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_48.parse(obj);
+  }
+
   @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.CanSetScriptSourceData parseDebuggerCanSetScriptSourceData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_16.parse(obj);
+    return Value_20.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.dom.ResolveNodeData parseDOMResolveNodeData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_61.parse(obj);
+    return Value_86.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.GetRelayoutBoundaryData parseDOMGetRelayoutBoundaryData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_71.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.dom.AttributeModifiedEventData parseDOMAttributeModifiedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_38.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.CallFunctionOnData parseRuntimeCallFunctionOnData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_121.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.BreakpointResolvedEventData parseDebuggerBreakpointResolvedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_14.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.MoveToData parseDOMMoveToData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
     return Value_53.parse(obj);
   }
 
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.GetHighlightObjectForTestData parseDOMGetHighlightObjectForTestData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_67.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.CallFunctionOnData parseRuntimeCallFunctionOnData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_155.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.BreakpointResolvedEventData parseDebuggerBreakpointResolvedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_18.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseUpdatedEventData parseDebuggerPromiseUpdatedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_39.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.dom.MoveToData parseDOMMoveToData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_75.parse(obj);
+  }
+
   @Override public org.chromium.sdk.internal.wip.protocol.input.page.FrameStoppedLoadingEventData parsePageFrameStoppedLoadingEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_106.parse(obj);
+    return Value_138.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.network.CanClearBrowserCookiesData parseNetworkCanClearBrowserCookiesData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_68.parse(obj);
+    return Value_93.parse(obj);
   }
 
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.ScriptsEnabledEventData parsePageScriptsEnabledEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_116.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.network.RequestServedFromMemoryCacheEventData parseNetworkRequestServedFromMemoryCacheEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_77.parse(obj);
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.AsyncOperationCompletedEventData parseDebuggerAsyncOperationCompletedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_15.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.page.LoadEventFiredEventData parsePageLoadEventFiredEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_115.parse(obj);
+    return Value_148.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.dom.GetDocumentData parseDOMGetDocumentData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_47.parse(obj);
+    return Value_66.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.network.RequestWillBeSentEventData parseNetworkRequestWillBeSentEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_79.parse(obj);
+    return Value_109.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.WipTabList parseTabList(java.lang.Object obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
@@ -333,51 +413,71 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.page.FrameClearedScheduledNavigationEventData parsePageFrameClearedScheduledNavigationEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_99.parse(obj);
+    return Value_130.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.GetFunctionDetailsData parseDebuggerGetFunctionDetailsData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_20.parse(obj);
+    return Value_29.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.page.JavascriptDialogClosedEventData parsePageJavascriptDialogClosedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_113.parse(obj);
+    return Value_146.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.GetCollectionEntriesData parseDebuggerGetCollectionEntriesData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_28.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.network.GetResponseBodyData parseNetworkGetResponseBodyData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_70.parse(obj);
+    return Value_102.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootPoppedEventData parseDOMShadowRootPoppedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_64.parse(obj);
+    return Value_89.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.network.CanEmulateNetworkConditionsData parseNetworkCanEmulateNetworkConditionsData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_94.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.dom.CharacterDataModifiedEventData parseDOMCharacterDataModifiedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_40.parse(obj);
+    return Value_57.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.page.DomContentEventFiredEventData parsePageDomContentEventFiredEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_98.parse(obj);
-  }
-
-  @Override public org.chromium.sdk.internal.wip.protocol.input.page.GetCompositingBordersVisibleData parsePageGetCompositingBordersVisibleData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_108.parse(obj);
+    return Value_128.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.ExecutionContextCreatedEventData parseRuntimeExecutionContextCreatedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_123.parse(obj);
+    return Value_159.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.dom.AttributeRemovedEventData parseDOMAttributeRemovedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_39.parse(obj);
+    return Value_54.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.FrameResizedEventData parsePageFrameResizedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_133.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.FrameAttachedEventData parsePageFrameAttachedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_129.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.AsyncOperationStartedEventData parseDebuggerAsyncOperationStartedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_16.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.EvaluateOnCallFrameData parseDebuggerEvaluateOnCallFrameData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_18.parse(obj);
+    return Value_23.parse(obj);
+  }
+
+  @Override public org.chromium.sdk.internal.wip.protocol.input.page.ScreencastFrameEventData parsePageScreencastFrameEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    return Value_151.parse(obj);
   }
 
   @Override public org.chromium.sdk.internal.wip.protocol.input.console.MessagesClearedEventData parseConsoleMessagesClearedEventData(org.json.simple.JSONObject obj) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-    return Value_13.parse(obj);
+    return Value_14.parse(obj);
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.WipEvent
@@ -590,19 +690,6 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
     public static boolean checkSubtypeConditions(org.json.simple.JSONObject input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       {
-        Object value = input.get("error");
-        boolean hasValue;
-        if (value == null) {
-          hasValue = input.containsKey("error");
-        } else {
-          hasValue = true;
-        }
-      boolean conditionRes = !hasValue;
-        if (!conditionRes) {
-          return false;
-        }
-      }
-      {
         Object value = input.get("result");
         boolean hasValue;
         if (value == null) {
@@ -611,6 +698,19 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           hasValue = true;
         }
       boolean conditionRes = hasValue;
+        if (!conditionRes) {
+          return false;
+        }
+      }
+      {
+        Object value = input.get("error");
+        boolean hasValue;
+        if (value == null) {
+          hasValue = input.containsKey("error");
+        } else {
+          hasValue = true;
+        }
+      boolean conditionRes = !hasValue;
         if (!conditionRes) {
           return false;
         }
@@ -633,54 +733,54 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       super(input);
       this.superTypeValue = superValueParam;
 
-      Object value0 = underlying.get("error");
+      Object value0 = underlying.get("result");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("error");
+        hasValue1 = underlying.containsKey("result");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          Value_3 parsedValue2;
+          Value_1 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_3.parse(value0);
+            parsedValue2 = Value_1.parse(value0);
           }
-          this.field_error = parsedValue2;
-        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field error", e);
-        }
-      } else {
-        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: error");
-      }
-
-      Object value3 = underlying.get("result");
-      boolean hasValue4;
-      if (value3 == null) {
-        hasValue4 = underlying.containsKey("result");
-      } else {
-        hasValue4 = true;
-      }
-      if (hasValue4) {
-        try {
-          Value_1 parsedValue5;
-          if (value3 == null) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
-          } else {
-            parsedValue5 = Value_1.parse(value3);
-          }
-          this.field_result = parsedValue5;
+          this.field_result = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result", e);
         }
       } else {
         this.field_result = null;
       }
+
+      Object value3 = underlying.get("error");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("error");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          Value_3 parsedValue5;
+          if (value3 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue5 = Value_3.parse(value3);
+          }
+          this.field_error = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field error", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: error");
+      }
     }
-    private final org.chromium.sdk.internal.wip.protocol.input.WipCommandResponse.Error.ErrorInfo field_error;
     private final org.chromium.sdk.internal.wip.protocol.input.WipCommandResponse.Data field_result;
+    private final org.chromium.sdk.internal.wip.protocol.input.WipCommandResponse.Error.ErrorInfo field_error;
     private final org.chromium.sdk.internal.wip.protocol.input.WipCommandResponse superTypeValue;
     @Override public org.chromium.sdk.internal.wip.protocol.input.WipCommandResponse.Data data() {
       return field_result;
@@ -693,19 +793,6 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
     public static boolean checkSubtypeConditions(org.json.simple.JSONObject input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       {
-        Object value = input.get("error");
-        boolean hasValue;
-        if (value == null) {
-          hasValue = input.containsKey("error");
-        } else {
-          hasValue = true;
-        }
-      boolean conditionRes = hasValue;
-        if (!conditionRes) {
-          return false;
-        }
-      }
-      {
         Object value = input.get("result");
         boolean hasValue;
         if (value == null) {
@@ -714,6 +801,19 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           hasValue = true;
         }
       boolean conditionRes = !hasValue;
+        if (!conditionRes) {
+          return false;
+        }
+      }
+      {
+        Object value = input.get("error");
+        boolean hasValue;
+        if (value == null) {
+          hasValue = input.containsKey("error");
+        } else {
+          hasValue = true;
+        }
+      boolean conditionRes = hasValue;
         if (!conditionRes) {
           return false;
         }
@@ -908,27 +1008,6 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public java.lang.String type()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("type");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("type");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: type");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
     @Override public java.lang.String title()    {
       java.lang.String result;
       try {
@@ -950,13 +1029,13 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public java.lang.String faviconUrl()    {
+    @Override public java.lang.String type()    {
       java.lang.String result;
       try {
-        Object value0 = underlying.get("faviconUrl");
+        Object value0 = underlying.get("type");
         boolean hasValue1;
         if (value0 == null) {
-          hasValue1 = underlying.containsKey("faviconUrl");
+          hasValue1 = underlying.containsKey("type");
         } else {
           hasValue1 = true;
         }
@@ -964,10 +1043,27 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           java.lang.String r1 = (java.lang.String) value0;
           result = r1;
         } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: faviconUrl");
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: type");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String faviconUrl()    {
+      java.lang.String result;
+      Object value0 = underlying.get("faviconUrl");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("faviconUrl");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
       }
       return result;
     }
@@ -994,22 +1090,18 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
     @Override public java.lang.String thumbnailUrl()    {
       java.lang.String result;
-      try {
-        Object value0 = underlying.get("thumbnailUrl");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("thumbnailUrl");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: thumbnailUrl");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      Object value0 = underlying.get("thumbnailUrl");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("thumbnailUrl");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
       }
       return result;
     }
@@ -1032,12 +1124,103 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue
-  public static class Value_9 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue {
+  // Type org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue
+  public static class Value_9 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue {
     public static Value_9 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       return new Value_9(input);
     }
     Value_9(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("asyncStackTrace");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("asyncStackTrace");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_9 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_9.parse(value0);
+          }
+          this.field_asyncStackTrace = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field asyncStackTrace", e);
+        }
+      } else {
+        this.field_asyncStackTrace = null;
+      }
+
+      Object value3 = underlying.get("callFrames");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("callFrames");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          if (value3 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue6 = (org.json.simple.JSONArray) value3;
+          int size7 = arrayValue6.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue>(size7);
+          for (int index9 = 0; index9 < size7; index9++) {
+            Value_10 arrayComponent10;
+            if (arrayValue6.get(index9) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent10 = Value_10.parse(arrayValue6.get(index9));
+            }
+            list8.add(arrayComponent10);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> parsedValue5 = java.util.Collections.unmodifiableList(list8);
+          this.field_callFrames = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field callFrames", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: callFrames");
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue field_asyncStackTrace;
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> field_callFrames;
+    @Override public java.lang.String description()    {
+      java.lang.String result;
+      Object value0 = underlying.get("description");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("description");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue asyncStackTrace() {
+      return field_asyncStackTrace;
+    }
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> callFrames() {
+      return field_callFrames;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue
+  public static class Value_10 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue {
+    public static Value_10 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_10(input);
+    }
+    Value_10(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public long columnNumber()    {
@@ -1076,6 +1259,27 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           result = r1;
         } else {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: functionName");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String scriptId()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("scriptId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("scriptId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: scriptId");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -1127,39 +1331,62 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.console.ConsoleMessageValue
-  public static class Value_10 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.console.ConsoleMessageValue {
-    public static Value_10 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_10(input);
+  public static class Value_11 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.console.ConsoleMessageValue {
+    public static Value_11 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_11(input);
     }
-    Value_10(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_11(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("stackTrace");
+      Object value0 = underlying.get("asyncStackTrace");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("stackTrace");
+        hasValue1 = underlying.containsKey("asyncStackTrace");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          if (value0 instanceof org.json.simple.JSONArray == false) {
+          Value_9 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_9.parse(value0);
+          }
+          this.field_asyncStackTrace = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field asyncStackTrace", e);
+        }
+      } else {
+        this.field_asyncStackTrace = null;
+      }
+
+      Object value3 = underlying.get("stackTrace");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("stackTrace");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          if (value3 instanceof org.json.simple.JSONArray == false) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
           }
-          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
-          int size4 = arrayValue3.size();
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue>(size4);
-          for (int index6 = 0; index6 < size4; index6++) {
-            Value_9 arrayComponent7;
-            if (arrayValue3.get(index6) == null) {
+          final org.json.simple.JSONArray arrayValue6 = (org.json.simple.JSONArray) value3;
+          int size7 = arrayValue6.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue>(size7);
+          for (int index9 = 0; index9 < size7; index9++) {
+            Value_10 arrayComponent10;
+            if (arrayValue6.get(index9) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent7 = Value_9.parse(arrayValue3.get(index6));
+              arrayComponent10 = Value_10.parse(arrayValue6.get(index9));
             }
-            list5.add(arrayComponent7);
+            list8.add(arrayComponent10);
           }
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
-          this.field_stackTrace = parsedValue2;
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> parsedValue5 = java.util.Collections.unmodifiableList(list8);
+          this.field_stackTrace = parsedValue5;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field stackTrace", e);
         }
@@ -1167,32 +1394,32 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         this.field_stackTrace = null;
       }
 
-      Object value8 = underlying.get("parameters");
-      boolean hasValue9;
-      if (value8 == null) {
-        hasValue9 = underlying.containsKey("parameters");
+      Object value11 = underlying.get("parameters");
+      boolean hasValue12;
+      if (value11 == null) {
+        hasValue12 = underlying.containsKey("parameters");
       } else {
-        hasValue9 = true;
+        hasValue12 = true;
       }
-      if (hasValue9) {
+      if (hasValue12) {
         try {
-          if (value8 instanceof org.json.simple.JSONArray == false) {
+          if (value11 instanceof org.json.simple.JSONArray == false) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
           }
-          final org.json.simple.JSONArray arrayValue11 = (org.json.simple.JSONArray) value8;
-          int size12 = arrayValue11.size();
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue> list13 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue>(size12);
-          for (int index14 = 0; index14 < size12; index14++) {
-            Value_130 arrayComponent15;
-            if (arrayValue11.get(index14) == null) {
+          final org.json.simple.JSONArray arrayValue14 = (org.json.simple.JSONArray) value11;
+          int size15 = arrayValue14.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue> list16 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue>(size15);
+          for (int index17 = 0; index17 < size15; index17++) {
+            Value_169 arrayComponent18;
+            if (arrayValue14.get(index17) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent15 = Value_130.parse(arrayValue11.get(index14));
+              arrayComponent18 = Value_169.parse(arrayValue14.get(index17));
             }
-            list13.add(arrayComponent15);
+            list16.add(arrayComponent18);
           }
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue> parsedValue10 = java.util.Collections.unmodifiableList(list13);
-          this.field_parameters = parsedValue10;
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue> parsedValue13 = java.util.Collections.unmodifiableList(list16);
+          this.field_parameters = parsedValue13;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field parameters", e);
         }
@@ -1200,10 +1427,42 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         this.field_parameters = null;
       }
     }
+    private final org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue field_asyncStackTrace;
     private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> field_stackTrace;
     private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue> field_parameters;
-    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> stackTrace() {
-      return field_stackTrace;
+    @Override public java.lang.String scriptId()    {
+      java.lang.String result;
+      Object value0 = underlying.get("scriptId");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("scriptId");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.Long relatedMessageId()    {
+      java.lang.Long result;
+      Object value0 = underlying.get("relatedMessageId");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("relatedMessageId");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Long r1 = (java.lang.Long) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
     }
     @Override public java.lang.String text()    {
       java.lang.String result;
@@ -1226,6 +1485,9 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> stackTrace() {
+      return field_stackTrace;
+    }
     @Override public java.lang.String networkRequestId()    {
       java.lang.String result;
       Object value0 = underlying.get("networkRequestId");
@@ -1237,6 +1499,23 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.Long repeatCount()    {
+      java.lang.Long result;
+      Object value0 = underlying.get("repeatCount");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("repeatCount");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Long r1 = (java.lang.Long) value0;
         result = r1;
       } else {
         result = null;
@@ -1261,23 +1540,6 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public java.lang.Long repeatCount()    {
-      java.lang.Long result;
-      Object value0 = underlying.get("repeatCount");
-      boolean hasValue1;
-      if (value0 == null) {
-        hasValue1 = underlying.containsKey("repeatCount");
-      } else {
-        hasValue1 = true;
-      }
-      if (hasValue1) {
-        java.lang.Long r1 = (java.lang.Long) value0;
-        result = r1;
-      } else {
-        result = null;
       }
       return result;
     }
@@ -1361,6 +1623,60 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public java.lang.Long executionContextId()    {
+      java.lang.Long result;
+      Object value0 = underlying.get("executionContextId");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("executionContextId");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Long r1 = (java.lang.Long) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.Long messageId()    {
+      java.lang.Long result;
+      Object value0 = underlying.get("messageId");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("messageId");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Long r1 = (java.lang.Long) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue asyncStackTrace() {
+      return field_asyncStackTrace;
+    }
+    @Override public java.lang.Long column()    {
+      java.lang.Long result;
+      Object value0 = underlying.get("column");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("column");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Long r1 = (java.lang.Long) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
     @Override public java.lang.String url()    {
       java.lang.String result;
       Object value0 = underlying.get("url");
@@ -1411,11 +1727,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.console.MessageAddedEventData
-  public static class Value_11 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.console.MessageAddedEventData {
-    public static Value_11 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_11(input);
+  public static class Value_12 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.console.MessageAddedEventData {
+    public static Value_12 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_12(input);
     }
-    Value_11(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_12(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("message");
@@ -1427,11 +1743,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_10 parsedValue2;
+          Value_11 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_10.parse(value0);
+            parsedValue2 = Value_11.parse(value0);
           }
           this.field_message = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -1448,11 +1764,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.console.MessageRepeatCountUpdatedEventData
-  public static class Value_12 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.console.MessageRepeatCountUpdatedEventData {
-    public static Value_12 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_12(input);
+  public static class Value_13 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.console.MessageRepeatCountUpdatedEventData {
+    public static Value_13 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_13(input);
     }
-    Value_12(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_13(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.Number timestamp()    {
@@ -1500,11 +1816,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.console.MessagesClearedEventData
-  public static class Value_13 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.console.MessagesClearedEventData {
-    public static Value_13 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_13(input);
+  public static class Value_14 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.console.MessagesClearedEventData {
+    public static Value_14 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_14(input);
     }
-    Value_13(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_14(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public org.json.simple.JSONObject getUnderlyingObject()    {
@@ -1512,12 +1828,196 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.BreakpointResolvedEventData
-  public static class Value_14 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.BreakpointResolvedEventData {
-    public static Value_14 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_14(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.AsyncOperationCompletedEventData
+  public static class Value_15 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.AsyncOperationCompletedEventData {
+    public static Value_15 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_15(input);
     }
-    Value_14(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_15(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public long id()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("id");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("id");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: id");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.AsyncOperationStartedEventData
+  public static class Value_16 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.AsyncOperationStartedEventData {
+    public static Value_16 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_16(input);
+    }
+    Value_16(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("operation");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("operation");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_17 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_17.parse(value0);
+          }
+          this.field_operation = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field operation", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: operation");
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.AsyncOperationValue field_operation;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.AsyncOperationValue operation() {
+      return field_operation;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.AsyncOperationValue
+  public static class Value_17 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.AsyncOperationValue {
+    public static Value_17 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_17(input);
+    }
+    Value_17(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("asyncStackTrace");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("asyncStackTrace");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_9 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_9.parse(value0);
+          }
+          this.field_asyncStackTrace = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field asyncStackTrace", e);
+        }
+      } else {
+        this.field_asyncStackTrace = null;
+      }
+
+      Object value3 = underlying.get("stackTrace");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("stackTrace");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          if (value3 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue6 = (org.json.simple.JSONArray) value3;
+          int size7 = arrayValue6.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue>(size7);
+          for (int index9 = 0; index9 < size7; index9++) {
+            Value_10 arrayComponent10;
+            if (arrayValue6.get(index9) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent10 = Value_10.parse(arrayValue6.get(index9));
+            }
+            list8.add(arrayComponent10);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> parsedValue5 = java.util.Collections.unmodifiableList(list8);
+          this.field_stackTrace = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field stackTrace", e);
+        }
+      } else {
+        this.field_stackTrace = null;
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue field_asyncStackTrace;
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> field_stackTrace;
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> stackTrace() {
+      return field_stackTrace;
+    }
+    @Override public long id()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("id");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("id");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: id");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue asyncStackTrace() {
+      return field_asyncStackTrace;
+    }
+    @Override public java.lang.String description()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("description");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("description");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: description");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.BreakpointResolvedEventData
+  public static class Value_18 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.BreakpointResolvedEventData {
+    public static Value_18 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_18(input);
+    }
+    Value_18(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("location");
@@ -1529,11 +2029,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_23 parsedValue2;
+          Value_35 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_23.parse(value0);
+            parsedValue2 = Value_35.parse(value0);
           }
           this.field_location = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -1571,34 +2071,34 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue
-  public static class Value_15 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue {
-    public static Value_15 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_15(input);
+  public static class Value_19 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue {
+    public static Value_19 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_19(input);
     }
-    Value_15(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_19(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("location");
+      Object value0 = underlying.get("functionLocation");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("location");
+        hasValue1 = underlying.containsKey("functionLocation");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          Value_23 parsedValue2;
+          Value_35 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_23.parse(value0);
+            parsedValue2 = Value_35.parse(value0);
           }
-          this.field_location = parsedValue2;
+          this.field_functionLocation = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field location", e);
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field functionLocation", e);
         }
       } else {
-        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: location");
+        this.field_functionLocation = null;
       }
 
       Object value3 = underlying.get("scopeChain");
@@ -1617,11 +2117,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           int size7 = arrayValue6.size();
           java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue>(size7);
           for (int index9 = 0; index9 < size7; index9++) {
-            Value_30 arrayComponent10;
+            Value_43 arrayComponent10;
             if (arrayValue6.get(index9) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent10 = Value_30.parse(arrayValue6.get(index9));
+              arrayComponent10 = Value_43.parse(arrayValue6.get(index9));
             }
             list8.add(arrayComponent10);
           }
@@ -1643,11 +2143,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue12) {
         try {
-          Value_130 parsedValue13;
+          Value_169 parsedValue13;
           if (value11 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue13 = Value_130.parse(value11);
+            parsedValue13 = Value_169.parse(value11);
           }
           this.field_this = parsedValue13;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -1656,10 +2156,58 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       } else {
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: this");
       }
+
+      Object value14 = underlying.get("returnValue");
+      boolean hasValue15;
+      if (value14 == null) {
+        hasValue15 = underlying.containsKey("returnValue");
+      } else {
+        hasValue15 = true;
+      }
+      if (hasValue15) {
+        try {
+          Value_169 parsedValue16;
+          if (value14 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue16 = Value_169.parse(value14);
+          }
+          this.field_returnValue = parsedValue16;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field returnValue", e);
+        }
+      } else {
+        this.field_returnValue = null;
+      }
+
+      Object value17 = underlying.get("location");
+      boolean hasValue18;
+      if (value17 == null) {
+        hasValue18 = underlying.containsKey("location");
+      } else {
+        hasValue18 = true;
+      }
+      if (hasValue18) {
+        try {
+          Value_35 parsedValue19;
+          if (value17 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue19 = Value_35.parse(value17);
+          }
+          this.field_location = parsedValue19;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field location", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: location");
+      }
     }
-    private final org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue field_location;
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue field_functionLocation;
     private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue> field_scopeChain;
     private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_this;
+    private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_returnValue;
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue field_location;
     @Override public java.lang.String callFrameId()    {
       java.lang.String result;
       try {
@@ -1681,8 +2229,8 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue getThis() {
-      return field_this;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue returnValue() {
+      return field_returnValue;
     }
     @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue> scopeChain() {
       return field_scopeChain;
@@ -1708,17 +2256,23 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue getThis() {
+      return field_this;
+    }
     @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue location() {
       return field_location;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue functionLocation() {
+      return field_functionLocation;
     }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.CanSetScriptSourceData
-  public static class Value_16 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.CanSetScriptSourceData {
-    public static Value_16 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_16(input);
+  public static class Value_20 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.CanSetScriptSourceData {
+    public static Value_20 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_20(input);
     }
-    Value_16(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_20(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public boolean result()    {
@@ -1744,13 +2298,104 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.CompileScriptData
-  public static class Value_17 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.CompileScriptData {
-    public static Value_17 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_17(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.CollectionEntryValue
+  public static class Value_21 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.CollectionEntryValue {
+    public static Value_21 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_21(input);
     }
-    Value_17(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_21(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
+
+      Object value0 = underlying.get("value");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("value");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_169 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_169.parse(value0);
+          }
+          this.field_value = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field value", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: value");
+      }
+
+      Object value3 = underlying.get("key");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("key");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          Value_169 parsedValue5;
+          if (value3 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue5 = Value_169.parse(value3);
+          }
+          this.field_key = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field key", e);
+        }
+      } else {
+        this.field_key = null;
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_value;
+    private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_key;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue value() {
+      return field_value;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue key() {
+      return field_key;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.CompileScriptData
+  public static class Value_22 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.CompileScriptData {
+    public static Value_22 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_22(input);
+    }
+    Value_22(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("exceptionDetails");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("exceptionDetails");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_24 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_24.parse(value0);
+          }
+          this.field_exceptionDetails = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field exceptionDetails", e);
+        }
+      } else {
+        this.field_exceptionDetails = null;
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.ExceptionDetailsValue field_exceptionDetails;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.ExceptionDetailsValue exceptionDetails() {
+      return field_exceptionDetails;
     }
     @Override public java.lang.String scriptId()    {
       java.lang.String result;
@@ -1769,49 +2414,55 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public java.lang.String syntaxErrorMessage()    {
-      java.lang.String result;
-      Object value0 = underlying.get("syntaxErrorMessage");
-      boolean hasValue1;
-      if (value0 == null) {
-        hasValue1 = underlying.containsKey("syntaxErrorMessage");
-      } else {
-        hasValue1 = true;
-      }
-      if (hasValue1) {
-        java.lang.String r1 = (java.lang.String) value0;
-        result = r1;
-      } else {
-        result = null;
-      }
-      return result;
-    }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.EvaluateOnCallFrameData
-  public static class Value_18 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.EvaluateOnCallFrameData {
-    public static Value_18 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_18(input);
+  public static class Value_23 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.EvaluateOnCallFrameData {
+    public static Value_23 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_23(input);
     }
-    Value_18(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_23(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("result");
+      Object value0 = underlying.get("exceptionDetails");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("result");
+        hasValue1 = underlying.containsKey("exceptionDetails");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          Value_130 parsedValue2;
+          Value_24 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_130.parse(value0);
+            parsedValue2 = Value_24.parse(value0);
           }
-          this.field_result = parsedValue2;
+          this.field_exceptionDetails = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field exceptionDetails", e);
+        }
+      } else {
+        this.field_exceptionDetails = null;
+      }
+
+      Object value3 = underlying.get("result");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("result");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          Value_169 parsedValue5;
+          if (value3 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue5 = Value_169.parse(value3);
+          }
+          this.field_result = parsedValue5;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result", e);
         }
@@ -1819,6 +2470,7 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
       }
     }
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.ExceptionDetailsValue field_exceptionDetails;
     private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_result;
     @Override public java.lang.Boolean wasThrown()    {
       java.lang.Boolean result;
@@ -1837,46 +2489,416 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.ExceptionDetailsValue exceptionDetails() {
+      return field_exceptionDetails;
+    }
     @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue result() {
       return field_result;
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.FunctionDetailsValue
-  public static class Value_19 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.FunctionDetailsValue {
-    public static Value_19 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_19(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.ExceptionDetailsValue
+  public static class Value_24 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.ExceptionDetailsValue {
+    public static Value_24 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_24(input);
     }
-    Value_19(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_24(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("location");
+      Object value0 = underlying.get("stackTrace");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("location");
+        hasValue1 = underlying.containsKey("stackTrace");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          Value_23 parsedValue2;
-          if (value0 == null) {
+          if (value0 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
+          int size4 = arrayValue3.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue>(size4);
+          for (int index6 = 0; index6 < size4; index6++) {
+            Value_10 arrayComponent7;
+            if (arrayValue3.get(index6) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent7 = Value_10.parse(arrayValue3.get(index6));
+            }
+            list5.add(arrayComponent7);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          this.field_stackTrace = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field stackTrace", e);
+        }
+      } else {
+        this.field_stackTrace = null;
+      }
+    }
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> field_stackTrace;
+    @Override public java.lang.String url()    {
+      java.lang.String result;
+      Object value0 = underlying.get("url");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("url");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.Long column()    {
+      java.lang.Long result;
+      Object value0 = underlying.get("column");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("column");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Long r1 = (java.lang.Long) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.String text()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("text");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("text");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: text");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> stackTrace() {
+      return field_stackTrace;
+    }
+    @Override public java.lang.Long line()    {
+      java.lang.Long result;
+      Object value0 = underlying.get("line");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("line");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Long r1 = (java.lang.Long) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.String scriptId()    {
+      java.lang.String result;
+      Object value0 = underlying.get("scriptId");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("scriptId");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.FunctionDetailsValue
+  public static class Value_25 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.FunctionDetailsValue {
+    public static Value_25 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_25(input);
+    }
+    Value_25(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("scopeChain");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("scopeChain");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          if (value0 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
+          int size4 = arrayValue3.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue>(size4);
+          for (int index6 = 0; index6 < size4; index6++) {
+            Value_43 arrayComponent7;
+            if (arrayValue3.get(index6) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent7 = Value_43.parse(arrayValue3.get(index6));
+            }
+            list5.add(arrayComponent7);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          this.field_scopeChain = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field scopeChain", e);
+        }
+      } else {
+        this.field_scopeChain = null;
+      }
+
+      Object value8 = underlying.get("location");
+      boolean hasValue9;
+      if (value8 == null) {
+        hasValue9 = underlying.containsKey("location");
+      } else {
+        hasValue9 = true;
+      }
+      if (hasValue9) {
+        try {
+          Value_35 parsedValue10;
+          if (value8 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_23.parse(value0);
+            parsedValue10 = Value_35.parse(value8);
           }
-          this.field_location = parsedValue2;
+          this.field_location = parsedValue10;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field location", e);
         }
       } else {
-        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: location");
+        this.field_location = null;
+      }
+    }
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue> field_scopeChain;
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue field_location;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue location() {
+      return field_location;
+    }
+    @Override public boolean isGenerator()    {
+      java.lang.Boolean result;
+      try {
+        Object value0 = underlying.get("isGenerator");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("isGenerator");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Boolean r1 = (java.lang.Boolean) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: isGenerator");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String functionName()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("functionName");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("functionName");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: functionName");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue> scopeChain() {
+      return field_scopeChain;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.GeneratorObjectDetailsValue
+  public static class Value_26 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.GeneratorObjectDetailsValue {
+    public static Value_26 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_26(input);
+    }
+    Value_26(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("function");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("function");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_169 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_169.parse(value0);
+          }
+          this.field_function = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field function", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: function");
       }
 
-      Object value3 = underlying.get("scopeChain");
+      Object value3 = underlying.get("location");
       boolean hasValue4;
       if (value3 == null) {
-        hasValue4 = underlying.containsKey("scopeChain");
+        hasValue4 = underlying.containsKey("location");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          Value_35 parsedValue5;
+          if (value3 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue5 = Value_35.parse(value3);
+          }
+          this.field_location = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field location", e);
+        }
+      } else {
+        this.field_location = null;
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_function;
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue field_location;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.GeneratorObjectDetailsValue.Status status()    {
+      org.chromium.sdk.internal.wip.protocol.input.debugger.GeneratorObjectDetailsValue.Status result;
+      try {
+        Object value0 = underlying.get("status");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("status");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.debugger.GeneratorObjectDetailsValue.Status r1 = org.chromium.sdk.internal.wip.protocol.input.debugger.GeneratorObjectDetailsValue.Status.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field status in type org.chromium.sdk.internal.wip.protocol.input.debugger.GeneratorObjectDetailsValue", e);
+          }
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: status");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue location() {
+      return field_location;
+    }
+    @Override public java.lang.String functionName()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("functionName");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("functionName");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: functionName");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue function() {
+      return field_function;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.GetBacktraceData
+  public static class Value_27 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.GetBacktraceData {
+    public static Value_27 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_27(input);
+    }
+    Value_27(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("asyncStackTrace");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("asyncStackTrace");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_52 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_52.parse(value0);
+          }
+          this.field_asyncStackTrace = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field asyncStackTrace", e);
+        }
+      } else {
+        this.field_asyncStackTrace = null;
+      }
+
+      Object value3 = underlying.get("callFrames");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("callFrames");
       } else {
         hasValue4 = true;
       }
@@ -1887,92 +2909,88 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           }
           final org.json.simple.JSONArray arrayValue6 = (org.json.simple.JSONArray) value3;
           int size7 = arrayValue6.size();
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue>(size7);
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue>(size7);
           for (int index9 = 0; index9 < size7; index9++) {
-            Value_30 arrayComponent10;
+            Value_19 arrayComponent10;
             if (arrayValue6.get(index9) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent10 = Value_30.parse(arrayValue6.get(index9));
+              arrayComponent10 = Value_19.parse(arrayValue6.get(index9));
             }
             list8.add(arrayComponent10);
           }
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue> parsedValue5 = java.util.Collections.unmodifiableList(list8);
-          this.field_scopeChain = parsedValue5;
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> parsedValue5 = java.util.Collections.unmodifiableList(list8);
+          this.field_callFrames = parsedValue5;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field scopeChain", e);
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field callFrames", e);
         }
       } else {
-        this.field_scopeChain = null;
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: callFrames");
       }
     }
-    private final org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue field_location;
-    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue> field_scopeChain;
-    @Override public java.lang.String name()    {
-      java.lang.String result;
-      Object value0 = underlying.get("name");
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue field_asyncStackTrace;
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> field_callFrames;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue asyncStackTrace() {
+      return field_asyncStackTrace;
+    }
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> callFrames() {
+      return field_callFrames;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.GetCollectionEntriesData
+  public static class Value_28 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.GetCollectionEntriesData {
+    public static Value_28 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_28(input);
+    }
+    Value_28(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("entries");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("name");
+        hasValue1 = underlying.containsKey("entries");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
-        java.lang.String r1 = (java.lang.String) value0;
-        result = r1;
+        try {
+          if (value0 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
+          int size4 = arrayValue3.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CollectionEntryValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.CollectionEntryValue>(size4);
+          for (int index6 = 0; index6 < size4; index6++) {
+            Value_21 arrayComponent7;
+            if (arrayValue3.get(index6) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent7 = Value_21.parse(arrayValue3.get(index6));
+            }
+            list5.add(arrayComponent7);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CollectionEntryValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          this.field_entries = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field entries", e);
+        }
       } else {
-        result = null;
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: entries");
       }
-      return result;
     }
-    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue location() {
-      return field_location;
-    }
-    @Override public java.lang.String inferredName()    {
-      java.lang.String result;
-      Object value0 = underlying.get("inferredName");
-      boolean hasValue1;
-      if (value0 == null) {
-        hasValue1 = underlying.containsKey("inferredName");
-      } else {
-        hasValue1 = true;
-      }
-      if (hasValue1) {
-        java.lang.String r1 = (java.lang.String) value0;
-        result = r1;
-      } else {
-        result = null;
-      }
-      return result;
-    }
-    @Override public java.lang.String displayName()    {
-      java.lang.String result;
-      Object value0 = underlying.get("displayName");
-      boolean hasValue1;
-      if (value0 == null) {
-        hasValue1 = underlying.containsKey("displayName");
-      } else {
-        hasValue1 = true;
-      }
-      if (hasValue1) {
-        java.lang.String r1 = (java.lang.String) value0;
-        result = r1;
-      } else {
-        result = null;
-      }
-      return result;
-    }
-    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue> scopeChain() {
-      return field_scopeChain;
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CollectionEntryValue> field_entries;
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CollectionEntryValue> entries() {
+      return field_entries;
     }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.GetFunctionDetailsData
-  public static class Value_20 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.GetFunctionDetailsData {
-    public static Value_20 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_20(input);
+  public static class Value_29 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.GetFunctionDetailsData {
+    public static Value_29 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_29(input);
     }
-    Value_20(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_29(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("details");
@@ -1984,11 +3002,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_19 parsedValue2;
+          Value_25 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_19.parse(value0);
+            parsedValue2 = Value_25.parse(value0);
           }
           this.field_details = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -2004,12 +3022,86 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.GetScriptSourceData
-  public static class Value_21 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.GetScriptSourceData {
-    public static Value_21 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_21(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.GetGeneratorObjectDetailsData
+  public static class Value_30 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.GetGeneratorObjectDetailsData {
+    public static Value_30 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_30(input);
     }
-    Value_21(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_30(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("details");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("details");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_26 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_26.parse(value0);
+          }
+          this.field_details = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field details", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: details");
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.GeneratorObjectDetailsValue field_details;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.GeneratorObjectDetailsValue details() {
+      return field_details;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.GetPromiseByIdData
+  public static class Value_31 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.GetPromiseByIdData {
+    public static Value_31 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_31(input);
+    }
+    Value_31(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("promise");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("promise");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_169 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_169.parse(value0);
+          }
+          this.field_promise = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field promise", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: promise");
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_promise;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue promise() {
+      return field_promise;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.GetScriptSourceData
+  public static class Value_32 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.GetScriptSourceData {
+    public static Value_32 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_32(input);
+    }
+    Value_32(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String scriptSource()    {
@@ -2035,12 +3127,59 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.GlobalObjectClearedEventData
-  public static class Value_22 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.GlobalObjectClearedEventData {
-    public static Value_22 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_22(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.GetStepInPositionsData
+  public static class Value_33 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.GetStepInPositionsData {
+    public static Value_33 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_33(input);
     }
-    Value_22(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_33(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("stepInPositions");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("stepInPositions");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          if (value0 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
+          int size4 = arrayValue3.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue>(size4);
+          for (int index6 = 0; index6 < size4; index6++) {
+            Value_35 arrayComponent7;
+            if (arrayValue3.get(index6) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent7 = Value_35.parse(arrayValue3.get(index6));
+            }
+            list5.add(arrayComponent7);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          this.field_stepInPositions = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field stepInPositions", e);
+        }
+      } else {
+        this.field_stepInPositions = null;
+      }
+    }
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue> field_stepInPositions;
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue> stepInPositions() {
+      return field_stepInPositions;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.GlobalObjectClearedEventData
+  public static class Value_34 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.GlobalObjectClearedEventData {
+    public static Value_34 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_34(input);
+    }
+    Value_34(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public org.json.simple.JSONObject getUnderlyingObject()    {
@@ -2049,11 +3188,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue
-  public static class Value_23 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue {
-    public static Value_23 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_23(input);
+  public static class Value_35 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue {
+    public static Value_35 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_35(input);
     }
-    Value_23(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_35(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String scriptId()    {
@@ -2118,11 +3257,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.PausedEventData
-  public static class Value_24 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.PausedEventData {
-    public static Value_24 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_24(input);
+  public static class Value_36 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.PausedEventData {
+    public static Value_36 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_36(input);
     }
-    Value_24(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_36(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("data");
@@ -2134,11 +3273,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_25 parsedValue2;
+          Value_37 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_25.parse(value0);
+            parsedValue2 = Value_37.parse(value0);
           }
           this.field_data = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -2148,70 +3287,94 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         this.field_data = null;
       }
 
-      Object value3 = underlying.get("callFrames");
+      Object value3 = underlying.get("asyncStackTrace");
       boolean hasValue4;
       if (value3 == null) {
-        hasValue4 = underlying.containsKey("callFrames");
+        hasValue4 = underlying.containsKey("asyncStackTrace");
       } else {
         hasValue4 = true;
       }
       if (hasValue4) {
         try {
-          if (value3 instanceof org.json.simple.JSONArray == false) {
+          Value_52 parsedValue5;
+          if (value3 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue5 = Value_52.parse(value3);
+          }
+          this.field_asyncStackTrace = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field asyncStackTrace", e);
+        }
+      } else {
+        this.field_asyncStackTrace = null;
+      }
+
+      Object value6 = underlying.get("hitBreakpoints");
+      boolean hasValue7;
+      if (value6 == null) {
+        hasValue7 = underlying.containsKey("hitBreakpoints");
+      } else {
+        hasValue7 = true;
+      }
+      if (hasValue7) {
+        try {
+          if (value6 instanceof org.json.simple.JSONArray == false) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
           }
-          final org.json.simple.JSONArray arrayValue6 = (org.json.simple.JSONArray) value3;
-          int size7 = arrayValue6.size();
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue>(size7);
-          for (int index9 = 0; index9 < size7; index9++) {
-            Value_15 arrayComponent10;
-            if (arrayValue6.get(index9) == null) {
+          final org.json.simple.JSONArray arrayValue9 = (org.json.simple.JSONArray) value6;
+          int size10 = arrayValue9.size();
+          java.util.List<java.lang.String> list11 = new java.util.ArrayList<java.lang.String>(size10);
+          for (int index12 = 0; index12 < size10; index12++) {
+            java.lang.String arrayComponent13 = (java.lang.String) arrayValue9.get(index12);
+            list11.add(arrayComponent13);
+          }
+          java.util.List<java.lang.String> parsedValue8 = java.util.Collections.unmodifiableList(list11);
+          this.field_hitBreakpoints = parsedValue8;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field hitBreakpoints", e);
+        }
+      } else {
+        this.field_hitBreakpoints = null;
+      }
+
+      Object value14 = underlying.get("callFrames");
+      boolean hasValue15;
+      if (value14 == null) {
+        hasValue15 = underlying.containsKey("callFrames");
+      } else {
+        hasValue15 = true;
+      }
+      if (hasValue15) {
+        try {
+          if (value14 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue17 = (org.json.simple.JSONArray) value14;
+          int size18 = arrayValue17.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> list19 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue>(size18);
+          for (int index20 = 0; index20 < size18; index20++) {
+            Value_19 arrayComponent21;
+            if (arrayValue17.get(index20) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent10 = Value_15.parse(arrayValue6.get(index9));
+              arrayComponent21 = Value_19.parse(arrayValue17.get(index20));
             }
-            list8.add(arrayComponent10);
+            list19.add(arrayComponent21);
           }
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> parsedValue5 = java.util.Collections.unmodifiableList(list8);
-          this.field_callFrames = parsedValue5;
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> parsedValue16 = java.util.Collections.unmodifiableList(list19);
+          this.field_callFrames = parsedValue16;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field callFrames", e);
         }
       } else {
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: callFrames");
       }
-
-      Object value11 = underlying.get("hitBreakpoints");
-      boolean hasValue12;
-      if (value11 == null) {
-        hasValue12 = underlying.containsKey("hitBreakpoints");
-      } else {
-        hasValue12 = true;
-      }
-      if (hasValue12) {
-        try {
-          if (value11 instanceof org.json.simple.JSONArray == false) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
-          }
-          final org.json.simple.JSONArray arrayValue14 = (org.json.simple.JSONArray) value11;
-          int size15 = arrayValue14.size();
-          java.util.List<java.lang.String> list16 = new java.util.ArrayList<java.lang.String>(size15);
-          for (int index17 = 0; index17 < size15; index17++) {
-            java.lang.String arrayComponent18 = (java.lang.String) arrayValue14.get(index17);
-            list16.add(arrayComponent18);
-          }
-          java.util.List<java.lang.String> parsedValue13 = java.util.Collections.unmodifiableList(list16);
-          this.field_hitBreakpoints = parsedValue13;
-        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field hitBreakpoints", e);
-        }
-      } else {
-        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: hitBreakpoints");
-      }
     }
     private final org.chromium.sdk.internal.wip.protocol.input.debugger.PausedEventData.Data field_data;
-    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> field_callFrames;
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue field_asyncStackTrace;
     private final java.util.List<java.lang.String> field_hitBreakpoints;
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> field_callFrames;
     @Override public java.util.List<java.lang.String> hitBreakpoints() {
       return field_hitBreakpoints;
     }
@@ -2248,17 +3411,20 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue asyncStackTrace() {
+      return field_asyncStackTrace;
+    }
     @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> callFrames() {
       return field_callFrames;
     }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.PausedEventData$Data
-  public static class Value_25 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.PausedEventData.Data {
-    public static Value_25 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_25(input);
+  public static class Value_37 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.PausedEventData.Data {
+    public static Value_37 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_37(input);
     }
-    Value_25(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_37(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public org.json.simple.JSONObject getUnderlyingObject()    {
@@ -2266,35 +3432,369 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.RestartFrameData
-  public static class Value_26 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.RestartFrameData {
-    public static Value_26 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_26(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseDetailsValue
+  public static class Value_38 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseDetailsValue {
+    public static Value_38 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_38(input);
     }
-    Value_26(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_38(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("result");
+      Object value0 = underlying.get("callFrame");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("result");
+        hasValue1 = underlying.containsKey("callFrame");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          Value_27 parsedValue2;
+          Value_10 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_27.parse(value0);
+            parsedValue2 = Value_10.parse(value0);
           }
-          this.field_result = parsedValue2;
+          this.field_callFrame = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result", e);
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field callFrame", e);
         }
       } else {
-        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
+        this.field_callFrame = null;
+      }
+
+      Object value3 = underlying.get("creationStack");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("creationStack");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          if (value3 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue6 = (org.json.simple.JSONArray) value3;
+          int size7 = arrayValue6.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue>(size7);
+          for (int index9 = 0; index9 < size7; index9++) {
+            Value_10 arrayComponent10;
+            if (arrayValue6.get(index9) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent10 = Value_10.parse(arrayValue6.get(index9));
+            }
+            list8.add(arrayComponent10);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> parsedValue5 = java.util.Collections.unmodifiableList(list8);
+          this.field_creationStack = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field creationStack", e);
+        }
+      } else {
+        this.field_creationStack = null;
+      }
+
+      Object value11 = underlying.get("asyncCreationStack");
+      boolean hasValue12;
+      if (value11 == null) {
+        hasValue12 = underlying.containsKey("asyncCreationStack");
+      } else {
+        hasValue12 = true;
+      }
+      if (hasValue12) {
+        try {
+          Value_9 parsedValue13;
+          if (value11 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue13 = Value_9.parse(value11);
+          }
+          this.field_asyncCreationStack = parsedValue13;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field asyncCreationStack", e);
+        }
+      } else {
+        this.field_asyncCreationStack = null;
+      }
+
+      Object value14 = underlying.get("settlementStack");
+      boolean hasValue15;
+      if (value14 == null) {
+        hasValue15 = underlying.containsKey("settlementStack");
+      } else {
+        hasValue15 = true;
+      }
+      if (hasValue15) {
+        try {
+          if (value14 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue17 = (org.json.simple.JSONArray) value14;
+          int size18 = arrayValue17.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> list19 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue>(size18);
+          for (int index20 = 0; index20 < size18; index20++) {
+            Value_10 arrayComponent21;
+            if (arrayValue17.get(index20) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent21 = Value_10.parse(arrayValue17.get(index20));
+            }
+            list19.add(arrayComponent21);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> parsedValue16 = java.util.Collections.unmodifiableList(list19);
+          this.field_settlementStack = parsedValue16;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field settlementStack", e);
+        }
+      } else {
+        this.field_settlementStack = null;
+      }
+
+      Object value22 = underlying.get("asyncSettlementStack");
+      boolean hasValue23;
+      if (value22 == null) {
+        hasValue23 = underlying.containsKey("asyncSettlementStack");
+      } else {
+        hasValue23 = true;
+      }
+      if (hasValue23) {
+        try {
+          Value_9 parsedValue24;
+          if (value22 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue24 = Value_9.parse(value22);
+          }
+          this.field_asyncSettlementStack = parsedValue24;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field asyncSettlementStack", e);
+        }
+      } else {
+        this.field_asyncSettlementStack = null;
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue field_callFrame;
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> field_creationStack;
+    private final org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue field_asyncCreationStack;
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> field_settlementStack;
+    private final org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue field_asyncSettlementStack;
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> settlementStack() {
+      return field_settlementStack;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue asyncCreationStack() {
+      return field_asyncCreationStack;
+    }
+    @Override public long id()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("id");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("id");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: id");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseDetailsValue.Status status()    {
+      org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseDetailsValue.Status result;
+      try {
+        Object value0 = underlying.get("status");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("status");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseDetailsValue.Status r1 = org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseDetailsValue.Status.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field status in type org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseDetailsValue", e);
+          }
+        } else {
+          result = null;
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number settlementTime()    {
+      java.lang.Number result;
+      Object value0 = underlying.get("settlementTime");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("settlementTime");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Number r1 = (java.lang.Number) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue callFrame() {
+      return field_callFrame;
+    }
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> creationStack() {
+      return field_creationStack;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue asyncSettlementStack() {
+      return field_asyncSettlementStack;
+    }
+    @Override public java.lang.Long parentId()    {
+      java.lang.Long result;
+      Object value0 = underlying.get("parentId");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("parentId");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Long r1 = (java.lang.Long) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.Number creationTime()    {
+      java.lang.Number result;
+      Object value0 = underlying.get("creationTime");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("creationTime");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Number r1 = (java.lang.Number) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseUpdatedEventData
+  public static class Value_39 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseUpdatedEventData {
+    public static Value_39 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_39(input);
+    }
+    Value_39(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("promise");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("promise");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_38 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_38.parse(value0);
+          }
+          this.field_promise = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field promise", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: promise");
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseDetailsValue field_promise;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseDetailsValue promise() {
+      return field_promise;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseUpdatedEventData.EventType eventType()    {
+      org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseUpdatedEventData.EventType result;
+      try {
+        Object value0 = underlying.get("eventType");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("eventType");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseUpdatedEventData.EventType r1 = org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseUpdatedEventData.EventType.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field eventType in type org.chromium.sdk.internal.wip.protocol.input.debugger.PromiseUpdatedEventData", e);
+          }
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: eventType");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.RestartFrameData
+  public static class Value_40 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.RestartFrameData {
+    public static Value_40 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_40(input);
+    }
+    Value_40(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("asyncStackTrace");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("asyncStackTrace");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_52 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_52.parse(value0);
+          }
+          this.field_asyncStackTrace = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field asyncStackTrace", e);
+        }
+      } else {
+        this.field_asyncStackTrace = null;
       }
 
       Object value3 = underlying.get("callFrames");
@@ -2313,11 +3813,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           int size7 = arrayValue6.size();
           java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue>(size7);
           for (int index9 = 0; index9 < size7; index9++) {
-            Value_15 arrayComponent10;
+            Value_19 arrayComponent10;
             if (arrayValue6.get(index9) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent10 = Value_15.parse(arrayValue6.get(index9));
+              arrayComponent10 = Value_19.parse(arrayValue6.get(index9));
             }
             list8.add(arrayComponent10);
           }
@@ -2330,35 +3830,22 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: callFrames");
       }
     }
-    private final org.chromium.sdk.internal.wip.protocol.input.debugger.RestartFrameData.Result field_result;
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue field_asyncStackTrace;
     private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> field_callFrames;
-    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.RestartFrameData.Result result() {
-      return field_result;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue asyncStackTrace() {
+      return field_asyncStackTrace;
     }
     @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> callFrames() {
       return field_callFrames;
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.RestartFrameData$Result
-  public static class Value_27 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.RestartFrameData.Result {
-    public static Value_27 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_27(input);
-    }
-    Value_27(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      super(input);
-    }
-    @Override public org.json.simple.JSONObject getUnderlyingObject()    {
-      return underlying;
-    }
-  }
-
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.ResumedEventData
-  public static class Value_28 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.ResumedEventData {
-    public static Value_28 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_28(input);
+  public static class Value_41 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.ResumedEventData {
+    public static Value_41 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_41(input);
     }
-    Value_28(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_41(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public org.json.simple.JSONObject getUnderlyingObject()    {
@@ -2367,29 +3854,52 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.RunScriptData
-  public static class Value_29 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.RunScriptData {
-    public static Value_29 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_29(input);
+  public static class Value_42 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.RunScriptData {
+    public static Value_42 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_42(input);
     }
-    Value_29(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_42(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("result");
+      Object value0 = underlying.get("exceptionDetails");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("result");
+        hasValue1 = underlying.containsKey("exceptionDetails");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          Value_130 parsedValue2;
+          Value_24 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_130.parse(value0);
+            parsedValue2 = Value_24.parse(value0);
           }
-          this.field_result = parsedValue2;
+          this.field_exceptionDetails = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field exceptionDetails", e);
+        }
+      } else {
+        this.field_exceptionDetails = null;
+      }
+
+      Object value3 = underlying.get("result");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("result");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          Value_169 parsedValue5;
+          if (value3 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue5 = Value_169.parse(value3);
+          }
+          this.field_result = parsedValue5;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result", e);
         }
@@ -2397,23 +3907,10 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
       }
     }
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.ExceptionDetailsValue field_exceptionDetails;
     private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_result;
-    @Override public java.lang.Boolean wasThrown()    {
-      java.lang.Boolean result;
-      Object value0 = underlying.get("wasThrown");
-      boolean hasValue1;
-      if (value0 == null) {
-        hasValue1 = underlying.containsKey("wasThrown");
-      } else {
-        hasValue1 = true;
-      }
-      if (hasValue1) {
-        java.lang.Boolean r1 = (java.lang.Boolean) value0;
-        result = r1;
-      } else {
-        result = null;
-      }
-      return result;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.ExceptionDetailsValue exceptionDetails() {
+      return field_exceptionDetails;
     }
     @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue result() {
       return field_result;
@@ -2421,11 +3918,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue
-  public static class Value_30 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue {
-    public static Value_30 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_30(input);
+  public static class Value_43 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.ScopeValue {
+    public static Value_43 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_43(input);
     }
-    Value_30(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_43(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("object");
@@ -2437,11 +3934,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_130 parsedValue2;
+          Value_169 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_130.parse(value0);
+            parsedValue2 = Value_169.parse(value0);
           }
           this.field_object = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -2488,20 +3985,37 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.ScriptFailedToParseEventData
-  public static class Value_31 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.ScriptFailedToParseEventData {
-    public static Value_31 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_31(input);
+  public static class Value_44 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.ScriptFailedToParseEventData {
+    public static Value_44 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_44(input);
     }
-    Value_31(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_44(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
-    @Override public java.lang.String errorMessage()    {
+    @Override public java.lang.Boolean hasSourceURL()    {
+      java.lang.Boolean result;
+      Object value0 = underlying.get("hasSourceURL");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("hasSourceURL");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Boolean r1 = (java.lang.Boolean) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.String scriptId()    {
       java.lang.String result;
       try {
-        Object value0 = underlying.get("errorMessage");
+        Object value0 = underlying.get("scriptId");
         boolean hasValue1;
         if (value0 == null) {
-          hasValue1 = underlying.containsKey("errorMessage");
+          hasValue1 = underlying.containsKey("scriptId");
         } else {
           hasValue1 = true;
         }
@@ -2509,10 +4023,65 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           java.lang.String r1 = (java.lang.String) value0;
           result = r1;
         } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: errorMessage");
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: scriptId");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Boolean isInternalScript()    {
+      java.lang.Boolean result;
+      Object value0 = underlying.get("isInternalScript");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("isInternalScript");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Boolean r1 = (java.lang.Boolean) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public long startColumn()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("startColumn");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("startColumn");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: startColumn");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String sourceMapURL()    {
+      java.lang.String result;
+      Object value0 = underlying.get("sourceMapURL");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("sourceMapURL");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
       }
       return result;
     }
@@ -2537,13 +4106,13 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public long errorLine()    {
+    @Override public long endColumn()    {
       java.lang.Long result;
       try {
-        Object value0 = underlying.get("errorLine");
+        Object value0 = underlying.get("endColumn");
         boolean hasValue1;
         if (value0 == null) {
-          hasValue1 = underlying.containsKey("errorLine");
+          hasValue1 = underlying.containsKey("endColumn");
         } else {
           hasValue1 = true;
         }
@@ -2551,7 +4120,28 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           java.lang.Long r1 = (java.lang.Long) value0;
           result = r1;
         } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: errorLine");
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: endColumn");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public long endLine()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("endLine");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("endLine");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: endLine");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -2579,35 +4169,31 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public java.lang.String scriptSource()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("scriptSource");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("scriptSource");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: scriptSource");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+    @Override public java.lang.Boolean isContentScript()    {
+      java.lang.Boolean result;
+      Object value0 = underlying.get("isContentScript");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("isContentScript");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Boolean r1 = (java.lang.Boolean) value0;
+        result = r1;
+      } else {
+        result = null;
       }
       return result;
     }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.ScriptParsedEventData
-  public static class Value_32 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.ScriptParsedEventData {
-    public static Value_32 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_32(input);
+  public static class Value_45 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.ScriptParsedEventData {
+    public static Value_45 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_45(input);
     }
-    Value_32(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_45(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String url()    {
@@ -2787,14 +4373,31 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public java.lang.Boolean isInternalScript()    {
+      java.lang.Boolean result;
+      Object value0 = underlying.get("isInternalScript");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("isInternalScript");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Boolean r1 = (java.lang.Boolean) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.SearchInContentData
-  public static class Value_33 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.SearchInContentData {
-    public static Value_33 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_33(input);
+  public static class Value_46 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.SearchInContentData {
+    public static Value_46 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_46(input);
     }
-    Value_33(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_46(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("result");
@@ -2811,17 +4414,17 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           }
           final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
           int size4 = arrayValue3.size();
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.SearchMatchValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.page.SearchMatchValue>(size4);
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.SearchMatchValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.SearchMatchValue>(size4);
           for (int index6 = 0; index6 < size4; index6++) {
-            Value_119 arrayComponent7;
+            Value_47 arrayComponent7;
             if (arrayValue3.get(index6) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent7 = Value_119.parse(arrayValue3.get(index6));
+              arrayComponent7 = Value_47.parse(arrayValue3.get(index6));
             }
             list5.add(arrayComponent7);
           }
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.SearchMatchValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.SearchMatchValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
           this.field_result = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result", e);
@@ -2830,18 +4433,70 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
       }
     }
-    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.SearchMatchValue> field_result;
-    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.SearchMatchValue> result() {
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.SearchMatchValue> field_result;
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.SearchMatchValue> result() {
       return field_result;
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.SetBreakpointByUrlData
-  public static class Value_34 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.SetBreakpointByUrlData {
-    public static Value_34 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_34(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.SearchMatchValue
+  public static class Value_47 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.SearchMatchValue {
+    public static Value_47 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_47(input);
     }
-    Value_34(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_47(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public java.lang.String lineContent()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("lineContent");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("lineContent");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: lineContent");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number lineNumber()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("lineNumber");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("lineNumber");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: lineNumber");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.SetBreakpointByUrlData
+  public static class Value_48 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.SetBreakpointByUrlData {
+    public static Value_48 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_48(input);
+    }
+    Value_48(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("locations");
@@ -2860,11 +4515,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           int size4 = arrayValue3.size();
           java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue>(size4);
           for (int index6 = 0; index6 < size4; index6++) {
-            Value_23 arrayComponent7;
+            Value_35 arrayComponent7;
             if (arrayValue3.get(index6) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent7 = Value_23.parse(arrayValue3.get(index6));
+              arrayComponent7 = Value_35.parse(arrayValue3.get(index6));
             }
             list5.add(arrayComponent7);
           }
@@ -2905,11 +4560,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.SetBreakpointData
-  public static class Value_35 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.SetBreakpointData {
-    public static Value_35 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_35(input);
+  public static class Value_49 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.SetBreakpointData {
+    public static Value_49 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_49(input);
     }
-    Value_35(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_49(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("actualLocation");
@@ -2921,11 +4576,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_23 parsedValue2;
+          Value_35 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_23.parse(value0);
+            parsedValue2 = Value_35.parse(value0);
           }
           this.field_actualLocation = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -2963,34 +4618,34 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.SetScriptSourceData
-  public static class Value_36 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.SetScriptSourceData {
-    public static Value_36 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_36(input);
+  public static class Value_50 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.SetScriptSourceData {
+    public static Value_50 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_50(input);
     }
-    Value_36(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_50(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("result");
+      Object value0 = underlying.get("asyncStackTrace");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("result");
+        hasValue1 = underlying.containsKey("asyncStackTrace");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          Value_37 parsedValue2;
+          Value_52 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_37.parse(value0);
+            parsedValue2 = Value_52.parse(value0);
           }
-          this.field_result = parsedValue2;
+          this.field_asyncStackTrace = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result", e);
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field asyncStackTrace", e);
         }
       } else {
-        this.field_result = null;
+        this.field_asyncStackTrace = null;
       }
 
       Object value3 = underlying.get("callFrames");
@@ -3009,11 +4664,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           int size7 = arrayValue6.size();
           java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue>(size7);
           for (int index9 = 0; index9 < size7; index9++) {
-            Value_15 arrayComponent10;
+            Value_19 arrayComponent10;
             if (arrayValue6.get(index9) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent10 = Value_15.parse(arrayValue6.get(index9));
+              arrayComponent10 = Value_19.parse(arrayValue6.get(index9));
             }
             list8.add(arrayComponent10);
           }
@@ -3025,11 +4680,55 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       } else {
         this.field_callFrames = null;
       }
+
+      Object value11 = underlying.get("result");
+      boolean hasValue12;
+      if (value11 == null) {
+        hasValue12 = underlying.containsKey("result");
+      } else {
+        hasValue12 = true;
+      }
+      if (hasValue12) {
+        try {
+          Value_51 parsedValue13;
+          if (value11 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue13 = Value_51.parse(value11);
+          }
+          this.field_result = parsedValue13;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result", e);
+        }
+      } else {
+        this.field_result = null;
+      }
     }
-    private final org.chromium.sdk.internal.wip.protocol.input.debugger.SetScriptSourceData.Result field_result;
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue field_asyncStackTrace;
     private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> field_callFrames;
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.SetScriptSourceData.Result field_result;
     @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.SetScriptSourceData.Result result() {
       return field_result;
+    }
+    @Override public java.lang.Boolean stackChanged()    {
+      java.lang.Boolean result;
+      Object value0 = underlying.get("stackChanged");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("stackChanged");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Boolean r1 = (java.lang.Boolean) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue asyncStackTrace() {
+      return field_asyncStackTrace;
     }
     @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> callFrames() {
       return field_callFrames;
@@ -3037,11 +4736,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.debugger.SetScriptSourceData$Result
-  public static class Value_37 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.SetScriptSourceData.Result {
-    public static Value_37 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_37(input);
+  public static class Value_51 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.SetScriptSourceData.Result {
+    public static Value_51 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_51(input);
     }
-    Value_37(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_51(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public org.json.simple.JSONObject getUnderlyingObject()    {
@@ -3049,34 +4748,104 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.dom.AttributeModifiedEventData
-  public static class Value_38 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.AttributeModifiedEventData {
-    public static Value_38 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_38(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue
+  public static class Value_52 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue {
+    public static Value_52 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_52(input);
     }
-    Value_38(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_52(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
+
+      Object value0 = underlying.get("asyncStackTrace");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("asyncStackTrace");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_52 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_52.parse(value0);
+          }
+          this.field_asyncStackTrace = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field asyncStackTrace", e);
+        }
+      } else {
+        this.field_asyncStackTrace = null;
+      }
+
+      Object value3 = underlying.get("callFrames");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("callFrames");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          if (value3 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue6 = (org.json.simple.JSONArray) value3;
+          int size7 = arrayValue6.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue>(size7);
+          for (int index9 = 0; index9 < size7; index9++) {
+            Value_19 arrayComponent10;
+            if (arrayValue6.get(index9) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent10 = Value_19.parse(arrayValue6.get(index9));
+            }
+            list8.add(arrayComponent10);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> parsedValue5 = java.util.Collections.unmodifiableList(list8);
+          this.field_callFrames = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field callFrames", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: callFrames");
+      }
     }
-    @Override public java.lang.String value()    {
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue field_asyncStackTrace;
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> field_callFrames;
+    @Override public java.lang.String description()    {
       java.lang.String result;
-      try {
-        Object value0 = underlying.get("value");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("value");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: value");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      Object value0 = underlying.get("description");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("description");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
       }
       return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue asyncStackTrace() {
+      return field_asyncStackTrace;
+    }
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> callFrames() {
+      return field_callFrames;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.AttributeModifiedEventData
+  public static class Value_53 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.AttributeModifiedEventData {
+    public static Value_53 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_53(input);
+    }
+    Value_53(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
     }
     @Override public long nodeId()    {
       java.lang.Long result;
@@ -3093,6 +4862,27 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           result = r1;
         } else {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: nodeId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String value()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("value");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("value");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: value");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -3123,11 +4913,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.AttributeRemovedEventData
-  public static class Value_39 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.AttributeRemovedEventData {
-    public static Value_39 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_39(input);
+  public static class Value_54 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.AttributeRemovedEventData {
+    public static Value_54 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_54(input);
     }
-    Value_39(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_54(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public long nodeId()    {
@@ -3174,12 +4964,292 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.dom.CharacterDataModifiedEventData
-  public static class Value_40 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.CharacterDataModifiedEventData {
-    public static Value_40 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_40(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.BackendNodeValue
+  public static class Value_55 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.BackendNodeValue {
+    public static Value_55 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_55(input);
     }
-    Value_40(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_55(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public java.lang.String nodeName()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("nodeName");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("nodeName");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: nodeName");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public long backendNodeId()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("backendNodeId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("backendNodeId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: backendNodeId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public long nodeType()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("nodeType");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("nodeType");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: nodeType");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.BoxModelValue
+  public static class Value_56 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.BoxModelValue {
+    public static Value_56 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_56(input);
+    }
+    Value_56(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("shapeOutside");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("shapeOutside");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_91 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_91.parse(value0);
+          }
+          this.field_shapeOutside = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field shapeOutside", e);
+        }
+      } else {
+        this.field_shapeOutside = null;
+      }
+
+      Object value3 = underlying.get("content");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("content");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          if (value3 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue6 = (org.json.simple.JSONArray) value3;
+          int size7 = arrayValue6.size();
+          java.util.List<java.lang.Number> list8 = new java.util.ArrayList<java.lang.Number>(size7);
+          for (int index9 = 0; index9 < size7; index9++) {
+            java.lang.Number arrayComponent10 = (java.lang.Number) arrayValue6.get(index9);
+            list8.add(arrayComponent10);
+          }
+          java.util.List<java.lang.Number> parsedValue5 = java.util.Collections.unmodifiableList(list8);
+          this.field_content = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field content", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: content");
+      }
+
+      Object value11 = underlying.get("padding");
+      boolean hasValue12;
+      if (value11 == null) {
+        hasValue12 = underlying.containsKey("padding");
+      } else {
+        hasValue12 = true;
+      }
+      if (hasValue12) {
+        try {
+          if (value11 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue14 = (org.json.simple.JSONArray) value11;
+          int size15 = arrayValue14.size();
+          java.util.List<java.lang.Number> list16 = new java.util.ArrayList<java.lang.Number>(size15);
+          for (int index17 = 0; index17 < size15; index17++) {
+            java.lang.Number arrayComponent18 = (java.lang.Number) arrayValue14.get(index17);
+            list16.add(arrayComponent18);
+          }
+          java.util.List<java.lang.Number> parsedValue13 = java.util.Collections.unmodifiableList(list16);
+          this.field_padding = parsedValue13;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field padding", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: padding");
+      }
+
+      Object value19 = underlying.get("border");
+      boolean hasValue20;
+      if (value19 == null) {
+        hasValue20 = underlying.containsKey("border");
+      } else {
+        hasValue20 = true;
+      }
+      if (hasValue20) {
+        try {
+          if (value19 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue22 = (org.json.simple.JSONArray) value19;
+          int size23 = arrayValue22.size();
+          java.util.List<java.lang.Number> list24 = new java.util.ArrayList<java.lang.Number>(size23);
+          for (int index25 = 0; index25 < size23; index25++) {
+            java.lang.Number arrayComponent26 = (java.lang.Number) arrayValue22.get(index25);
+            list24.add(arrayComponent26);
+          }
+          java.util.List<java.lang.Number> parsedValue21 = java.util.Collections.unmodifiableList(list24);
+          this.field_border = parsedValue21;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field border", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: border");
+      }
+
+      Object value27 = underlying.get("margin");
+      boolean hasValue28;
+      if (value27 == null) {
+        hasValue28 = underlying.containsKey("margin");
+      } else {
+        hasValue28 = true;
+      }
+      if (hasValue28) {
+        try {
+          if (value27 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue30 = (org.json.simple.JSONArray) value27;
+          int size31 = arrayValue30.size();
+          java.util.List<java.lang.Number> list32 = new java.util.ArrayList<java.lang.Number>(size31);
+          for (int index33 = 0; index33 < size31; index33++) {
+            java.lang.Number arrayComponent34 = (java.lang.Number) arrayValue30.get(index33);
+            list32.add(arrayComponent34);
+          }
+          java.util.List<java.lang.Number> parsedValue29 = java.util.Collections.unmodifiableList(list32);
+          this.field_margin = parsedValue29;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field margin", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: margin");
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.dom.ShapeOutsideInfoValue field_shapeOutside;
+    private final java.util.List<java.lang.Number> field_content;
+    private final java.util.List<java.lang.Number> field_padding;
+    private final java.util.List<java.lang.Number> field_border;
+    private final java.util.List<java.lang.Number> field_margin;
+    @Override public java.util.List<java.lang.Number> padding() {
+      return field_padding;
+    }
+    @Override public java.util.List<java.lang.Number> border() {
+      return field_border;
+    }
+    @Override public java.util.List<java.lang.Number> margin() {
+      return field_margin;
+    }
+    @Override public java.util.List<java.lang.Number> content() {
+      return field_content;
+    }
+    @Override public long width()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("width");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("width");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: width");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.dom.ShapeOutsideInfoValue shapeOutside() {
+      return field_shapeOutside;
+    }
+    @Override public long height()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("height");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("height");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: height");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.CharacterDataModifiedEventData
+  public static class Value_57 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.CharacterDataModifiedEventData {
+    public static Value_57 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_57(input);
+    }
+    Value_57(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public long nodeId()    {
@@ -3227,11 +5297,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeCountUpdatedEventData
-  public static class Value_41 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeCountUpdatedEventData {
-    public static Value_41 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_41(input);
+  public static class Value_58 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeCountUpdatedEventData {
+    public static Value_58 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_58(input);
     }
-    Value_41(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_58(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public long nodeId()    {
@@ -3279,11 +5349,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeInsertedEventData
-  public static class Value_42 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeInsertedEventData {
-    public static Value_42 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_42(input);
+  public static class Value_59 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeInsertedEventData {
+    public static Value_59 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_59(input);
     }
-    Value_42(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_59(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("node");
@@ -3295,11 +5365,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_54 parsedValue2;
+          Value_76 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_54.parse(value0);
+            parsedValue2 = Value_76.parse(value0);
           }
           this.field_node = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -3358,11 +5428,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeRemovedEventData
-  public static class Value_43 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeRemovedEventData {
-    public static Value_43 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_43(input);
+  public static class Value_60 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.ChildNodeRemovedEventData {
+    public static Value_60 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_60(input);
     }
-    Value_43(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_60(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public long parentNodeId()    {
@@ -3409,161 +5479,13 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.dom.DocumentUpdatedEventData
-  public static class Value_44 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.DocumentUpdatedEventData {
-    public static Value_44 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_44(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.CopyToData
+  public static class Value_61 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.CopyToData {
+    public static Value_61 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_61(input);
     }
-    Value_44(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_61(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
-    }
-    @Override public org.json.simple.JSONObject getUnderlyingObject()    {
-      return underlying;
-    }
-  }
-
-  // Type org.chromium.sdk.internal.wip.protocol.input.dom.EventListenerValue
-  public static class Value_45 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.EventListenerValue {
-    public static Value_45 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_45(input);
-    }
-    Value_45(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      super(input);
-
-      Object value0 = underlying.get("location");
-      boolean hasValue1;
-      if (value0 == null) {
-        hasValue1 = underlying.containsKey("location");
-      } else {
-        hasValue1 = true;
-      }
-      if (hasValue1) {
-        try {
-          Value_23 parsedValue2;
-          if (value0 == null) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
-          } else {
-            parsedValue2 = Value_23.parse(value0);
-          }
-          this.field_location = parsedValue2;
-        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field location", e);
-        }
-      } else {
-        this.field_location = null;
-      }
-
-      Object value3 = underlying.get("handler");
-      boolean hasValue4;
-      if (value3 == null) {
-        hasValue4 = underlying.containsKey("handler");
-      } else {
-        hasValue4 = true;
-      }
-      if (hasValue4) {
-        try {
-          Value_130 parsedValue5;
-          if (value3 == null) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
-          } else {
-            parsedValue5 = Value_130.parse(value3);
-          }
-          this.field_handler = parsedValue5;
-        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field handler", e);
-        }
-      } else {
-        this.field_handler = null;
-      }
-    }
-    private final org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue field_location;
-    private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_handler;
-    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue handler() {
-      return field_handler;
-    }
-    @Override public java.lang.String type()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("type");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("type");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: type");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public java.lang.String handlerBody()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("handlerBody");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("handlerBody");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: handlerBody");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public boolean isAttribute()    {
-      java.lang.Boolean result;
-      try {
-        Object value0 = underlying.get("isAttribute");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("isAttribute");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Boolean r1 = (java.lang.Boolean) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: isAttribute");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public boolean useCapture()    {
-      java.lang.Boolean result;
-      try {
-        Object value0 = underlying.get("useCapture");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("useCapture");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Boolean r1 = (java.lang.Boolean) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: useCapture");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
     }
     @Override public long nodeId()    {
       java.lang.Long result;
@@ -3586,34 +5508,95 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue location() {
-      return field_location;
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.DistributedNodesUpdatedEventData
+  public static class Value_62 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.DistributedNodesUpdatedEventData {
+    public static Value_62 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_62(input);
     }
-    @Override public java.lang.String sourceName()    {
-      java.lang.String result;
-      Object value0 = underlying.get("sourceName");
+    Value_62(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("distributedNodes");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("sourceName");
+        hasValue1 = underlying.containsKey("distributedNodes");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
-        java.lang.String r1 = (java.lang.String) value0;
-        result = r1;
+        try {
+          if (value0 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
+          int size4 = arrayValue3.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.BackendNodeValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.dom.BackendNodeValue>(size4);
+          for (int index6 = 0; index6 < size4; index6++) {
+            Value_55 arrayComponent7;
+            if (arrayValue3.get(index6) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent7 = Value_55.parse(arrayValue3.get(index6));
+            }
+            list5.add(arrayComponent7);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.BackendNodeValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          this.field_distributedNodes = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field distributedNodes", e);
+        }
       } else {
-        result = null;
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: distributedNodes");
+      }
+    }
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.BackendNodeValue> field_distributedNodes;
+    @Override public long insertionPointId()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("insertionPointId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("insertionPointId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: insertionPointId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
       }
       return result;
+    }
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.BackendNodeValue> distributedNodes() {
+      return field_distributedNodes;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.DocumentUpdatedEventData
+  public static class Value_63 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.DocumentUpdatedEventData {
+    public static Value_63 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_63(input);
+    }
+    Value_63(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public org.json.simple.JSONObject getUnderlyingObject()    {
+      return underlying;
     }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.GetAttributesData
-  public static class Value_46 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetAttributesData {
-    public static Value_46 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_46(input);
+  public static class Value_64 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetAttributesData {
+    public static Value_64 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_64(input);
     }
-    Value_46(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_64(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("attributes");
@@ -3650,12 +5633,49 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.dom.GetDocumentData
-  public static class Value_47 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetDocumentData {
-    public static Value_47 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_47(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.GetBoxModelData
+  public static class Value_65 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetBoxModelData {
+    public static Value_65 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_65(input);
     }
-    Value_47(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_65(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("model");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("model");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_56 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_56.parse(value0);
+          }
+          this.field_model = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field model", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: model");
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.dom.BoxModelValue field_model;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.dom.BoxModelValue model() {
+      return field_model;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.GetDocumentData
+  public static class Value_66 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetDocumentData {
+    public static Value_66 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_66(input);
+    }
+    Value_66(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("root");
@@ -3667,11 +5687,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_54 parsedValue2;
+          Value_76 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_54.parse(value0);
+            parsedValue2 = Value_76.parse(value0);
           }
           this.field_root = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -3687,59 +5707,93 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.dom.GetEventListenersForNodeData
-  public static class Value_48 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetEventListenersForNodeData {
-    public static Value_48 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_48(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.GetHighlightObjectForTestData
+  public static class Value_67 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetHighlightObjectForTestData {
+    public static Value_67 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_67(input);
     }
-    Value_48(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_67(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("listeners");
+      Object value0 = underlying.get("highlight");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("listeners");
+        hasValue1 = underlying.containsKey("highlight");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          if (value0 instanceof org.json.simple.JSONArray == false) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          Value_68 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_68.parse(value0);
           }
-          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
-          int size4 = arrayValue3.size();
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.EventListenerValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.dom.EventListenerValue>(size4);
-          for (int index6 = 0; index6 < size4; index6++) {
-            Value_45 arrayComponent7;
-            if (arrayValue3.get(index6) == null) {
-              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
-            } else {
-              arrayComponent7 = Value_45.parse(arrayValue3.get(index6));
-            }
-            list5.add(arrayComponent7);
-          }
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.EventListenerValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
-          this.field_listeners = parsedValue2;
+          this.field_highlight = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field listeners", e);
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field highlight", e);
         }
       } else {
-        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: listeners");
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: highlight");
       }
     }
-    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.EventListenerValue> field_listeners;
-    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.EventListenerValue> listeners() {
-      return field_listeners;
+    private final org.chromium.sdk.internal.wip.protocol.input.dom.GetHighlightObjectForTestData.Highlight field_highlight;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.dom.GetHighlightObjectForTestData.Highlight highlight() {
+      return field_highlight;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.GetHighlightObjectForTestData$Highlight
+  public static class Value_68 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetHighlightObjectForTestData.Highlight {
+    public static Value_68 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_68(input);
+    }
+    Value_68(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public org.json.simple.JSONObject getUnderlyingObject()    {
+      return underlying;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.GetNodeForLocationData
+  public static class Value_69 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetNodeForLocationData {
+    public static Value_69 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_69(input);
+    }
+    Value_69(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public long nodeId()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("nodeId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("nodeId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: nodeId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
     }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.GetOuterHTMLData
-  public static class Value_49 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetOuterHTMLData {
-    public static Value_49 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_49(input);
+  public static class Value_70 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetOuterHTMLData {
+    public static Value_70 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_70(input);
     }
-    Value_49(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_70(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String outerHTML()    {
@@ -3765,12 +5819,43 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.dom.GetSearchResultsData
-  public static class Value_50 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetSearchResultsData {
-    public static Value_50 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_50(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.GetRelayoutBoundaryData
+  public static class Value_71 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetRelayoutBoundaryData {
+    public static Value_71 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_71(input);
     }
-    Value_50(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_71(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public long nodeId()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("nodeId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("nodeId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: nodeId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.GetSearchResultsData
+  public static class Value_72 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.GetSearchResultsData {
+    public static Value_72 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_72(input);
+    }
+    Value_72(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("nodeIds");
@@ -3808,11 +5893,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.InlineStyleInvalidatedEventData
-  public static class Value_51 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.InlineStyleInvalidatedEventData {
-    public static Value_51 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_51(input);
+  public static class Value_73 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.InlineStyleInvalidatedEventData {
+    public static Value_73 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_73(input);
     }
-    Value_51(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_73(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("nodeIds");
@@ -3850,20 +5935,20 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.InspectNodeRequestedEventData
-  public static class Value_52 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.InspectNodeRequestedEventData {
-    public static Value_52 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_52(input);
+  public static class Value_74 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.InspectNodeRequestedEventData {
+    public static Value_74 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_74(input);
     }
-    Value_52(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_74(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
-    @Override public long nodeId()    {
+    @Override public long backendNodeId()    {
       java.lang.Long result;
       try {
-        Object value0 = underlying.get("nodeId");
+        Object value0 = underlying.get("backendNodeId");
         boolean hasValue1;
         if (value0 == null) {
-          hasValue1 = underlying.containsKey("nodeId");
+          hasValue1 = underlying.containsKey("backendNodeId");
         } else {
           hasValue1 = true;
         }
@@ -3871,7 +5956,7 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           java.lang.Long r1 = (java.lang.Long) value0;
           result = r1;
         } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: nodeId");
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: backendNodeId");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -3881,11 +5966,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.MoveToData
-  public static class Value_53 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.MoveToData {
-    public static Value_53 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_53(input);
+  public static class Value_75 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.MoveToData {
+    public static Value_75 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_75(input);
     }
-    Value_53(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_75(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public long nodeId()    {
@@ -3912,11 +5997,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue
-  public static class Value_54 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue {
-    public static Value_54 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_54(input);
+  public static class Value_76 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue {
+    public static Value_76 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_76(input);
     }
-    Value_54(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_76(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("attributes");
@@ -3963,11 +6048,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           int size12 = arrayValue11.size();
           java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> list13 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue>(size12);
           for (int index14 = 0; index14 < size12; index14++) {
-            Value_54 arrayComponent15;
+            Value_76 arrayComponent15;
             if (arrayValue11.get(index14) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent15 = Value_54.parse(arrayValue11.get(index14));
+              arrayComponent15 = Value_76.parse(arrayValue11.get(index14));
             }
             list13.add(arrayComponent15);
           }
@@ -3989,11 +6074,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue17) {
         try {
-          Value_54 parsedValue18;
+          Value_76 parsedValue18;
           if (value16 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue18 = Value_54.parse(value16);
+            parsedValue18 = Value_76.parse(value16);
           }
           this.field_contentDocument = parsedValue18;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -4019,11 +6104,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           int size23 = arrayValue22.size();
           java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> list24 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue>(size23);
           for (int index25 = 0; index25 < size23; index25++) {
-            Value_54 arrayComponent26;
+            Value_76 arrayComponent26;
             if (arrayValue22.get(index25) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent26 = Value_54.parse(arrayValue22.get(index25));
+              arrayComponent26 = Value_76.parse(arrayValue22.get(index25));
             }
             list24.add(arrayComponent26);
           }
@@ -4045,11 +6130,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue28) {
         try {
-          Value_54 parsedValue29;
+          Value_76 parsedValue29;
           if (value27 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue29 = Value_54.parse(value27);
+            parsedValue29 = Value_76.parse(value27);
           }
           this.field_templateContent = parsedValue29;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -4058,12 +6143,104 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       } else {
         this.field_templateContent = null;
       }
+
+      Object value30 = underlying.get("pseudoElements");
+      boolean hasValue31;
+      if (value30 == null) {
+        hasValue31 = underlying.containsKey("pseudoElements");
+      } else {
+        hasValue31 = true;
+      }
+      if (hasValue31) {
+        try {
+          if (value30 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue33 = (org.json.simple.JSONArray) value30;
+          int size34 = arrayValue33.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> list35 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue>(size34);
+          for (int index36 = 0; index36 < size34; index36++) {
+            Value_76 arrayComponent37;
+            if (arrayValue33.get(index36) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent37 = Value_76.parse(arrayValue33.get(index36));
+            }
+            list35.add(arrayComponent37);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> parsedValue32 = java.util.Collections.unmodifiableList(list35);
+          this.field_pseudoElements = parsedValue32;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field pseudoElements", e);
+        }
+      } else {
+        this.field_pseudoElements = null;
+      }
+
+      Object value38 = underlying.get("importedDocument");
+      boolean hasValue39;
+      if (value38 == null) {
+        hasValue39 = underlying.containsKey("importedDocument");
+      } else {
+        hasValue39 = true;
+      }
+      if (hasValue39) {
+        try {
+          Value_76 parsedValue40;
+          if (value38 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue40 = Value_76.parse(value38);
+          }
+          this.field_importedDocument = parsedValue40;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field importedDocument", e);
+        }
+      } else {
+        this.field_importedDocument = null;
+      }
+
+      Object value41 = underlying.get("distributedNodes");
+      boolean hasValue42;
+      if (value41 == null) {
+        hasValue42 = underlying.containsKey("distributedNodes");
+      } else {
+        hasValue42 = true;
+      }
+      if (hasValue42) {
+        try {
+          if (value41 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue44 = (org.json.simple.JSONArray) value41;
+          int size45 = arrayValue44.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.BackendNodeValue> list46 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.dom.BackendNodeValue>(size45);
+          for (int index47 = 0; index47 < size45; index47++) {
+            Value_55 arrayComponent48;
+            if (arrayValue44.get(index47) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent48 = Value_55.parse(arrayValue44.get(index47));
+            }
+            list46.add(arrayComponent48);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.BackendNodeValue> parsedValue43 = java.util.Collections.unmodifiableList(list46);
+          this.field_distributedNodes = parsedValue43;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field distributedNodes", e);
+        }
+      } else {
+        this.field_distributedNodes = null;
+      }
     }
     private final java.util.List<java.lang.String> field_attributes;
     private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> field_children;
     private final org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue field_contentDocument;
     private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> field_shadowRoots;
     private final org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue field_templateContent;
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> field_pseudoElements;
+    private final org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue field_importedDocument;
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.BackendNodeValue> field_distributedNodes;
     @Override public java.lang.String internalSubset()    {
       java.lang.String result;
       Object value0 = underlying.get("internalSubset");
@@ -4160,6 +6337,23 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     @Override public java.util.List<java.lang.String> attributes() {
       return field_attributes;
     }
+    @Override public java.lang.String xmlVersion()    {
+      java.lang.String result;
+      Object value0 = underlying.get("xmlVersion");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("xmlVersion");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
     @Override public long nodeId()    {
       java.lang.Long result;
       try {
@@ -4181,23 +6375,6 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public java.lang.String xmlVersion()    {
-      java.lang.String result;
-      Object value0 = underlying.get("xmlVersion");
-      boolean hasValue1;
-      if (value0 == null) {
-        hasValue1 = underlying.containsKey("xmlVersion");
-      } else {
-        hasValue1 = true;
-      }
-      if (hasValue1) {
-        java.lang.String r1 = (java.lang.String) value0;
-        result = r1;
-      } else {
-        result = null;
-      }
-      return result;
-    }
     @Override public java.lang.String publicId()    {
       java.lang.String result;
       Object value0 = underlying.get("publicId");
@@ -4215,6 +6392,9 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue importedDocument() {
+      return field_importedDocument;
+    }
     @Override public java.lang.String systemId()    {
       java.lang.String result;
       Object value0 = underlying.get("systemId");
@@ -4231,6 +6411,9 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         result = null;
       }
       return result;
+    }
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> pseudoElements() {
+      return field_pseudoElements;
     }
     @Override public java.lang.String documentURL()    {
       java.lang.String result;
@@ -4290,6 +6473,36 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootTypeEnum shadowRootType()    {
+      org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootTypeEnum result;
+      try {
+        Object value0 = underlying.get("shadowRootType");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("shadowRootType");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootTypeEnum r1 = org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootTypeEnum.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field shadowRootType in type org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue", e);
+          }
+        } else {
+          result = null;
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
     @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> children() {
       return field_children;
     }
@@ -4313,22 +6526,8 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public java.lang.Long childNodeCount()    {
-      java.lang.Long result;
-      Object value0 = underlying.get("childNodeCount");
-      boolean hasValue1;
-      if (value0 == null) {
-        hasValue1 = underlying.containsKey("childNodeCount");
-      } else {
-        hasValue1 = true;
-      }
-      if (hasValue1) {
-        java.lang.Long r1 = (java.lang.Long) value0;
-        result = r1;
-      } else {
-        result = null;
-      }
-      return result;
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> shadowRoots() {
+      return field_shadowRoots;
     }
     @Override public java.lang.String nodeName()    {
       java.lang.String result;
@@ -4351,17 +6550,64 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> shadowRoots() {
-      return field_shadowRoots;
+    @Override public java.lang.Long childNodeCount()    {
+      java.lang.Long result;
+      Object value0 = underlying.get("childNodeCount");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("childNodeCount");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Long r1 = (java.lang.Long) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.BackendNodeValue> distributedNodes() {
+      return field_distributedNodes;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.dom.PseudoTypeEnum pseudoType()    {
+      org.chromium.sdk.internal.wip.protocol.input.dom.PseudoTypeEnum result;
+      try {
+        Object value0 = underlying.get("pseudoType");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("pseudoType");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.dom.PseudoTypeEnum r1 = org.chromium.sdk.internal.wip.protocol.input.dom.PseudoTypeEnum.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field pseudoType in type org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue", e);
+          }
+        } else {
+          result = null;
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
     }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.PerformSearchData
-  public static class Value_55 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.PerformSearchData {
-    public static Value_55 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_55(input);
+  public static class Value_77 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.PerformSearchData {
+    public static Value_77 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_77(input);
     }
-    Value_55(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_77(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public long resultCount()    {
@@ -4408,21 +6654,45 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.dom.PushNodeByBackendIdToFrontendData
-  public static class Value_56 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.PushNodeByBackendIdToFrontendData {
-    public static Value_56 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_56(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.PseudoElementAddedEventData
+  public static class Value_78 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.PseudoElementAddedEventData {
+    public static Value_78 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_78(input);
     }
-    Value_56(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_78(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
+
+      Object value0 = underlying.get("pseudoElement");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("pseudoElement");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_76 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_76.parse(value0);
+          }
+          this.field_pseudoElement = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field pseudoElement", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: pseudoElement");
+      }
     }
-    @Override public long nodeId()    {
+    private final org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue field_pseudoElement;
+    @Override public long parentId()    {
       java.lang.Long result;
       try {
-        Object value0 = underlying.get("nodeId");
+        Object value0 = underlying.get("parentId");
         boolean hasValue1;
         if (value0 == null) {
-          hasValue1 = underlying.containsKey("nodeId");
+          hasValue1 = underlying.containsKey("parentId");
         } else {
           hasValue1 = true;
         }
@@ -4430,7 +6700,62 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           java.lang.Long r1 = (java.lang.Long) value0;
           result = r1;
         } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: nodeId");
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: parentId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue pseudoElement() {
+      return field_pseudoElement;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.PseudoElementRemovedEventData
+  public static class Value_79 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.PseudoElementRemovedEventData {
+    public static Value_79 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_79(input);
+    }
+    Value_79(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public long pseudoElementId()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("pseudoElementId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("pseudoElementId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: pseudoElementId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public long parentId()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("parentId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("parentId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: parentId");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -4440,11 +6765,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.PushNodeByPathToFrontendData
-  public static class Value_57 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.PushNodeByPathToFrontendData {
-    public static Value_57 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_57(input);
+  public static class Value_80 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.PushNodeByPathToFrontendData {
+    public static Value_80 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_80(input);
     }
-    Value_57(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_80(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public long nodeId()    {
@@ -4470,12 +6795,54 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.dom.QuerySelectorAllData
-  public static class Value_58 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.QuerySelectorAllData {
-    public static Value_58 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_58(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.PushNodesByBackendIdsToFrontendData
+  public static class Value_81 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.PushNodesByBackendIdsToFrontendData {
+    public static Value_81 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_81(input);
     }
-    Value_58(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_81(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("nodeIds");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("nodeIds");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          if (value0 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
+          int size4 = arrayValue3.size();
+          java.util.List<java.lang.Long> list5 = new java.util.ArrayList<java.lang.Long>(size4);
+          for (int index6 = 0; index6 < size4; index6++) {
+            java.lang.Long arrayComponent7 = (java.lang.Long) arrayValue3.get(index6);
+            list5.add(arrayComponent7);
+          }
+          java.util.List<java.lang.Long> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          this.field_nodeIds = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field nodeIds", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: nodeIds");
+      }
+    }
+    private final java.util.List<java.lang.Long> field_nodeIds;
+    @Override public java.util.List<java.lang.Long> nodeIds() {
+      return field_nodeIds;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.QuerySelectorAllData
+  public static class Value_82 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.QuerySelectorAllData {
+    public static Value_82 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_82(input);
+    }
+    Value_82(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("nodeIds");
@@ -4513,11 +6880,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.QuerySelectorData
-  public static class Value_59 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.QuerySelectorData {
-    public static Value_59 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_59(input);
+  public static class Value_83 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.QuerySelectorData {
+    public static Value_83 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_83(input);
     }
-    Value_59(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_83(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public long nodeId()    {
@@ -4543,12 +6910,102 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.dom.RequestNodeData
-  public static class Value_60 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.RequestNodeData {
-    public static Value_60 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_60(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.RGBAValue
+  public static class Value_84 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.RGBAValue {
+    public static Value_84 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_84(input);
     }
-    Value_60(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_84(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public long g()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("g");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("g");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: g");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public long b()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("b");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("b");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: b");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public long r()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("r");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("r");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: r");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number a()    {
+      java.lang.Number result;
+      Object value0 = underlying.get("a");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("a");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Number r1 = (java.lang.Number) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.RequestNodeData
+  public static class Value_85 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.RequestNodeData {
+    public static Value_85 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_85(input);
+    }
+    Value_85(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public long nodeId()    {
@@ -4575,11 +7032,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.ResolveNodeData
-  public static class Value_61 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.ResolveNodeData {
-    public static Value_61 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_61(input);
+  public static class Value_86 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.ResolveNodeData {
+    public static Value_86 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_86(input);
     }
-    Value_61(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_86(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("object");
@@ -4591,11 +7048,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_130 parsedValue2;
+          Value_169 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_130.parse(value0);
+            parsedValue2 = Value_169.parse(value0);
           }
           this.field_object = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -4612,11 +7069,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.SetChildNodesEventData
-  public static class Value_62 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.SetChildNodesEventData {
-    public static Value_62 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_62(input);
+  public static class Value_87 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.SetChildNodesEventData {
+    public static Value_87 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_87(input);
     }
-    Value_62(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_87(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("nodes");
@@ -4635,11 +7092,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           int size4 = arrayValue3.size();
           java.util.List<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.dom.NodeValue>(size4);
           for (int index6 = 0; index6 < size4; index6++) {
-            Value_54 arrayComponent7;
+            Value_76 arrayComponent7;
             if (arrayValue3.get(index6) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent7 = Value_54.parse(arrayValue3.get(index6));
+              arrayComponent7 = Value_76.parse(arrayValue3.get(index6));
             }
             list5.add(arrayComponent7);
           }
@@ -4680,11 +7137,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.SetNodeNameData
-  public static class Value_63 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.SetNodeNameData {
-    public static Value_63 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_63(input);
+  public static class Value_88 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.SetNodeNameData {
+    public static Value_88 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_88(input);
     }
-    Value_63(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_88(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public long nodeId()    {
@@ -4711,11 +7168,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootPoppedEventData
-  public static class Value_64 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootPoppedEventData {
-    public static Value_64 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_64(input);
+  public static class Value_89 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootPoppedEventData {
+    public static Value_89 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_89(input);
     }
-    Value_64(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_89(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public long hostId()    {
@@ -4763,11 +7220,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootPushedEventData
-  public static class Value_65 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootPushedEventData {
-    public static Value_65 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_65(input);
+  public static class Value_90 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.ShadowRootPushedEventData {
+    public static Value_90 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_90(input);
     }
-    Value_65(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_90(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("root");
@@ -4779,11 +7236,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_54 parsedValue2;
+          Value_76 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_54.parse(value0);
+            parsedValue2 = Value_76.parse(value0);
           }
           this.field_root = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -4820,121 +7277,118 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.network.CachedResourceValue
-  public static class Value_66 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.CachedResourceValue {
-    public static Value_66 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_66(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.dom.ShapeOutsideInfoValue
+  public static class Value_91 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.dom.ShapeOutsideInfoValue {
+    public static Value_91 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_91(input);
     }
-    Value_66(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_91(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("response");
+      Object value0 = underlying.get("bounds");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("response");
+        hasValue1 = underlying.containsKey("bounds");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          Value_82 parsedValue2;
-          if (value0 == null) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
-          } else {
-            parsedValue2 = Value_82.parse(value0);
+          if (value0 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
           }
-          this.field_response = parsedValue2;
+          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
+          int size4 = arrayValue3.size();
+          java.util.List<java.lang.Number> list5 = new java.util.ArrayList<java.lang.Number>(size4);
+          for (int index6 = 0; index6 < size4; index6++) {
+            java.lang.Number arrayComponent7 = (java.lang.Number) arrayValue3.get(index6);
+            list5.add(arrayComponent7);
+          }
+          java.util.List<java.lang.Number> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          this.field_bounds = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field response", e);
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field bounds", e);
         }
       } else {
-        this.field_response = null;
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: bounds");
       }
-    }
-    private final org.chromium.sdk.internal.wip.protocol.input.network.ResponseValue field_response;
-    @Override public java.lang.Number bodySize()    {
-      java.lang.Number result;
-      try {
-        Object value0 = underlying.get("bodySize");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("bodySize");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Number r1 = (java.lang.Number) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: bodySize");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+
+      Object value8 = underlying.get("shape");
+      boolean hasValue9;
+      if (value8 == null) {
+        hasValue9 = underlying.containsKey("shape");
+      } else {
+        hasValue9 = true;
       }
-      return result;
-    }
-    @Override public java.lang.String url()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("url");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("url");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: url");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public org.chromium.sdk.internal.wip.protocol.input.page.ResourceTypeEnum type()    {
-      org.chromium.sdk.internal.wip.protocol.input.page.ResourceTypeEnum result;
-      try {
-        Object value0 = underlying.get("type");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("type");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          try {
-            if (value0 instanceof String == false) {
-              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
-            }
-            String stringValue = (String) value0;
-            stringValue = stringValue.toUpperCase();
-            org.chromium.sdk.internal.wip.protocol.input.page.ResourceTypeEnum r1 = org.chromium.sdk.internal.wip.protocol.input.page.ResourceTypeEnum.valueOf(stringValue);
-            result = r1;
-          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field type in type org.chromium.sdk.internal.wip.protocol.input.network.CachedResourceValue", e);
+      if (hasValue9) {
+        try {
+          if (value8 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
           }
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: type");
+          final org.json.simple.JSONArray arrayValue11 = (org.json.simple.JSONArray) value8;
+          int size12 = arrayValue11.size();
+          java.util.List<java.lang.Object> list13 = new java.util.ArrayList<java.lang.Object>(size12);
+          for (int index14 = 0; index14 < size12; index14++) {
+            java.lang.Object arrayComponent15 = (java.lang.Object) arrayValue11.get(index14);
+            list13.add(arrayComponent15);
+          }
+          java.util.List<java.lang.Object> parsedValue10 = java.util.Collections.unmodifiableList(list13);
+          this.field_shape = parsedValue10;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field shape", e);
         }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: shape");
       }
-      return result;
+
+      Object value16 = underlying.get("marginShape");
+      boolean hasValue17;
+      if (value16 == null) {
+        hasValue17 = underlying.containsKey("marginShape");
+      } else {
+        hasValue17 = true;
+      }
+      if (hasValue17) {
+        try {
+          if (value16 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue19 = (org.json.simple.JSONArray) value16;
+          int size20 = arrayValue19.size();
+          java.util.List<java.lang.Object> list21 = new java.util.ArrayList<java.lang.Object>(size20);
+          for (int index22 = 0; index22 < size20; index22++) {
+            java.lang.Object arrayComponent23 = (java.lang.Object) arrayValue19.get(index22);
+            list21.add(arrayComponent23);
+          }
+          java.util.List<java.lang.Object> parsedValue18 = java.util.Collections.unmodifiableList(list21);
+          this.field_marginShape = parsedValue18;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field marginShape", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: marginShape");
+      }
     }
-    @Override public org.chromium.sdk.internal.wip.protocol.input.network.ResponseValue response() {
-      return field_response;
+    private final java.util.List<java.lang.Number> field_bounds;
+    private final java.util.List<java.lang.Object> field_shape;
+    private final java.util.List<java.lang.Object> field_marginShape;
+    @Override public java.util.List<java.lang.Object> shape() {
+      return field_shape;
+    }
+    @Override public java.util.List<java.lang.Number> bounds() {
+      return field_bounds;
+    }
+    @Override public java.util.List<java.lang.Object> marginShape() {
+      return field_marginShape;
     }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.CanClearBrowserCacheData
-  public static class Value_67 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.CanClearBrowserCacheData {
-    public static Value_67 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_67(input);
+  public static class Value_92 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.CanClearBrowserCacheData {
+    public static Value_92 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_92(input);
     }
-    Value_67(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_92(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public boolean result()    {
@@ -4961,11 +7415,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.CanClearBrowserCookiesData
-  public static class Value_68 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.CanClearBrowserCookiesData {
-    public static Value_68 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_68(input);
+  public static class Value_93 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.CanClearBrowserCookiesData {
+    public static Value_93 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_93(input);
     }
-    Value_68(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_93(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public boolean result()    {
@@ -4991,12 +7445,437 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.network.DataReceivedEventData
-  public static class Value_69 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.DataReceivedEventData {
-    public static Value_69 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_69(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.network.CanEmulateNetworkConditionsData
+  public static class Value_94 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.CanEmulateNetworkConditionsData {
+    public static Value_94 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_94(input);
     }
-    Value_69(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_94(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public boolean result()    {
+      java.lang.Boolean result;
+      try {
+        Object value0 = underlying.get("result");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("result");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Boolean r1 = (java.lang.Boolean) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.network.CertificateDetailsValue
+  public static class Value_95 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.CertificateDetailsValue {
+    public static Value_95 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_95(input);
+    }
+    Value_95(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("subject");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("subject");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_96 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_96.parse(value0);
+          }
+          this.field_subject = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field subject", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: subject");
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.network.CertificateSubjectValue field_subject;
+    @Override public java.lang.Number validFrom()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("validFrom");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("validFrom");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: validFrom");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number validTo()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("validTo");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("validTo");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: validTo");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String issuer()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("issuer");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("issuer");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: issuer");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.network.CertificateSubjectValue subject() {
+      return field_subject;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.network.CertificateSubjectValue
+  public static class Value_96 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.CertificateSubjectValue {
+    public static Value_96 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_96(input);
+    }
+    Value_96(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("sanIpAddresses");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("sanIpAddresses");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          if (value0 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
+          int size4 = arrayValue3.size();
+          java.util.List<java.lang.String> list5 = new java.util.ArrayList<java.lang.String>(size4);
+          for (int index6 = 0; index6 < size4; index6++) {
+            java.lang.String arrayComponent7 = (java.lang.String) arrayValue3.get(index6);
+            list5.add(arrayComponent7);
+          }
+          java.util.List<java.lang.String> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          this.field_sanIpAddresses = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field sanIpAddresses", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: sanIpAddresses");
+      }
+
+      Object value8 = underlying.get("sanDnsNames");
+      boolean hasValue9;
+      if (value8 == null) {
+        hasValue9 = underlying.containsKey("sanDnsNames");
+      } else {
+        hasValue9 = true;
+      }
+      if (hasValue9) {
+        try {
+          if (value8 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue11 = (org.json.simple.JSONArray) value8;
+          int size12 = arrayValue11.size();
+          java.util.List<java.lang.String> list13 = new java.util.ArrayList<java.lang.String>(size12);
+          for (int index14 = 0; index14 < size12; index14++) {
+            java.lang.String arrayComponent15 = (java.lang.String) arrayValue11.get(index14);
+            list13.add(arrayComponent15);
+          }
+          java.util.List<java.lang.String> parsedValue10 = java.util.Collections.unmodifiableList(list13);
+          this.field_sanDnsNames = parsedValue10;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field sanDnsNames", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: sanDnsNames");
+      }
+    }
+    private final java.util.List<java.lang.String> field_sanIpAddresses;
+    private final java.util.List<java.lang.String> field_sanDnsNames;
+    @Override public java.lang.String name()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("name");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("name");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: name");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.util.List<java.lang.String> sanIpAddresses() {
+      return field_sanIpAddresses;
+    }
+    @Override public java.util.List<java.lang.String> sanDnsNames() {
+      return field_sanDnsNames;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.network.CookieValue
+  public static class Value_97 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.CookieValue {
+    public static Value_97 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_97(input);
+    }
+    Value_97(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public java.lang.String domain()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("domain");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("domain");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: domain");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public long size()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("size");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("size");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: size");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String path()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("path");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("path");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: path");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String value()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("value");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("value");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: value");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public boolean httpOnly()    {
+      java.lang.Boolean result;
+      try {
+        Object value0 = underlying.get("httpOnly");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("httpOnly");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Boolean r1 = (java.lang.Boolean) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: httpOnly");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String name()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("name");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("name");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: name");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public boolean session()    {
+      java.lang.Boolean result;
+      try {
+        Object value0 = underlying.get("session");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("session");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Boolean r1 = (java.lang.Boolean) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: session");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number expires()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("expires");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("expires");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: expires");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public boolean secure()    {
+      java.lang.Boolean result;
+      try {
+        Object value0 = underlying.get("secure");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("secure");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Boolean r1 = (java.lang.Boolean) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: secure");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.network.DataReceivedEventData
+  public static class Value_98 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.DataReceivedEventData {
+    public static Value_98 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_98(input);
+    }
+    Value_98(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.Number timestamp()    {
@@ -5085,12 +7964,211 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.network.GetResponseBodyData
-  public static class Value_70 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.GetResponseBodyData {
-    public static Value_70 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_70(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.network.EventSourceMessageReceivedEventData
+  public static class Value_99 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.EventSourceMessageReceivedEventData {
+    public static Value_99 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_99(input);
     }
-    Value_70(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_99(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public java.lang.String eventName()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("eventName");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("eventName");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: eventName");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number timestamp()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("timestamp");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("timestamp");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: timestamp");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String eventId()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("eventId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("eventId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: eventId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String requestId()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("requestId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("requestId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: requestId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String data()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("data");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("data");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: data");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.network.GetCertificateDetailsData
+  public static class Value_100 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.GetCertificateDetailsData {
+    public static Value_100 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_100(input);
+    }
+    Value_100(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("result");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("result");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_95 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_95.parse(value0);
+          }
+          this.field_result = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.network.CertificateDetailsValue field_result;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.network.CertificateDetailsValue result() {
+      return field_result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.network.GetCookiesData
+  public static class Value_101 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.GetCookiesData {
+    public static Value_101 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_101(input);
+    }
+    Value_101(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("cookies");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("cookies");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          if (value0 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
+          int size4 = arrayValue3.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.network.CookieValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.network.CookieValue>(size4);
+          for (int index6 = 0; index6 < size4; index6++) {
+            Value_97 arrayComponent7;
+            if (arrayValue3.get(index6) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent7 = Value_97.parse(arrayValue3.get(index6));
+            }
+            list5.add(arrayComponent7);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.network.CookieValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          this.field_cookies = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field cookies", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: cookies");
+      }
+    }
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.network.CookieValue> field_cookies;
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.network.CookieValue> cookies() {
+      return field_cookies;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.network.GetResponseBodyData
+  public static class Value_102 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.GetResponseBodyData {
+    public static Value_102 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_102(input);
+    }
+    Value_102(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public boolean base64Encoded()    {
@@ -5138,11 +8216,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.HeadersValue
-  public static class Value_71 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.HeadersValue {
-    public static Value_71 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_71(input);
+  public static class Value_103 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.HeadersValue {
+    public static Value_103 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_103(input);
     }
-    Value_71(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_103(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public org.json.simple.JSONObject getUnderlyingObject()    {
@@ -5151,39 +8229,62 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.InitiatorValue
-  public static class Value_72 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.InitiatorValue {
-    public static Value_72 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_72(input);
+  public static class Value_104 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.InitiatorValue {
+    public static Value_104 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_104(input);
     }
-    Value_72(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_104(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("stackTrace");
+      Object value0 = underlying.get("asyncStackTrace");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("stackTrace");
+        hasValue1 = underlying.containsKey("asyncStackTrace");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          if (value0 instanceof org.json.simple.JSONArray == false) {
+          Value_9 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_9.parse(value0);
+          }
+          this.field_asyncStackTrace = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field asyncStackTrace", e);
+        }
+      } else {
+        this.field_asyncStackTrace = null;
+      }
+
+      Object value3 = underlying.get("stackTrace");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("stackTrace");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          if (value3 instanceof org.json.simple.JSONArray == false) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
           }
-          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
-          int size4 = arrayValue3.size();
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue>(size4);
-          for (int index6 = 0; index6 < size4; index6++) {
-            Value_9 arrayComponent7;
-            if (arrayValue3.get(index6) == null) {
+          final org.json.simple.JSONArray arrayValue6 = (org.json.simple.JSONArray) value3;
+          int size7 = arrayValue6.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue>(size7);
+          for (int index9 = 0; index9 < size7; index9++) {
+            Value_10 arrayComponent10;
+            if (arrayValue6.get(index9) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent7 = Value_9.parse(arrayValue3.get(index6));
+              arrayComponent10 = Value_10.parse(arrayValue6.get(index9));
             }
-            list5.add(arrayComponent7);
+            list8.add(arrayComponent10);
           }
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
-          this.field_stackTrace = parsedValue2;
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> parsedValue5 = java.util.Collections.unmodifiableList(list8);
+          this.field_stackTrace = parsedValue5;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field stackTrace", e);
         }
@@ -5191,9 +8292,13 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         this.field_stackTrace = null;
       }
     }
+    private final org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue field_asyncStackTrace;
     private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> field_stackTrace;
     @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue> stackTrace() {
       return field_stackTrace;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue asyncStackTrace() {
+      return field_asyncStackTrace;
     }
     @Override public java.lang.String url()    {
       java.lang.String result;
@@ -5261,44 +8366,43 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.network.LoadResourceForFrontendData
-  public static class Value_73 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.LoadResourceForFrontendData {
-    public static Value_73 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_73(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.network.LoadingFailedEventData
+  public static class Value_105 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.LoadingFailedEventData {
+    public static Value_105 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_105(input);
     }
-    Value_73(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_105(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
-    @Override public java.lang.String content()    {
-      java.lang.String result;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.network.BlockedReasonEnum blockedReason()    {
+      org.chromium.sdk.internal.wip.protocol.input.network.BlockedReasonEnum result;
       try {
-        Object value0 = underlying.get("content");
+        Object value0 = underlying.get("blockedReason");
         boolean hasValue1;
         if (value0 == null) {
-          hasValue1 = underlying.containsKey("content");
+          hasValue1 = underlying.containsKey("blockedReason");
         } else {
           hasValue1 = true;
         }
         if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.network.BlockedReasonEnum r1 = org.chromium.sdk.internal.wip.protocol.input.network.BlockedReasonEnum.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field blockedReason in type org.chromium.sdk.internal.wip.protocol.input.network.LoadingFailedEventData", e);
+          }
         } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: content");
+          result = null;
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
       }
       return result;
-    }
-  }
-
-  // Type org.chromium.sdk.internal.wip.protocol.input.network.LoadingFailedEventData
-  public static class Value_74 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.LoadingFailedEventData {
-    public static Value_74 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_74(input);
-    }
-    Value_74(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      super(input);
     }
     @Override public java.lang.String requestId()    {
       java.lang.String result;
@@ -5359,6 +8463,36 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.page.ResourceTypeEnum type()    {
+      org.chromium.sdk.internal.wip.protocol.input.page.ResourceTypeEnum result;
+      try {
+        Object value0 = underlying.get("type");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("type");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.page.ResourceTypeEnum r1 = org.chromium.sdk.internal.wip.protocol.input.page.ResourceTypeEnum.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field type in type org.chromium.sdk.internal.wip.protocol.input.network.LoadingFailedEventData", e);
+          }
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: type");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
     @Override public java.lang.Number timestamp()    {
       java.lang.Number result;
       try {
@@ -5383,11 +8517,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.LoadingFinishedEventData
-  public static class Value_75 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.LoadingFinishedEventData {
-    public static Value_75 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_75(input);
+  public static class Value_106 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.LoadingFinishedEventData {
+    public static Value_106 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_106(input);
     }
-    Value_75(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_106(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String requestId()    {
@@ -5405,6 +8539,27 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           result = r1;
         } else {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: requestId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number encodedDataLength()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("encodedDataLength");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("encodedDataLength");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: encodedDataLength");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -5435,181 +8590,12 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.RequestServedFromCacheEventData
-  public static class Value_76 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.RequestServedFromCacheEventData {
-    public static Value_76 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_76(input);
+  public static class Value_107 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.RequestServedFromCacheEventData {
+    public static Value_107 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_107(input);
     }
-    Value_76(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_107(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
-    }
-    @Override public java.lang.String requestId()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("requestId");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("requestId");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: requestId");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-  }
-
-  // Type org.chromium.sdk.internal.wip.protocol.input.network.RequestServedFromMemoryCacheEventData
-  public static class Value_77 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.RequestServedFromMemoryCacheEventData {
-    public static Value_77 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_77(input);
-    }
-    Value_77(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      super(input);
-
-      Object value0 = underlying.get("initiator");
-      boolean hasValue1;
-      if (value0 == null) {
-        hasValue1 = underlying.containsKey("initiator");
-      } else {
-        hasValue1 = true;
-      }
-      if (hasValue1) {
-        try {
-          Value_72 parsedValue2;
-          if (value0 == null) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
-          } else {
-            parsedValue2 = Value_72.parse(value0);
-          }
-          this.field_initiator = parsedValue2;
-        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field initiator", e);
-        }
-      } else {
-        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: initiator");
-      }
-
-      Object value3 = underlying.get("resource");
-      boolean hasValue4;
-      if (value3 == null) {
-        hasValue4 = underlying.containsKey("resource");
-      } else {
-        hasValue4 = true;
-      }
-      if (hasValue4) {
-        try {
-          Value_66 parsedValue5;
-          if (value3 == null) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
-          } else {
-            parsedValue5 = Value_66.parse(value3);
-          }
-          this.field_resource = parsedValue5;
-        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field resource", e);
-        }
-      } else {
-        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: resource");
-      }
-    }
-    private final org.chromium.sdk.internal.wip.protocol.input.network.InitiatorValue field_initiator;
-    private final org.chromium.sdk.internal.wip.protocol.input.network.CachedResourceValue field_resource;
-    @Override public java.lang.String documentURL()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("documentURL");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("documentURL");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: documentURL");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public java.lang.String loaderId()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("loaderId");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("loaderId");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: loaderId");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public org.chromium.sdk.internal.wip.protocol.input.network.InitiatorValue initiator() {
-      return field_initiator;
-    }
-    @Override public java.lang.String frameId()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("frameId");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("frameId");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: frameId");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public org.chromium.sdk.internal.wip.protocol.input.network.CachedResourceValue resource() {
-      return field_resource;
-    }
-    @Override public java.lang.Number timestamp()    {
-      java.lang.Number result;
-      try {
-        Object value0 = underlying.get("timestamp");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("timestamp");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Number r1 = (java.lang.Number) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: timestamp");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
     }
     @Override public java.lang.String requestId()    {
       java.lang.String result;
@@ -5635,11 +8621,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.RequestValue
-  public static class Value_78 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.RequestValue {
-    public static Value_78 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_78(input);
+  public static class Value_108 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.RequestValue {
+    public static Value_108 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_108(input);
     }
-    Value_78(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_108(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("headers");
@@ -5651,11 +8637,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_71 parsedValue2;
+          Value_103 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_71.parse(value0);
+            parsedValue2 = Value_103.parse(value0);
           }
           this.field_headers = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -5725,63 +8711,123 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.network.RequestValue.MixedContentType mixedContentType()    {
+      org.chromium.sdk.internal.wip.protocol.input.network.RequestValue.MixedContentType result;
+      try {
+        Object value0 = underlying.get("mixedContentType");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("mixedContentType");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.network.RequestValue.MixedContentType r1 = org.chromium.sdk.internal.wip.protocol.input.network.RequestValue.MixedContentType.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field mixedContentType in type org.chromium.sdk.internal.wip.protocol.input.network.RequestValue", e);
+          }
+        } else {
+          result = null;
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
     @Override public org.chromium.sdk.internal.wip.protocol.input.network.HeadersValue headers() {
       return field_headers;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.network.ResourcePriorityEnum initialPriority()    {
+      org.chromium.sdk.internal.wip.protocol.input.network.ResourcePriorityEnum result;
+      try {
+        Object value0 = underlying.get("initialPriority");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("initialPriority");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.network.ResourcePriorityEnum r1 = org.chromium.sdk.internal.wip.protocol.input.network.ResourcePriorityEnum.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field initialPriority in type org.chromium.sdk.internal.wip.protocol.input.network.RequestValue", e);
+          }
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: initialPriority");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
     }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.RequestWillBeSentEventData
-  public static class Value_79 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.RequestWillBeSentEventData {
-    public static Value_79 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_79(input);
+  public static class Value_109 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.RequestWillBeSentEventData {
+    public static Value_109 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_109(input);
     }
-    Value_79(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_109(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("initiator");
+      Object value0 = underlying.get("request");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("initiator");
+        hasValue1 = underlying.containsKey("request");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          Value_72 parsedValue2;
+          Value_108 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_72.parse(value0);
+            parsedValue2 = Value_108.parse(value0);
           }
-          this.field_initiator = parsedValue2;
-        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field initiator", e);
-        }
-      } else {
-        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: initiator");
-      }
-
-      Object value3 = underlying.get("request");
-      boolean hasValue4;
-      if (value3 == null) {
-        hasValue4 = underlying.containsKey("request");
-      } else {
-        hasValue4 = true;
-      }
-      if (hasValue4) {
-        try {
-          Value_78 parsedValue5;
-          if (value3 == null) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
-          } else {
-            parsedValue5 = Value_78.parse(value3);
-          }
-          this.field_request = parsedValue5;
+          this.field_request = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field request", e);
         }
       } else {
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: request");
+      }
+
+      Object value3 = underlying.get("initiator");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("initiator");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          Value_104 parsedValue5;
+          if (value3 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue5 = Value_104.parse(value3);
+          }
+          this.field_initiator = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field initiator", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: initiator");
       }
 
       Object value6 = underlying.get("redirectResponse");
@@ -5793,11 +8839,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue7) {
         try {
-          Value_82 parsedValue8;
+          Value_112 parsedValue8;
           if (value6 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue8 = Value_82.parse(value6);
+            parsedValue8 = Value_112.parse(value6);
           }
           this.field_redirectResponse = parsedValue8;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -5807,8 +8853,8 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         this.field_redirectResponse = null;
       }
     }
-    private final org.chromium.sdk.internal.wip.protocol.input.network.InitiatorValue field_initiator;
     private final org.chromium.sdk.internal.wip.protocol.input.network.RequestValue field_request;
+    private final org.chromium.sdk.internal.wip.protocol.input.network.InitiatorValue field_initiator;
     private final org.chromium.sdk.internal.wip.protocol.input.network.ResponseValue field_redirectResponse;
     @Override public java.lang.Number timestamp()    {
       java.lang.Number result;
@@ -5831,6 +8877,27 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public java.lang.Number wallTime()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("wallTime");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("wallTime");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: wallTime");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
     @Override public java.lang.String requestId()    {
       java.lang.String result;
       try {
@@ -5846,6 +8913,36 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           result = r1;
         } else {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: requestId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.page.ResourceTypeEnum type()    {
+      org.chromium.sdk.internal.wip.protocol.input.page.ResourceTypeEnum result;
+      try {
+        Object value0 = underlying.get("type");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("type");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.page.ResourceTypeEnum r1 = org.chromium.sdk.internal.wip.protocol.input.page.ResourceTypeEnum.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field type in type org.chromium.sdk.internal.wip.protocol.input.network.RequestWillBeSentEventData", e);
+          }
+        } else {
+          result = null;
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -5927,12 +9024,33 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.ResourceTimingValue
-  public static class Value_80 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.ResourceTimingValue {
-    public static Value_80 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_80(input);
+  public static class Value_110 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.ResourceTimingValue {
+    public static Value_110 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_110(input);
     }
-    Value_80(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_110(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
+    }
+    @Override public java.lang.Number workerStart()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("workerStart");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("workerStart");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: workerStart");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
     }
     @Override public java.lang.Number proxyEnd()    {
       java.lang.Number result;
@@ -5949,6 +9067,27 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           result = r1;
         } else {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: proxyEnd");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number workerReady()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("workerReady");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("workerReady");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: workerReady");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -5997,27 +9136,6 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public java.lang.Number sslStart()    {
-      java.lang.Number result;
-      try {
-        Object value0 = underlying.get("sslStart");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("sslStart");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Number r1 = (java.lang.Number) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: sslStart");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
     @Override public java.lang.Number requestTime()    {
       java.lang.Number result;
       try {
@@ -6033,6 +9151,27 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           result = r1;
         } else {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: requestTime");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number sslStart()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("sslStart");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("sslStart");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: sslStart");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -6189,11 +9328,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.ResponseReceivedEventData
-  public static class Value_81 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.ResponseReceivedEventData {
-    public static Value_81 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_81(input);
+  public static class Value_111 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.ResponseReceivedEventData {
+    public static Value_111 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_111(input);
     }
-    Value_81(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_111(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("response");
@@ -6205,11 +9344,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_82 parsedValue2;
+          Value_112 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_82.parse(value0);
+            parsedValue2 = Value_112.parse(value0);
           }
           this.field_response = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -6241,27 +9380,6 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public java.lang.String requestId()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("requestId");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("requestId");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: requestId");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
     @Override public java.lang.String frameId()    {
       java.lang.String result;
       try {
@@ -6277,6 +9395,27 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           result = r1;
         } else {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: frameId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String requestId()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("requestId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("requestId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: requestId");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -6340,11 +9479,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.ResponseValue
-  public static class Value_82 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.ResponseValue {
-    public static Value_82 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_82(input);
+  public static class Value_112 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.ResponseValue {
+    public static Value_112 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_112(input);
     }
-    Value_82(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_112(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("headers");
@@ -6356,11 +9495,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_71 parsedValue2;
+          Value_103 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_71.parse(value0);
+            parsedValue2 = Value_103.parse(value0);
           }
           this.field_headers = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -6379,11 +9518,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue4) {
         try {
-          Value_71 parsedValue5;
+          Value_103 parsedValue5;
           if (value3 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue5 = Value_71.parse(value3);
+            parsedValue5 = Value_103.parse(value3);
           }
           this.field_requestHeaders = parsedValue5;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -6402,11 +9541,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue7) {
         try {
-          Value_80 parsedValue8;
+          Value_110 parsedValue8;
           if (value6 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue8 = Value_80.parse(value6);
+            parsedValue8 = Value_110.parse(value6);
           }
           this.field_timing = parsedValue8;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -6415,31 +9554,34 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       } else {
         this.field_timing = null;
       }
+
+      Object value9 = underlying.get("securityDetails");
+      boolean hasValue10;
+      if (value9 == null) {
+        hasValue10 = underlying.containsKey("securityDetails");
+      } else {
+        hasValue10 = true;
+      }
+      if (hasValue10) {
+        try {
+          Value_113 parsedValue11;
+          if (value9 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue11 = Value_113.parse(value9);
+          }
+          this.field_securityDetails = parsedValue11;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field securityDetails", e);
+        }
+      } else {
+        this.field_securityDetails = null;
+      }
     }
     private final org.chromium.sdk.internal.wip.protocol.input.network.HeadersValue field_headers;
     private final org.chromium.sdk.internal.wip.protocol.input.network.HeadersValue field_requestHeaders;
     private final org.chromium.sdk.internal.wip.protocol.input.network.ResourceTimingValue field_timing;
-    @Override public java.lang.String url()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("url");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("url");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: url");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
+    private final org.chromium.sdk.internal.wip.protocol.input.network.SecurityDetailsValue field_securityDetails;
     @Override public java.lang.String requestHeadersText()    {
       java.lang.String result;
       Object value0 = underlying.get("requestHeadersText");
@@ -6489,6 +9631,132 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           result = r1;
         } else {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: mimeType");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.network.SecurityDetailsValue securityDetails() {
+      return field_securityDetails;
+    }
+    @Override public java.lang.String remoteIPAddress()    {
+      java.lang.String result;
+      Object value0 = underlying.get("remoteIPAddress");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("remoteIPAddress");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.String protocol()    {
+      java.lang.String result;
+      Object value0 = underlying.get("protocol");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("protocol");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.String url()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("url");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("url");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: url");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum securityState()    {
+      org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum result;
+      try {
+        Object value0 = underlying.get("securityState");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("securityState");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum r1 = org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field securityState in type org.chromium.sdk.internal.wip.protocol.input.network.ResponseValue", e);
+          }
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: securityState");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Long remotePort()    {
+      java.lang.Long result;
+      Object value0 = underlying.get("remotePort");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("remotePort");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Long r1 = (java.lang.Long) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.Number encodedDataLength()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("encodedDataLength");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("encodedDataLength");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: encodedDataLength");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -6605,14 +9873,142 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public java.lang.Boolean fromServiceWorker()    {
+      java.lang.Boolean result;
+      Object value0 = underlying.get("fromServiceWorker");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("fromServiceWorker");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Boolean r1 = (java.lang.Boolean) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.network.SecurityDetailsValue
+  public static class Value_113 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.SecurityDetailsValue {
+    public static Value_113 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_113(input);
+    }
+    Value_113(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public java.lang.String mac()    {
+      java.lang.String result;
+      Object value0 = underlying.get("mac");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("mac");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.String keyExchange()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("keyExchange");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("keyExchange");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: keyExchange");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String cipher()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("cipher");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("cipher");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: cipher");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String protocol()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("protocol");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("protocol");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: protocol");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public long certificateId()    {
+      java.lang.Long result;
+      try {
+        Object value0 = underlying.get("certificateId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("certificateId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Long r1 = (java.lang.Long) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: certificateId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.WebSocketClosedEventData
-  public static class Value_83 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketClosedEventData {
-    public static Value_83 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_83(input);
+  public static class Value_114 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketClosedEventData {
+    public static Value_114 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_114(input);
     }
-    Value_83(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_114(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String requestId()    {
@@ -6660,11 +10056,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.WebSocketCreatedEventData
-  public static class Value_84 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketCreatedEventData {
-    public static Value_84 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_84(input);
+  public static class Value_115 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketCreatedEventData {
+    public static Value_115 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_115(input);
     }
-    Value_84(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_115(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String requestId()    {
@@ -6712,11 +10108,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameErrorEventData
-  public static class Value_85 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameErrorEventData {
-    public static Value_85 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_85(input);
+  public static class Value_116 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameErrorEventData {
+    public static Value_116 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_116(input);
     }
-    Value_85(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_116(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String requestId()    {
@@ -6785,11 +10181,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameReceivedEventData
-  public static class Value_86 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameReceivedEventData {
-    public static Value_86 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_86(input);
+  public static class Value_117 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameReceivedEventData {
+    public static Value_117 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_117(input);
     }
-    Value_86(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_117(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("response");
@@ -6801,11 +10197,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_88 parsedValue2;
+          Value_119 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_88.parse(value0);
+            parsedValue2 = Value_119.parse(value0);
           }
           this.field_response = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -6864,11 +10260,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameSentEventData
-  public static class Value_87 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameSentEventData {
-    public static Value_87 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_87(input);
+  public static class Value_118 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameSentEventData {
+    public static Value_118 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_118(input);
     }
-    Value_87(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_118(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("response");
@@ -6880,11 +10276,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_88 parsedValue2;
+          Value_119 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_88.parse(value0);
+            parsedValue2 = Value_119.parse(value0);
           }
           this.field_response = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -6943,33 +10339,12 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameValue
-  public static class Value_88 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameValue {
-    public static Value_88 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_88(input);
+  public static class Value_119 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketFrameValue {
+    public static Value_119 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_119(input);
     }
-    Value_88(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_119(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
-    }
-    @Override public java.lang.Number opcode()    {
-      java.lang.Number result;
-      try {
-        Object value0 = underlying.get("opcode");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("opcode");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Number r1 = (java.lang.Number) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: opcode");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
     }
     @Override public java.lang.String payloadData()    {
       java.lang.String result;
@@ -6986,6 +10361,27 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           result = r1;
         } else {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: payloadData");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number opcode()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("opcode");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("opcode");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: opcode");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -7016,11 +10412,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.WebSocketHandshakeResponseReceivedEventData
-  public static class Value_89 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketHandshakeResponseReceivedEventData {
-    public static Value_89 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_89(input);
+  public static class Value_120 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketHandshakeResponseReceivedEventData {
+    public static Value_120 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_120(input);
     }
-    Value_89(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_120(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("response");
@@ -7032,11 +10428,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_91 parsedValue2;
+          Value_122 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_91.parse(value0);
+            parsedValue2 = Value_122.parse(value0);
           }
           this.field_response = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -7095,11 +10491,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.WebSocketRequestValue
-  public static class Value_90 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketRequestValue {
-    public static Value_90 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_90(input);
+  public static class Value_121 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketRequestValue {
+    public static Value_121 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_121(input);
     }
-    Value_90(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_121(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("headers");
@@ -7111,11 +10507,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_71 parsedValue2;
+          Value_103 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_71.parse(value0);
+            parsedValue2 = Value_103.parse(value0);
           }
           this.field_headers = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -7132,11 +10528,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.WebSocketResponseValue
-  public static class Value_91 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketResponseValue {
-    public static Value_91 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_91(input);
+  public static class Value_122 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketResponseValue {
+    public static Value_122 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_122(input);
     }
-    Value_91(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_122(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("headers");
@@ -7148,11 +10544,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_71 parsedValue2;
+          Value_103 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_71.parse(value0);
+            parsedValue2 = Value_103.parse(value0);
           }
           this.field_headers = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -7161,8 +10557,66 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       } else {
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: headers");
       }
+
+      Object value3 = underlying.get("requestHeaders");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("requestHeaders");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          Value_103 parsedValue5;
+          if (value3 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue5 = Value_103.parse(value3);
+          }
+          this.field_requestHeaders = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field requestHeaders", e);
+        }
+      } else {
+        this.field_requestHeaders = null;
+      }
     }
     private final org.chromium.sdk.internal.wip.protocol.input.network.HeadersValue field_headers;
+    private final org.chromium.sdk.internal.wip.protocol.input.network.HeadersValue field_requestHeaders;
+    @Override public java.lang.String headersText()    {
+      java.lang.String result;
+      Object value0 = underlying.get("headersText");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("headersText");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.String requestHeadersText()    {
+      java.lang.String result;
+      Object value0 = underlying.get("requestHeadersText");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("requestHeadersText");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
     @Override public java.lang.Number status()    {
       java.lang.Number result;
       try {
@@ -7186,6 +10640,9 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
     @Override public org.chromium.sdk.internal.wip.protocol.input.network.HeadersValue headers() {
       return field_headers;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.network.HeadersValue requestHeaders() {
+      return field_requestHeaders;
     }
     @Override public java.lang.String statusText()    {
       java.lang.String result;
@@ -7211,11 +10668,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.network.WebSocketWillSendHandshakeRequestEventData
-  public static class Value_92 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketWillSendHandshakeRequestEventData {
-    public static Value_92 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_92(input);
+  public static class Value_123 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.network.WebSocketWillSendHandshakeRequestEventData {
+    public static Value_123 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_123(input);
     }
-    Value_92(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_123(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("request");
@@ -7227,11 +10684,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_90 parsedValue2;
+          Value_121 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_90.parse(value0);
+            parsedValue2 = Value_121.parse(value0);
           }
           this.field_request = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -7257,6 +10714,27 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           result = r1;
         } else {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: timestamp");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number wallTime()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("wallTime");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("wallTime");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: wallTime");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -7290,11 +10768,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.page.AddScriptToEvaluateOnLoadData
-  public static class Value_93 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.AddScriptToEvaluateOnLoadData {
-    public static Value_93 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_93(input);
+  public static class Value_124 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.AddScriptToEvaluateOnLoadData {
+    public static Value_124 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_124(input);
     }
-    Value_93(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_124(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String identifier()    {
@@ -7320,21 +10798,21 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.page.CanContinuouslyPaintData
-  public static class Value_94 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.CanContinuouslyPaintData {
-    public static Value_94 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_94(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.CanScreencastData
+  public static class Value_125 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.CanScreencastData {
+    public static Value_125 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_125(input);
     }
-    Value_94(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_125(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
-    @Override public boolean value()    {
+    @Override public boolean result()    {
       java.lang.Boolean result;
       try {
-        Object value0 = underlying.get("value");
+        Object value0 = underlying.get("result");
         boolean hasValue1;
         if (value0 == null) {
-          hasValue1 = underlying.containsKey("value");
+          hasValue1 = underlying.containsKey("result");
         } else {
           hasValue1 = true;
         }
@@ -7342,38 +10820,7 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           java.lang.Boolean r1 = (java.lang.Boolean) value0;
           result = r1;
         } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: value");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-  }
-
-  // Type org.chromium.sdk.internal.wip.protocol.input.page.CanShowFPSCounterData
-  public static class Value_95 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.CanShowFPSCounterData {
-    public static Value_95 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_95(input);
-    }
-    Value_95(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      super(input);
-    }
-    @Override public boolean show()    {
-      java.lang.Boolean result;
-      try {
-        Object value0 = underlying.get("show");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("show");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Boolean r1 = (java.lang.Boolean) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: show");
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -7383,11 +10830,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.page.CaptureScreenshotData
-  public static class Value_96 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.CaptureScreenshotData {
-    public static Value_96 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_96(input);
+  public static class Value_126 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.CaptureScreenshotData {
+    public static Value_126 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_126(input);
     }
-    Value_96(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_126(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String data()    {
@@ -7413,211 +10860,49 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.page.CookieValue
-  public static class Value_97 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.CookieValue {
-    public static Value_97 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_97(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.ColorPickedEventData
+  public static class Value_127 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.ColorPickedEventData {
+    public static Value_127 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_127(input);
     }
-    Value_97(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_127(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
-    }
-    @Override public java.lang.Number expires()    {
-      java.lang.Number result;
-      try {
-        Object value0 = underlying.get("expires");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("expires");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Number r1 = (java.lang.Number) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: expires");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+
+      Object value0 = underlying.get("color");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("color");
+      } else {
+        hasValue1 = true;
       }
-      return result;
-    }
-    @Override public boolean session()    {
-      java.lang.Boolean result;
-      try {
-        Object value0 = underlying.get("session");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("session");
-        } else {
-          hasValue1 = true;
+      if (hasValue1) {
+        try {
+          Value_84 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_84.parse(value0);
+          }
+          this.field_color = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field color", e);
         }
-        if (hasValue1) {
-          java.lang.Boolean r1 = (java.lang.Boolean) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: session");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: color");
       }
-      return result;
     }
-    @Override public boolean secure()    {
-      java.lang.Boolean result;
-      try {
-        Object value0 = underlying.get("secure");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("secure");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Boolean r1 = (java.lang.Boolean) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: secure");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public java.lang.String path()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("path");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("path");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: path");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public long size()    {
-      java.lang.Long result;
-      try {
-        Object value0 = underlying.get("size");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("size");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Long r1 = (java.lang.Long) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: size");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public java.lang.String domain()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("domain");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("domain");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: domain");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public java.lang.String name()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("name");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("name");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: name");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public boolean httpOnly()    {
-      java.lang.Boolean result;
-      try {
-        Object value0 = underlying.get("httpOnly");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("httpOnly");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Boolean r1 = (java.lang.Boolean) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: httpOnly");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public java.lang.String value()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("value");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("value");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: value");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
+    private final org.chromium.sdk.internal.wip.protocol.input.dom.RGBAValue field_color;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.dom.RGBAValue color() {
+      return field_color;
     }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.page.DomContentEventFiredEventData
-  public static class Value_98 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.DomContentEventFiredEventData {
-    public static Value_98 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_98(input);
+  public static class Value_128 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.DomContentEventFiredEventData {
+    public static Value_128 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_128(input);
     }
-    Value_98(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_128(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.Number timestamp()    {
@@ -7643,12 +10928,64 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.page.FrameClearedScheduledNavigationEventData
-  public static class Value_99 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameClearedScheduledNavigationEventData {
-    public static Value_99 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_99(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.FrameAttachedEventData
+  public static class Value_129 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameAttachedEventData {
+    public static Value_129 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_129(input);
     }
-    Value_99(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_129(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public java.lang.String parentFrameId()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("parentFrameId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("parentFrameId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: parentFrameId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String frameId()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("frameId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("frameId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: frameId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.FrameClearedScheduledNavigationEventData
+  public static class Value_130 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameClearedScheduledNavigationEventData {
+    public static Value_130 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_130(input);
+    }
+    Value_130(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String frameId()    {
@@ -7675,11 +11012,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.page.FrameDetachedEventData
-  public static class Value_100 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameDetachedEventData {
-    public static Value_100 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_100(input);
+  public static class Value_131 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameDetachedEventData {
+    public static Value_131 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_131(input);
     }
-    Value_100(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_131(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String frameId()    {
@@ -7706,11 +11043,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.page.FrameNavigatedEventData
-  public static class Value_101 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameNavigatedEventData {
-    public static Value_101 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_101(input);
+  public static class Value_132 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameNavigatedEventData {
+    public static Value_132 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_132(input);
     }
-    Value_101(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_132(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("frame");
@@ -7722,11 +11059,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_107 parsedValue2;
+          Value_139 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_107.parse(value0);
+            parsedValue2 = Value_139.parse(value0);
           }
           this.field_frame = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -7742,68 +11079,81 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue
-  public static class Value_102 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue {
-    public static Value_102 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_102(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.FrameResizedEventData
+  public static class Value_133 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameResizedEventData {
+    public static Value_133 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_133(input);
     }
-    Value_102(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_133(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public org.json.simple.JSONObject getUnderlyingObject()    {
+      return underlying;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue
+  public static class Value_134 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue {
+    public static Value_134 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_134(input);
+    }
+    Value_134(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("childFrames");
+      Object value0 = underlying.get("frame");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("childFrames");
+        hasValue1 = underlying.containsKey("frame");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          if (value0 instanceof org.json.simple.JSONArray == false) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
-          }
-          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
-          int size4 = arrayValue3.size();
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue>(size4);
-          for (int index6 = 0; index6 < size4; index6++) {
-            Value_102 arrayComponent7;
-            if (arrayValue3.get(index6) == null) {
-              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
-            } else {
-              arrayComponent7 = Value_102.parse(arrayValue3.get(index6));
-            }
-            list5.add(arrayComponent7);
-          }
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
-          this.field_childFrames = parsedValue2;
-        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field childFrames", e);
-        }
-      } else {
-        this.field_childFrames = null;
-      }
-
-      Object value8 = underlying.get("frame");
-      boolean hasValue9;
-      if (value8 == null) {
-        hasValue9 = underlying.containsKey("frame");
-      } else {
-        hasValue9 = true;
-      }
-      if (hasValue9) {
-        try {
-          Value_107 parsedValue10;
-          if (value8 == null) {
+          Value_139 parsedValue2;
+          if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue10 = Value_107.parse(value8);
+            parsedValue2 = Value_139.parse(value0);
           }
-          this.field_frame = parsedValue10;
+          this.field_frame = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field frame", e);
         }
       } else {
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: frame");
+      }
+
+      Object value3 = underlying.get("childFrames");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("childFrames");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          if (value3 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue6 = (org.json.simple.JSONArray) value3;
+          int size7 = arrayValue6.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue>(size7);
+          for (int index9 = 0; index9 < size7; index9++) {
+            Value_134 arrayComponent10;
+            if (arrayValue6.get(index9) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent10 = Value_134.parse(arrayValue6.get(index9));
+            }
+            list8.add(arrayComponent10);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue> parsedValue5 = java.util.Collections.unmodifiableList(list8);
+          this.field_childFrames = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field childFrames", e);
+        }
+      } else {
+        this.field_childFrames = null;
       }
 
       Object value11 = underlying.get("resources");
@@ -7822,11 +11172,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           int size15 = arrayValue14.size();
           java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue.Resources> list16 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue.Resources>(size15);
           for (int index17 = 0; index17 < size15; index17++) {
-            Value_103 arrayComponent18;
+            Value_135 arrayComponent18;
             if (arrayValue14.get(index17) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent18 = Value_103.parse(arrayValue14.get(index17));
+              arrayComponent18 = Value_135.parse(arrayValue14.get(index17));
             }
             list16.add(arrayComponent18);
           }
@@ -7839,8 +11189,8 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: resources");
       }
     }
-    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue> field_childFrames;
     private final org.chromium.sdk.internal.wip.protocol.input.page.FrameValue field_frame;
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue> field_childFrames;
     private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue.Resources> field_resources;
     @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue> childFrames() {
       return field_childFrames;
@@ -7854,11 +11204,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue$Resources
-  public static class Value_103 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue.Resources {
-    public static Value_103 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_103(input);
+  public static class Value_135 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameResourceTreeValue.Resources {
+    public static Value_135 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_135(input);
     }
-    Value_103(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_135(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.Boolean canceled()    {
@@ -7970,11 +11320,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.page.FrameScheduledNavigationEventData
-  public static class Value_104 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameScheduledNavigationEventData {
-    public static Value_104 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_104(input);
+  public static class Value_136 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameScheduledNavigationEventData {
+    public static Value_136 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_136(input);
     }
-    Value_104(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_136(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String frameId()    {
@@ -8022,11 +11372,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.page.FrameStartedLoadingEventData
-  public static class Value_105 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameStartedLoadingEventData {
-    public static Value_105 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_105(input);
+  public static class Value_137 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameStartedLoadingEventData {
+    public static Value_137 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_137(input);
     }
-    Value_105(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_137(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String frameId()    {
@@ -8053,11 +11403,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.page.FrameStoppedLoadingEventData
-  public static class Value_106 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameStoppedLoadingEventData {
-    public static Value_106 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_106(input);
+  public static class Value_138 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameStoppedLoadingEventData {
+    public static Value_138 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_138(input);
     }
-    Value_106(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_138(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String frameId()    {
@@ -8084,11 +11434,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.page.FrameValue
-  public static class Value_107 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameValue {
-    public static Value_107 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_107(input);
+  public static class Value_139 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.FrameValue {
+    public static Value_139 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_139(input);
     }
-    Value_107(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_139(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String id()    {
@@ -8232,43 +11582,12 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.page.GetCompositingBordersVisibleData
-  public static class Value_108 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.GetCompositingBordersVisibleData {
-    public static Value_108 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_108(input);
-    }
-    Value_108(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      super(input);
-    }
-    @Override public boolean result()    {
-      java.lang.Boolean result;
-      try {
-        Object value0 = underlying.get("result");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("result");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Boolean r1 = (java.lang.Boolean) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-  }
-
   // Type org.chromium.sdk.internal.wip.protocol.input.page.GetCookiesData
-  public static class Value_109 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.GetCookiesData {
-    public static Value_109 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_109(input);
+  public static class Value_140 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.GetCookiesData {
+    public static Value_140 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_140(input);
     }
-    Value_109(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_140(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("cookies");
@@ -8285,7 +11604,7 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           }
           final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
           int size4 = arrayValue3.size();
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.CookieValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.page.CookieValue>(size4);
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.network.CookieValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.network.CookieValue>(size4);
           for (int index6 = 0; index6 < size4; index6++) {
             Value_97 arrayComponent7;
             if (arrayValue3.get(index6) == null) {
@@ -8295,7 +11614,7 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
             }
             list5.add(arrayComponent7);
           }
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.CookieValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.network.CookieValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
           this.field_cookies = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field cookies", e);
@@ -8304,39 +11623,86 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: cookies");
       }
     }
-    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.CookieValue> field_cookies;
-    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.CookieValue> cookies() {
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.network.CookieValue> field_cookies;
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.network.CookieValue> cookies() {
       return field_cookies;
     }
-    @Override public java.lang.String cookiesString()    {
-      java.lang.String result;
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.GetNavigationHistoryData
+  public static class Value_141 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.GetNavigationHistoryData {
+    public static Value_141 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_141(input);
+    }
+    Value_141(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("entries");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("entries");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          if (value0 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
+          int size4 = arrayValue3.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.NavigationEntryValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.page.NavigationEntryValue>(size4);
+          for (int index6 = 0; index6 < size4; index6++) {
+            Value_150 arrayComponent7;
+            if (arrayValue3.get(index6) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent7 = Value_150.parse(arrayValue3.get(index6));
+            }
+            list5.add(arrayComponent7);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.NavigationEntryValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          this.field_entries = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field entries", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: entries");
+      }
+    }
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.NavigationEntryValue> field_entries;
+    @Override public long currentIndex()    {
+      java.lang.Long result;
       try {
-        Object value0 = underlying.get("cookiesString");
+        Object value0 = underlying.get("currentIndex");
         boolean hasValue1;
         if (value0 == null) {
-          hasValue1 = underlying.containsKey("cookiesString");
+          hasValue1 = underlying.containsKey("currentIndex");
         } else {
           hasValue1 = true;
         }
         if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
+          java.lang.Long r1 = (java.lang.Long) value0;
           result = r1;
         } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: cookiesString");
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: currentIndex");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
       }
       return result;
     }
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.NavigationEntryValue> entries() {
+      return field_entries;
+    }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.page.GetResourceContentData
-  public static class Value_110 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.GetResourceContentData {
-    public static Value_110 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_110(input);
+  public static class Value_142 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.GetResourceContentData {
+    public static Value_142 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_142(input);
     }
-    Value_110(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_142(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public boolean base64Encoded()    {
@@ -8384,11 +11750,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.page.GetResourceTreeData
-  public static class Value_111 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.GetResourceTreeData {
-    public static Value_111 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_111(input);
+  public static class Value_143 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.GetResourceTreeData {
+    public static Value_143 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_143(input);
     }
-    Value_111(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_143(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("frameTree");
@@ -8400,11 +11766,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_102 parsedValue2;
+          Value_134 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_102.parse(value0);
+            parsedValue2 = Value_134.parse(value0);
           }
           this.field_frameTree = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -8420,16 +11786,42 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.page.GetScriptExecutionStatusData
-  public static class Value_112 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.GetScriptExecutionStatusData {
-    public static Value_112 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_112(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.InterstitialHiddenEventData
+  public static class Value_144 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.InterstitialHiddenEventData {
+    public static Value_144 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_144(input);
     }
-    Value_112(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_144(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
-    @Override public org.chromium.sdk.internal.wip.protocol.input.page.GetScriptExecutionStatusData.Result result()    {
-      org.chromium.sdk.internal.wip.protocol.input.page.GetScriptExecutionStatusData.Result result;
+    @Override public org.json.simple.JSONObject getUnderlyingObject()    {
+      return underlying;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.InterstitialShownEventData
+  public static class Value_145 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.InterstitialShownEventData {
+    public static Value_145 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_145(input);
+    }
+    Value_145(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public org.json.simple.JSONObject getUnderlyingObject()    {
+      return underlying;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.JavascriptDialogClosedEventData
+  public static class Value_146 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.JavascriptDialogClosedEventData {
+    public static Value_146 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_146(input);
+    }
+    Value_146(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public boolean result()    {
+      java.lang.Boolean result;
       try {
         Object value0 = underlying.get("result");
         boolean hasValue1;
@@ -8439,17 +11831,8 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           hasValue1 = true;
         }
         if (hasValue1) {
-          try {
-            if (value0 instanceof String == false) {
-              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
-            }
-            String stringValue = (String) value0;
-            stringValue = stringValue.toUpperCase();
-            org.chromium.sdk.internal.wip.protocol.input.page.GetScriptExecutionStatusData.Result r1 = org.chromium.sdk.internal.wip.protocol.input.page.GetScriptExecutionStatusData.Result.valueOf(stringValue);
-            result = r1;
-          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result in type org.chromium.sdk.internal.wip.protocol.input.page.GetScriptExecutionStatusData", e);
-          }
+          java.lang.Boolean r1 = (java.lang.Boolean) value0;
+          result = r1;
         } else {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
         }
@@ -8460,26 +11843,43 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.page.JavascriptDialogClosedEventData
-  public static class Value_113 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.JavascriptDialogClosedEventData {
-    public static Value_113 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_113(input);
-    }
-    Value_113(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      super(input);
-    }
-    @Override public org.json.simple.JSONObject getUnderlyingObject()    {
-      return underlying;
-    }
-  }
-
   // Type org.chromium.sdk.internal.wip.protocol.input.page.JavascriptDialogOpeningEventData
-  public static class Value_114 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.JavascriptDialogOpeningEventData {
-    public static Value_114 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_114(input);
+  public static class Value_147 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.JavascriptDialogOpeningEventData {
+    public static Value_147 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_147(input);
     }
-    Value_114(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_147(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.page.DialogTypeEnum type()    {
+      org.chromium.sdk.internal.wip.protocol.input.page.DialogTypeEnum result;
+      try {
+        Object value0 = underlying.get("type");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("type");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.page.DialogTypeEnum r1 = org.chromium.sdk.internal.wip.protocol.input.page.DialogTypeEnum.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field type in type org.chromium.sdk.internal.wip.protocol.input.page.JavascriptDialogOpeningEventData", e);
+          }
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: type");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
     }
     @Override public java.lang.String message()    {
       java.lang.String result;
@@ -8505,11 +11905,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.page.LoadEventFiredEventData
-  public static class Value_115 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.LoadEventFiredEventData {
-    public static Value_115 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_115(input);
+  public static class Value_148 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.LoadEventFiredEventData {
+    public static Value_148 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_148(input);
     }
-    Value_115(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_148(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.Number timestamp()    {
@@ -8535,189 +11935,12 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.page.ScriptsEnabledEventData
-  public static class Value_116 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.ScriptsEnabledEventData {
-    public static Value_116 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_116(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.NavigateData
+  public static class Value_149 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.NavigateData {
+    public static Value_149 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_149(input);
     }
-    Value_116(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      super(input);
-    }
-    @Override public boolean isEnabled()    {
-      java.lang.Boolean result;
-      try {
-        Object value0 = underlying.get("isEnabled");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("isEnabled");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Boolean r1 = (java.lang.Boolean) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: isEnabled");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-  }
-
-  // Type org.chromium.sdk.internal.wip.protocol.input.page.SearchInResourceData
-  public static class Value_117 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.SearchInResourceData {
-    public static Value_117 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_117(input);
-    }
-    Value_117(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      super(input);
-
-      Object value0 = underlying.get("result");
-      boolean hasValue1;
-      if (value0 == null) {
-        hasValue1 = underlying.containsKey("result");
-      } else {
-        hasValue1 = true;
-      }
-      if (hasValue1) {
-        try {
-          if (value0 instanceof org.json.simple.JSONArray == false) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
-          }
-          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
-          int size4 = arrayValue3.size();
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.SearchMatchValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.page.SearchMatchValue>(size4);
-          for (int index6 = 0; index6 < size4; index6++) {
-            Value_119 arrayComponent7;
-            if (arrayValue3.get(index6) == null) {
-              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
-            } else {
-              arrayComponent7 = Value_119.parse(arrayValue3.get(index6));
-            }
-            list5.add(arrayComponent7);
-          }
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.SearchMatchValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
-          this.field_result = parsedValue2;
-        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result", e);
-        }
-      } else {
-        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
-      }
-    }
-    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.SearchMatchValue> field_result;
-    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.SearchMatchValue> result() {
-      return field_result;
-    }
-  }
-
-  // Type org.chromium.sdk.internal.wip.protocol.input.page.SearchInResourcesData
-  public static class Value_118 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.SearchInResourcesData {
-    public static Value_118 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_118(input);
-    }
-    Value_118(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      super(input);
-
-      Object value0 = underlying.get("result");
-      boolean hasValue1;
-      if (value0 == null) {
-        hasValue1 = underlying.containsKey("result");
-      } else {
-        hasValue1 = true;
-      }
-      if (hasValue1) {
-        try {
-          if (value0 instanceof org.json.simple.JSONArray == false) {
-            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
-          }
-          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
-          int size4 = arrayValue3.size();
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.SearchResultValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.page.SearchResultValue>(size4);
-          for (int index6 = 0; index6 < size4; index6++) {
-            Value_120 arrayComponent7;
-            if (arrayValue3.get(index6) == null) {
-              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
-            } else {
-              arrayComponent7 = Value_120.parse(arrayValue3.get(index6));
-            }
-            list5.add(arrayComponent7);
-          }
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.SearchResultValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
-          this.field_result = parsedValue2;
-        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result", e);
-        }
-      } else {
-        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
-      }
-    }
-    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.SearchResultValue> field_result;
-    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.SearchResultValue> result() {
-      return field_result;
-    }
-  }
-
-  // Type org.chromium.sdk.internal.wip.protocol.input.page.SearchMatchValue
-  public static class Value_119 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.SearchMatchValue {
-    public static Value_119 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_119(input);
-    }
-    Value_119(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      super(input);
-    }
-    @Override public java.lang.Number lineNumber()    {
-      java.lang.Number result;
-      try {
-        Object value0 = underlying.get("lineNumber");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("lineNumber");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Number r1 = (java.lang.Number) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: lineNumber");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-    @Override public java.lang.String lineContent()    {
-      java.lang.String result;
-      try {
-        Object value0 = underlying.get("lineContent");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("lineContent");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.String r1 = (java.lang.String) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: lineContent");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
-  }
-
-  // Type org.chromium.sdk.internal.wip.protocol.input.page.SearchResultValue
-  public static class Value_120 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.SearchResultValue {
-    public static Value_120 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_120(input);
-    }
-    Value_120(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_149(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
     }
     @Override public java.lang.String frameId()    {
@@ -8741,21 +11964,31 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public java.lang.Number matchesCount()    {
-      java.lang.Number result;
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.NavigationEntryValue
+  public static class Value_150 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.NavigationEntryValue {
+    public static Value_150 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_150(input);
+    }
+    Value_150(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public long id()    {
+      java.lang.Long result;
       try {
-        Object value0 = underlying.get("matchesCount");
+        Object value0 = underlying.get("id");
         boolean hasValue1;
         if (value0 == null) {
-          hasValue1 = underlying.containsKey("matchesCount");
+          hasValue1 = underlying.containsKey("id");
         } else {
           hasValue1 = true;
         }
         if (hasValue1) {
-          java.lang.Number r1 = (java.lang.Number) value0;
+          java.lang.Long r1 = (java.lang.Long) value0;
           result = r1;
         } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: matchesCount");
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: id");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -8783,14 +12016,294 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public java.lang.String title()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("title");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("title");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: title");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.runtime.CallFunctionOnData
-  public static class Value_121 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.CallFunctionOnData {
-    public static Value_121 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_121(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.ScreencastFrameEventData
+  public static class Value_151 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.ScreencastFrameEventData {
+    public static Value_151 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_151(input);
     }
-    Value_121(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_151(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("metadata");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("metadata");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_152 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_152.parse(value0);
+          }
+          this.field_metadata = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field metadata", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: metadata");
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.page.ScreencastFrameMetadataValue field_metadata;
+    @Override public java.lang.String data()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("data");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("data");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: data");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.page.ScreencastFrameMetadataValue metadata() {
+      return field_metadata;
+    }
+    @Override public java.lang.Long frameNumber()    {
+      java.lang.Long result;
+      Object value0 = underlying.get("frameNumber");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("frameNumber");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Long r1 = (java.lang.Long) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.ScreencastFrameMetadataValue
+  public static class Value_152 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.ScreencastFrameMetadataValue {
+    public static Value_152 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_152(input);
+    }
+    Value_152(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public java.lang.Number deviceHeight()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("deviceHeight");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("deviceHeight");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: deviceHeight");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number deviceWidth()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("deviceWidth");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("deviceWidth");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: deviceWidth");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number offsetTop()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("offsetTop");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("offsetTop");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: offsetTop");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number timestamp()    {
+      java.lang.Number result;
+      Object value0 = underlying.get("timestamp");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("timestamp");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Number r1 = (java.lang.Number) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.Number pageScaleFactor()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("pageScaleFactor");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("pageScaleFactor");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: pageScaleFactor");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number scrollOffsetX()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("scrollOffsetX");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("scrollOffsetX");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: scrollOffsetX");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.Number scrollOffsetY()    {
+      java.lang.Number result;
+      try {
+        Object value0 = underlying.get("scrollOffsetY");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("scrollOffsetY");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Number r1 = (java.lang.Number) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: scrollOffsetY");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.ScreencastVisibilityChangedEventData
+  public static class Value_153 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.ScreencastVisibilityChangedEventData {
+    public static Value_153 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_153(input);
+    }
+    Value_153(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public boolean visible()    {
+      java.lang.Boolean result;
+      try {
+        Object value0 = underlying.get("visible");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("visible");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Boolean r1 = (java.lang.Boolean) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: visible");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.page.SearchInResourceData
+  public static class Value_154 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.page.SearchInResourceData {
+    public static Value_154 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_154(input);
+    }
+    Value_154(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("result");
@@ -8802,11 +12315,58 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_130 parsedValue2;
+          if (value0 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
+          int size4 = arrayValue3.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.SearchMatchValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.debugger.SearchMatchValue>(size4);
+          for (int index6 = 0; index6 < size4; index6++) {
+            Value_47 arrayComponent7;
+            if (arrayValue3.get(index6) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent7 = Value_47.parse(arrayValue3.get(index6));
+            }
+            list5.add(arrayComponent7);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.SearchMatchValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          this.field_result = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
+      }
+    }
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.SearchMatchValue> field_result;
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.SearchMatchValue> result() {
+      return field_result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.runtime.CallFunctionOnData
+  public static class Value_155 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.CallFunctionOnData {
+    public static Value_155 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_155(input);
+    }
+    Value_155(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("result");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("result");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_169 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_130.parse(value0);
+            parsedValue2 = Value_169.parse(value0);
           }
           this.field_result = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -8839,30 +12399,207 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.runtime.EvaluateData
-  public static class Value_122 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.EvaluateData {
-    public static Value_122 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_122(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.runtime.CustomPreviewValue
+  public static class Value_156 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.CustomPreviewValue {
+    public static Value_156 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_156(input);
     }
-    Value_122(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_156(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
-
-      Object value0 = underlying.get("result");
+    }
+    @Override public boolean hasBody()    {
+      java.lang.Boolean result;
+      try {
+        Object value0 = underlying.get("hasBody");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("hasBody");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Boolean r1 = (java.lang.Boolean) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: hasBody");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String configObjectId()    {
+      java.lang.String result;
+      Object value0 = underlying.get("configObjectId");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("result");
+        hasValue1 = underlying.containsKey("configObjectId");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.String formatterObjectId()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("formatterObjectId");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("formatterObjectId");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: formatterObjectId");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String header()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("header");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("header");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: header");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.runtime.EntryPreviewValue
+  public static class Value_157 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.EntryPreviewValue {
+    public static Value_157 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_157(input);
+    }
+    Value_157(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("value");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("value");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          Value_130 parsedValue2;
+          Value_166 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_130.parse(value0);
+            parsedValue2 = Value_166.parse(value0);
           }
-          this.field_result = parsedValue2;
+          this.field_value = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field value", e);
+        }
+      } else {
+        throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: value");
+      }
+
+      Object value3 = underlying.get("key");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("key");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          Value_166 parsedValue5;
+          if (value3 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue5 = Value_166.parse(value3);
+          }
+          this.field_key = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field key", e);
+        }
+      } else {
+        this.field_key = null;
+      }
+    }
+    private final org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue field_value;
+    private final org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue field_key;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue value() {
+      return field_value;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue key() {
+      return field_key;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.runtime.EvaluateData
+  public static class Value_158 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.EvaluateData {
+    public static Value_158 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_158(input);
+    }
+    Value_158(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("exceptionDetails");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("exceptionDetails");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          Value_24 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_24.parse(value0);
+          }
+          this.field_exceptionDetails = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field exceptionDetails", e);
+        }
+      } else {
+        this.field_exceptionDetails = null;
+      }
+
+      Object value3 = underlying.get("result");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("result");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          Value_169 parsedValue5;
+          if (value3 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue5 = Value_169.parse(value3);
+          }
+          this.field_result = parsedValue5;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result", e);
         }
@@ -8870,7 +12607,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
       }
     }
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.ExceptionDetailsValue field_exceptionDetails;
     private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_result;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.ExceptionDetailsValue exceptionDetails() {
+      return field_exceptionDetails;
+    }
     @Override public java.lang.Boolean wasThrown()    {
       java.lang.Boolean result;
       Object value0 = underlying.get("wasThrown");
@@ -8894,11 +12635,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.runtime.ExecutionContextCreatedEventData
-  public static class Value_123 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.ExecutionContextCreatedEventData {
-    public static Value_123 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_123(input);
+  public static class Value_159 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.ExecutionContextCreatedEventData {
+    public static Value_159 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_159(input);
     }
-    Value_123(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_159(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("context");
@@ -8910,11 +12651,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_124 parsedValue2;
+          Value_160 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_124.parse(value0);
+            parsedValue2 = Value_160.parse(value0);
           }
           this.field_context = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -8931,12 +12672,29 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.runtime.ExecutionContextDescriptionValue
-  public static class Value_124 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.ExecutionContextDescriptionValue {
-    public static Value_124 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_124(input);
+  public static class Value_160 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.ExecutionContextDescriptionValue {
+    public static Value_160 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_160(input);
     }
-    Value_124(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_160(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
+    }
+    @Override public java.lang.String type()    {
+      java.lang.String result;
+      Object value0 = underlying.get("type");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("type");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
     }
     @Override public long id()    {
       java.lang.Long result;
@@ -8980,6 +12738,27 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public java.lang.String origin()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("origin");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("origin");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: origin");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
     @Override public java.lang.String frameId()    {
       java.lang.String result;
       try {
@@ -9001,21 +12780,31 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
-    @Override public boolean isPageContext()    {
-      java.lang.Boolean result;
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.runtime.ExecutionContextDestroyedEventData
+  public static class Value_161 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.ExecutionContextDestroyedEventData {
+    public static Value_161 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_161(input);
+    }
+    Value_161(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public long executionContextId()    {
+      java.lang.Long result;
       try {
-        Object value0 = underlying.get("isPageContext");
+        Object value0 = underlying.get("executionContextId");
         boolean hasValue1;
         if (value0 == null) {
-          hasValue1 = underlying.containsKey("isPageContext");
+          hasValue1 = underlying.containsKey("executionContextId");
         } else {
           hasValue1 = true;
         }
         if (hasValue1) {
-          java.lang.Boolean r1 = (java.lang.Boolean) value0;
+          java.lang.Long r1 = (java.lang.Long) value0;
           result = r1;
         } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: isPageContext");
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: executionContextId");
         }
       } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
@@ -9024,40 +12813,76 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.runtime.GetPropertiesData
-  public static class Value_125 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.GetPropertiesData {
-    public static Value_125 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_125(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.runtime.ExecutionContextsClearedEventData
+  public static class Value_162 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.ExecutionContextsClearedEventData {
+    public static Value_162 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_162(input);
     }
-    Value_125(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_162(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public org.json.simple.JSONObject getUnderlyingObject()    {
+      return underlying;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.runtime.GetPropertiesData
+  public static class Value_163 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.GetPropertiesData {
+    public static Value_163 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_163(input);
+    }
+    Value_163(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("internalProperties");
+      Object value0 = underlying.get("exceptionDetails");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("internalProperties");
+        hasValue1 = underlying.containsKey("exceptionDetails");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          if (value0 instanceof org.json.simple.JSONArray == false) {
+          Value_24 parsedValue2;
+          if (value0 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue2 = Value_24.parse(value0);
+          }
+          this.field_exceptionDetails = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field exceptionDetails", e);
+        }
+      } else {
+        this.field_exceptionDetails = null;
+      }
+
+      Object value3 = underlying.get("internalProperties");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("internalProperties");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          if (value3 instanceof org.json.simple.JSONArray == false) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
           }
-          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
-          int size4 = arrayValue3.size();
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.InternalPropertyDescriptorValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.runtime.InternalPropertyDescriptorValue>(size4);
-          for (int index6 = 0; index6 < size4; index6++) {
-            Value_126 arrayComponent7;
-            if (arrayValue3.get(index6) == null) {
+          final org.json.simple.JSONArray arrayValue6 = (org.json.simple.JSONArray) value3;
+          int size7 = arrayValue6.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.InternalPropertyDescriptorValue> list8 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.runtime.InternalPropertyDescriptorValue>(size7);
+          for (int index9 = 0; index9 < size7; index9++) {
+            Value_164 arrayComponent10;
+            if (arrayValue6.get(index9) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent7 = Value_126.parse(arrayValue3.get(index6));
+              arrayComponent10 = Value_164.parse(arrayValue6.get(index9));
             }
-            list5.add(arrayComponent7);
+            list8.add(arrayComponent10);
           }
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.InternalPropertyDescriptorValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
-          this.field_internalProperties = parsedValue2;
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.InternalPropertyDescriptorValue> parsedValue5 = java.util.Collections.unmodifiableList(list8);
+          this.field_internalProperties = parsedValue5;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field internalProperties", e);
         }
@@ -9065,32 +12890,32 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         this.field_internalProperties = null;
       }
 
-      Object value8 = underlying.get("result");
-      boolean hasValue9;
-      if (value8 == null) {
-        hasValue9 = underlying.containsKey("result");
+      Object value11 = underlying.get("result");
+      boolean hasValue12;
+      if (value11 == null) {
+        hasValue12 = underlying.containsKey("result");
       } else {
-        hasValue9 = true;
+        hasValue12 = true;
       }
-      if (hasValue9) {
+      if (hasValue12) {
         try {
-          if (value8 instanceof org.json.simple.JSONArray == false) {
+          if (value11 instanceof org.json.simple.JSONArray == false) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
           }
-          final org.json.simple.JSONArray arrayValue11 = (org.json.simple.JSONArray) value8;
-          int size12 = arrayValue11.size();
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyDescriptorValue> list13 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyDescriptorValue>(size12);
-          for (int index14 = 0; index14 < size12; index14++) {
-            Value_128 arrayComponent15;
-            if (arrayValue11.get(index14) == null) {
+          final org.json.simple.JSONArray arrayValue14 = (org.json.simple.JSONArray) value11;
+          int size15 = arrayValue14.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyDescriptorValue> list16 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyDescriptorValue>(size15);
+          for (int index17 = 0; index17 < size15; index17++) {
+            Value_167 arrayComponent18;
+            if (arrayValue14.get(index17) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent15 = Value_128.parse(arrayValue11.get(index14));
+              arrayComponent18 = Value_167.parse(arrayValue14.get(index17));
             }
-            list13.add(arrayComponent15);
+            list16.add(arrayComponent18);
           }
-          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyDescriptorValue> parsedValue10 = java.util.Collections.unmodifiableList(list13);
-          this.field_result = parsedValue10;
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyDescriptorValue> parsedValue13 = java.util.Collections.unmodifiableList(list16);
+          this.field_result = parsedValue13;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field result", e);
         }
@@ -9098,8 +12923,12 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
       }
     }
+    private final org.chromium.sdk.internal.wip.protocol.input.debugger.ExceptionDetailsValue field_exceptionDetails;
     private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.InternalPropertyDescriptorValue> field_internalProperties;
     private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyDescriptorValue> field_result;
+    @Override public org.chromium.sdk.internal.wip.protocol.input.debugger.ExceptionDetailsValue exceptionDetails() {
+      return field_exceptionDetails;
+    }
     @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.InternalPropertyDescriptorValue> internalProperties() {
       return field_internalProperties;
     }
@@ -9109,11 +12938,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.runtime.InternalPropertyDescriptorValue
-  public static class Value_126 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.InternalPropertyDescriptorValue {
-    public static Value_126 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_126(input);
+  public static class Value_164 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.InternalPropertyDescriptorValue {
+    public static Value_164 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_164(input);
     }
-    Value_126(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_164(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("value");
@@ -9125,11 +12954,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_130 parsedValue2;
+          Value_169 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_130.parse(value0);
+            parsedValue2 = Value_169.parse(value0);
           }
           this.field_value = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -9166,12 +12995,43 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
     }
   }
 
-  // Type org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue
-  public static class Value_127 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue {
-    public static Value_127 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_127(input);
+  // Type org.chromium.sdk.internal.wip.protocol.input.runtime.IsRunRequiredData
+  public static class Value_165 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.IsRunRequiredData {
+    public static Value_165 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_165(input);
     }
-    Value_127(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_165(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public boolean result()    {
+      java.lang.Boolean result;
+      try {
+        Object value0 = underlying.get("result");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("result");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Boolean r1 = (java.lang.Boolean) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: result");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue
+  public static class Value_166 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue {
+    public static Value_166 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_166(input);
+    }
+    Value_166(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("properties");
@@ -9190,11 +13050,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
           int size4 = arrayValue3.size();
           java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyPreviewValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyPreviewValue>(size4);
           for (int index6 = 0; index6 < size4; index6++) {
-            Value_129 arrayComponent7;
+            Value_168 arrayComponent7;
             if (arrayValue3.get(index6) == null) {
               throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
             } else {
-              arrayComponent7 = Value_129.parse(arrayValue3.get(index6));
+              arrayComponent7 = Value_168.parse(arrayValue3.get(index6));
             }
             list5.add(arrayComponent7);
           }
@@ -9206,31 +13066,47 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       } else {
         throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: properties");
       }
+
+      Object value8 = underlying.get("entries");
+      boolean hasValue9;
+      if (value8 == null) {
+        hasValue9 = underlying.containsKey("entries");
+      } else {
+        hasValue9 = true;
+      }
+      if (hasValue9) {
+        try {
+          if (value8 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue11 = (org.json.simple.JSONArray) value8;
+          int size12 = arrayValue11.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.EntryPreviewValue> list13 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.runtime.EntryPreviewValue>(size12);
+          for (int index14 = 0; index14 < size12; index14++) {
+            Value_157 arrayComponent15;
+            if (arrayValue11.get(index14) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent15 = Value_157.parse(arrayValue11.get(index14));
+            }
+            list13.add(arrayComponent15);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.EntryPreviewValue> parsedValue10 = java.util.Collections.unmodifiableList(list13);
+          this.field_entries = parsedValue10;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field entries", e);
+        }
+      } else {
+        this.field_entries = null;
+      }
     }
     private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyPreviewValue> field_properties;
-    @Override public boolean lossless()    {
-      java.lang.Boolean result;
-      try {
-        Object value0 = underlying.get("lossless");
-        boolean hasValue1;
-        if (value0 == null) {
-          hasValue1 = underlying.containsKey("lossless");
-        } else {
-          hasValue1 = true;
-        }
-        if (hasValue1) {
-          java.lang.Boolean r1 = (java.lang.Boolean) value0;
-          result = r1;
-        } else {
-          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: lossless");
-        }
-      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
-        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
-      }
-      return result;
-    }
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.EntryPreviewValue> field_entries;
     @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyPreviewValue> properties() {
       return field_properties;
+    }
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.EntryPreviewValue> entries() {
+      return field_entries;
     }
     @Override public boolean overflow()    {
       java.lang.Boolean result;
@@ -9253,32 +13129,153 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue.Subtype subtype()    {
+      org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue.Subtype result;
+      try {
+        Object value0 = underlying.get("subtype");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("subtype");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue.Subtype r1 = org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue.Subtype.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field subtype in type org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue", e);
+          }
+        } else {
+          result = null;
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public boolean lossless()    {
+      java.lang.Boolean result;
+      try {
+        Object value0 = underlying.get("lossless");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("lossless");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Boolean r1 = (java.lang.Boolean) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: lossless");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String description()    {
+      java.lang.String result;
+      Object value0 = underlying.get("description");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("description");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.String r1 = (java.lang.String) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue.Type type()    {
+      org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue.Type result;
+      try {
+        Object value0 = underlying.get("type");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("type");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue.Type r1 = org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue.Type.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field type in type org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue", e);
+          }
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: type");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyDescriptorValue
-  public static class Value_128 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyDescriptorValue {
-    public static Value_128 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_128(input);
+  public static class Value_167 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyDescriptorValue {
+    public static Value_167 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_167(input);
     }
-    Value_128(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_167(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
-      Object value0 = underlying.get("get");
+      Object value0 = underlying.get("symbol");
       boolean hasValue1;
       if (value0 == null) {
-        hasValue1 = underlying.containsKey("get");
+        hasValue1 = underlying.containsKey("symbol");
       } else {
         hasValue1 = true;
       }
       if (hasValue1) {
         try {
-          Value_130 parsedValue2;
+          Value_169 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_130.parse(value0);
+            parsedValue2 = Value_169.parse(value0);
           }
-          this.field_get = parsedValue2;
+          this.field_symbol = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field symbol", e);
+        }
+      } else {
+        this.field_symbol = null;
+      }
+
+      Object value3 = underlying.get("get");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("get");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          Value_169 parsedValue5;
+          if (value3 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue5 = Value_169.parse(value3);
+          }
+          this.field_get = parsedValue5;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field get", e);
         }
@@ -9286,22 +13283,22 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         this.field_get = null;
       }
 
-      Object value3 = underlying.get("value");
-      boolean hasValue4;
-      if (value3 == null) {
-        hasValue4 = underlying.containsKey("value");
+      Object value6 = underlying.get("value");
+      boolean hasValue7;
+      if (value6 == null) {
+        hasValue7 = underlying.containsKey("value");
       } else {
-        hasValue4 = true;
+        hasValue7 = true;
       }
-      if (hasValue4) {
+      if (hasValue7) {
         try {
-          Value_130 parsedValue5;
-          if (value3 == null) {
+          Value_169 parsedValue8;
+          if (value6 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue5 = Value_130.parse(value3);
+            parsedValue8 = Value_169.parse(value6);
           }
-          this.field_value = parsedValue5;
+          this.field_value = parsedValue8;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field value", e);
         }
@@ -9309,22 +13306,22 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         this.field_value = null;
       }
 
-      Object value6 = underlying.get("set");
-      boolean hasValue7;
-      if (value6 == null) {
-        hasValue7 = underlying.containsKey("set");
+      Object value9 = underlying.get("set");
+      boolean hasValue10;
+      if (value9 == null) {
+        hasValue10 = underlying.containsKey("set");
       } else {
-        hasValue7 = true;
+        hasValue10 = true;
       }
-      if (hasValue7) {
+      if (hasValue10) {
         try {
-          Value_130 parsedValue8;
-          if (value6 == null) {
+          Value_169 parsedValue11;
+          if (value9 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue8 = Value_130.parse(value6);
+            parsedValue11 = Value_169.parse(value9);
           }
-          this.field_set = parsedValue8;
+          this.field_set = parsedValue11;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
           throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field set", e);
         }
@@ -9332,6 +13329,7 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         this.field_set = null;
       }
     }
+    private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_symbol;
     private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_get;
     private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_value;
     private final org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue field_set;
@@ -9372,6 +13370,9 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       return result;
     }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue symbol() {
+      return field_symbol;
+    }
     @Override public java.lang.Boolean writable()    {
       java.lang.Boolean result;
       Object value0 = underlying.get("writable");
@@ -9388,9 +13389,6 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         result = null;
       }
       return result;
-    }
-    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue get() {
-      return field_get;
     }
     @Override public boolean enumerable()    {
       java.lang.Boolean result;
@@ -9412,6 +13410,9 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
       }
       return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue get() {
+      return field_get;
     }
     @Override public boolean configurable()    {
       java.lang.Boolean result;
@@ -9461,11 +13462,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyPreviewValue
-  public static class Value_129 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyPreviewValue {
-    public static Value_129 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_129(input);
+  public static class Value_168 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyPreviewValue {
+    public static Value_168 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_168(input);
     }
-    Value_129(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_168(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("valuePreview");
@@ -9477,11 +13478,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_127 parsedValue2;
+          Value_166 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_127.parse(value0);
+            parsedValue2 = Value_166.parse(value0);
           }
           this.field_valuePreview = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -9596,11 +13597,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
   }
 
   // Type org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue
-  public static class Value_130 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue {
-    public static Value_130 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
-      return new Value_130(input);
+  public static class Value_169 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue {
+    public static Value_169 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_169(input);
     }
-    Value_130(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+    Value_169(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
       super(input);
 
       Object value0 = underlying.get("preview");
@@ -9612,11 +13613,11 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       }
       if (hasValue1) {
         try {
-          Value_127 parsedValue2;
+          Value_166 parsedValue2;
           if (value0 == null) {
             throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
           } else {
-            parsedValue2 = Value_127.parse(value0);
+            parsedValue2 = Value_166.parse(value0);
           }
           this.field_preview = parsedValue2;
         } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
@@ -9625,8 +13626,32 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
       } else {
         this.field_preview = null;
       }
+
+      Object value3 = underlying.get("customPreview");
+      boolean hasValue4;
+      if (value3 == null) {
+        hasValue4 = underlying.containsKey("customPreview");
+      } else {
+        hasValue4 = true;
+      }
+      if (hasValue4) {
+        try {
+          Value_156 parsedValue5;
+          if (value3 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue5 = Value_156.parse(value3);
+          }
+          this.field_customPreview = parsedValue5;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field customPreview", e);
+        }
+      } else {
+        this.field_customPreview = null;
+      }
     }
     private final org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue field_preview;
+    private final org.chromium.sdk.internal.wip.protocol.input.runtime.CustomPreviewValue field_customPreview;
     @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue.Subtype subtype()    {
       org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue.Subtype result;
       try {
@@ -9690,6 +13715,9 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         result = null;
       }
       return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.CustomPreviewValue customPreview() {
+      return field_customPreview;
     }
     @Override public org.chromium.sdk.internal.wip.protocol.input.runtime.ObjectPreviewValue preview() {
       return field_preview;
@@ -9755,6 +13783,338 @@ public class GeneratedWipProtocolParser implements org.chromium.sdk.internal.wip
         result = r1;
       } else {
         result = null;
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.security.MixedContentStatusValue
+  public static class Value_170 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.security.MixedContentStatusValue {
+    public static Value_170 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_170(input);
+    }
+    Value_170(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum displayedInsecureContentStyle()    {
+      org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum result;
+      try {
+        Object value0 = underlying.get("displayedInsecureContentStyle");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("displayedInsecureContentStyle");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum r1 = org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field displayedInsecureContentStyle in type org.chromium.sdk.internal.wip.protocol.input.security.MixedContentStatusValue", e);
+          }
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: displayedInsecureContentStyle");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum ranInsecureContentStyle()    {
+      org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum result;
+      try {
+        Object value0 = underlying.get("ranInsecureContentStyle");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("ranInsecureContentStyle");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum r1 = org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field ranInsecureContentStyle in type org.chromium.sdk.internal.wip.protocol.input.security.MixedContentStatusValue", e);
+          }
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: ranInsecureContentStyle");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public boolean displayedInsecureContent()    {
+      java.lang.Boolean result;
+      try {
+        Object value0 = underlying.get("displayedInsecureContent");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("displayedInsecureContent");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Boolean r1 = (java.lang.Boolean) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: displayedInsecureContent");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public boolean ranInsecureContent()    {
+      java.lang.Boolean result;
+      try {
+        Object value0 = underlying.get("ranInsecureContent");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("ranInsecureContent");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.Boolean r1 = (java.lang.Boolean) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: ranInsecureContent");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateChangedEventData
+  public static class Value_171 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateChangedEventData {
+    public static Value_171 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_171(input);
+    }
+    Value_171(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+
+      Object value0 = underlying.get("explanations");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("explanations");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        try {
+          if (value0 instanceof org.json.simple.JSONArray == false) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Array value expected");
+          }
+          final org.json.simple.JSONArray arrayValue3 = (org.json.simple.JSONArray) value0;
+          int size4 = arrayValue3.size();
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateExplanationValue> list5 = new java.util.ArrayList<org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateExplanationValue>(size4);
+          for (int index6 = 0; index6 < size4; index6++) {
+            Value_172 arrayComponent7;
+            if (arrayValue3.get(index6) == null) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+            } else {
+              arrayComponent7 = Value_172.parse(arrayValue3.get(index6));
+            }
+            list5.add(arrayComponent7);
+          }
+          java.util.List<org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateExplanationValue> parsedValue2 = java.util.Collections.unmodifiableList(list5);
+          this.field_explanations = parsedValue2;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field explanations", e);
+        }
+      } else {
+        this.field_explanations = null;
+      }
+
+      Object value8 = underlying.get("mixedContentStatus");
+      boolean hasValue9;
+      if (value8 == null) {
+        hasValue9 = underlying.containsKey("mixedContentStatus");
+      } else {
+        hasValue9 = true;
+      }
+      if (hasValue9) {
+        try {
+          Value_170 parsedValue10;
+          if (value8 == null) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("null input");
+          } else {
+            parsedValue10 = Value_170.parse(value8);
+          }
+          this.field_mixedContentStatus = parsedValue10;
+        } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field mixedContentStatus", e);
+        }
+      } else {
+        this.field_mixedContentStatus = null;
+      }
+    }
+    private final java.util.List<org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateExplanationValue> field_explanations;
+    private final org.chromium.sdk.internal.wip.protocol.input.security.MixedContentStatusValue field_mixedContentStatus;
+    @Override public java.util.List<org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateExplanationValue> explanations() {
+      return field_explanations;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum securityState()    {
+      org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum result;
+      try {
+        Object value0 = underlying.get("securityState");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("securityState");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum r1 = org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field securityState in type org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateChangedEventData", e);
+          }
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: securityState");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.security.MixedContentStatusValue mixedContentStatus() {
+      return field_mixedContentStatus;
+    }
+    @Override public java.lang.Boolean schemeIsCryptographic()    {
+      java.lang.Boolean result;
+      Object value0 = underlying.get("schemeIsCryptographic");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("schemeIsCryptographic");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Boolean r1 = (java.lang.Boolean) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+  }
+
+  // Type org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateExplanationValue
+  public static class Value_172 extends org.chromium.sdk.internal.protocolparser.implutil.GeneratedCodeLibrary.JsonValueBase implements org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateExplanationValue {
+    public static Value_172 parse(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      return new Value_172(input);
+    }
+    Value_172(Object input) throws org.chromium.sdk.internal.protocolparser.JsonProtocolParseException {
+      super(input);
+    }
+    @Override public java.lang.Long certificateId()    {
+      java.lang.Long result;
+      Object value0 = underlying.get("certificateId");
+      boolean hasValue1;
+      if (value0 == null) {
+        hasValue1 = underlying.containsKey("certificateId");
+      } else {
+        hasValue1 = true;
+      }
+      if (hasValue1) {
+        java.lang.Long r1 = (java.lang.Long) value0;
+        result = r1;
+      } else {
+        result = null;
+      }
+      return result;
+    }
+    @Override public java.lang.String summary()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("summary");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("summary");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: summary");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum securityState()    {
+      org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum result;
+      try {
+        Object value0 = underlying.get("securityState");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("securityState");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          try {
+            if (value0 instanceof String == false) {
+              throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("String value expected");
+            }
+            String stringValue = (String) value0;
+            stringValue = stringValue.toUpperCase();
+            org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum r1 = org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum.valueOf(stringValue);
+            result = r1;
+          } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+            throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Failed to parse field securityState in type org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateExplanationValue", e);
+          }
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: securityState");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
+      }
+      return result;
+    }
+    @Override public java.lang.String description()    {
+      java.lang.String result;
+      try {
+        Object value0 = underlying.get("description");
+        boolean hasValue1;
+        if (value0 == null) {
+          hasValue1 = underlying.containsKey("description");
+        } else {
+          hasValue1 = true;
+        }
+        if (hasValue1) {
+          java.lang.String r1 = (java.lang.String) value0;
+          result = r1;
+        } else {
+          throw new org.chromium.sdk.internal.protocolparser.JsonProtocolParseException("Field is not optional: description");
+        }
+      } catch (org.chromium.sdk.internal.protocolparser.JsonProtocolParseException e) {
+        throw new org.chromium.sdk.internal.protocolparser.implutil.CommonImpl.ParseRuntimeException("On demand parsing failed for " + underlying, e);
       }
       return result;
     }

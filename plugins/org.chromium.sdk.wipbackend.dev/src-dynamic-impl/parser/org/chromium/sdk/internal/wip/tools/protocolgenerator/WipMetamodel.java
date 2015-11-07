@@ -48,12 +48,12 @@ public interface WipMetamodel {
     String name();
     @JsonOptionalField List<Parameter> parameters();
     @JsonOptionalField List<Parameter> returns();
-
+    @JsonOptionalField ArrayItemType error();
+    @JsonOptionalField List<String> handlers();
     @JsonOptionalField String description();
-
     @JsonOptionalField Boolean hidden();
-
     @JsonOptionalField Boolean async();
+    @JsonOptionalField String redirect();
   }
 
   @JsonType
@@ -93,6 +93,10 @@ public interface WipMetamodel {
     @JsonOptionalField String description();
 
     @JsonOptionalField Boolean hidden();
+    
+    @JsonOptionalField Boolean deprecated();
+    
+    @JsonOptionalField List<String> handlers();
   }
 
   @JsonType interface StandaloneType {
@@ -114,6 +118,7 @@ public interface WipMetamodel {
 
     @JsonOptionalField Long minItems();
     @JsonOptionalField Long maxItems();
+    
   }
 
   @JsonType interface ObjectProperty {
@@ -140,6 +145,8 @@ public interface WipMetamodel {
     List<String> getEnum();
 
     @JsonOptionalField Boolean hidden();
+    @JsonOptionalField
+    List<ObjectProperty> properties();
   }
 
   @JsonType interface ArrayItemType {

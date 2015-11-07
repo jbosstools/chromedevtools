@@ -1,22 +1,17 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@96703
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.page;
 
 /**
- Returns all browser cookies. Depending on the backend support, will either return detailed cookie information in the <code>cookie</code> field or string cookie representation using <code>cookieString</code>.
+ Returns all browser cookies. Depending on the backend support, will return detailed cookie information in the <code>cookies</code> field.
  */
 @org.chromium.sdk.internal.protocolparser.JsonType
 public interface GetCookiesData {
   /**
    Array of cookie objects.
    */
-  java.util.List<org.chromium.sdk.internal.wip.protocol.input.page.CookieValue> cookies();
-
-  /**
-   document.cookie string representation of the cookies.
-   */
-  String cookiesString();
+  java.util.List<org.chromium.sdk.internal.wip.protocol.input.network.CookieValue> cookies();
 
 }

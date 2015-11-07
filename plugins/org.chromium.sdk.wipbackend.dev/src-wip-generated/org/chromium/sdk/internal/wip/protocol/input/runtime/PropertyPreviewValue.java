@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@150309 with change #14672031
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.runtime;
 
@@ -12,7 +12,7 @@ public interface PropertyPreviewValue {
   String name();
 
   /**
-   Object type.
+   Object type. Accessor means that the property itself is an accessor property.
    */
   Type type();
 
@@ -35,7 +35,7 @@ public interface PropertyPreviewValue {
   Subtype subtype();
 
   /**
-   Object type.
+   Object type. Accessor means that the property itself is an accessor property.
    */
   public enum Type {
     OBJECT,
@@ -44,6 +44,8 @@ public interface PropertyPreviewValue {
     STRING,
     NUMBER,
     BOOLEAN,
+    SYMBOL,
+    ACCESSOR,
   }
   /**
    Object subtype hint. Specified for <code>object</code> type values only.
@@ -54,5 +56,10 @@ public interface PropertyPreviewValue {
     NODE,
     REGEXP,
     DATE,
+    MAP,
+    SET,
+    ITERATOR,
+    GENERATOR,
+    ERROR,
   }
 }

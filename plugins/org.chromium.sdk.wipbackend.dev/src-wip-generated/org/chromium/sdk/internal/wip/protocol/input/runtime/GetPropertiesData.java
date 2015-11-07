@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@130398
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.runtime;
 
@@ -15,9 +15,15 @@ public interface GetPropertiesData {
   java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.PropertyDescriptorValue> result();
 
   /**
-   Internal object properties.
+   Internal object properties (only of the element itself).
    */
   @org.chromium.sdk.internal.protocolparser.JsonOptionalField
   java.util.List<org.chromium.sdk.internal.wip.protocol.input.runtime.InternalPropertyDescriptorValue> internalProperties();
+
+  /**
+   Exception details.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  org.chromium.sdk.internal.wip.protocol.input.debugger.ExceptionDetailsValue exceptionDetails();
 
 }

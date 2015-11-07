@@ -209,7 +209,7 @@ abstract class WipEvaluateContextBase<DATA> extends JsEvaluateContextBase {
           return "undefined";
         }
         @Override public CallArgumentParam createCallArgumentParam() {
-          return new CallArgumentParam(false, null, null);
+          return new CallArgumentParam(false, null, null, null);
         }
       };
     }
@@ -221,7 +221,7 @@ abstract class WipEvaluateContextBase<DATA> extends JsEvaluateContextBase {
           return "null";
         }
         @Override public CallArgumentParam createCallArgumentParam() {
-          return new CallArgumentParam(true, null, null);
+          return new CallArgumentParam(true, null, null, null);
         }
       };
     }
@@ -248,7 +248,7 @@ abstract class WipEvaluateContextBase<DATA> extends JsEvaluateContextBase {
           return stringRepresentation;
         }
         @Override public CallArgumentParam createCallArgumentParam() {
-          return new CallArgumentParam(true, JSONValue.parse(stringRepresentation), null);
+          return new CallArgumentParam(true, JSONValue.parse(stringRepresentation), null,null);
         }
       };
     }
@@ -291,7 +291,7 @@ abstract class WipEvaluateContextBase<DATA> extends JsEvaluateContextBase {
         return value.toString();
       }
       @Override public CallArgumentParam createCallArgumentParam() {
-        return new CallArgumentParam(true, value, null);
+        return new CallArgumentParam(true, value, null, null);
       }
     }
   };

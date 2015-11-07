@@ -31,6 +31,12 @@ public interface ConsoleMessageValue {
   Type type();
 
   /**
+   Script ID of the message origin.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  String scriptId();
+
+  /**
    URL of the message origin.
    */
   @org.chromium.sdk.internal.protocolparser.JsonOptionalField
@@ -41,6 +47,12 @@ public interface ConsoleMessageValue {
    */
   @org.chromium.sdk.internal.protocolparser.JsonOptionalField
   Long line();
+
+  /**
+   Column number in the resource that generated this message.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  Long column();
 
   /**
    Repeat count for repeated messages.
@@ -61,6 +73,12 @@ public interface ConsoleMessageValue {
   java.util.List<org.chromium.sdk.internal.wip.protocol.input.console.CallFrameValue>/*See org.chromium.sdk.internal.wip.protocol.input.console.StackTraceTypedef*/ stackTrace();
 
   /**
+   Asynchronous JavaScript stack trace that preceded this message, if available.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  org.chromium.sdk.internal.wip.protocol.input.console.AsyncStackTraceValue asyncStackTrace();
+
+  /**
    Identifier of the network request associated with this message.
    */
   @org.chromium.sdk.internal.protocolparser.JsonOptionalField
@@ -70,6 +88,24 @@ public interface ConsoleMessageValue {
    Timestamp, when this message was fired.
    */
   Number/*See org.chromium.sdk.internal.wip.protocol.common.console.TimestampTypedef*/ timestamp();
+
+  /**
+   Identifier of the context where this message was created
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  Long/*See org.chromium.sdk.internal.wip.protocol.common.runtime.ExecutionContextIdTypedef*/ executionContextId();
+
+  /**
+   Message id.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  Long messageId();
+
+  /**
+   Related message id.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  Long relatedMessageId();
 
   /**
    Message source.
@@ -82,7 +118,6 @@ public interface ConsoleMessageValue {
     STORAGE,
     APPCACHE,
     RENDERING,
-    CSS,
     SECURITY,
     OTHER,
     DEPRECATION,
@@ -95,6 +130,8 @@ public interface ConsoleMessageValue {
     WARNING,
     ERROR,
     DEBUG,
+    INFO,
+    REVOKEDERROR,
   }
   /**
    Console message type.
@@ -110,7 +147,6 @@ public interface ConsoleMessageValue {
     STARTGROUPCOLLAPSED,
     ENDGROUP,
     ASSERT,
-    TIMING,
     PROFILE,
     PROFILEEND,
   }

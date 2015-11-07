@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@84775
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.page;
 
@@ -12,9 +12,13 @@ public enum ResourceTypeEnum {
   DOCUMENT,
   STYLESHEET,
   IMAGE,
+  MEDIA,
   FONT,
   SCRIPT,
+  TEXTTRACK,
   XHR,
+  FETCH,
+  EVENTSOURCE,
   WEBSOCKET,
   OTHER
 }

@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@116768
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.network;
 
@@ -17,7 +17,7 @@ public interface RequestWillBeSentEventData {
   /**
    Frame identifier.
    */
-  String/*See org.chromium.sdk.internal.wip.protocol.common.network.FrameIdTypedef*/ frameId();
+  String/*See org.chromium.sdk.internal.wip.protocol.common.page.FrameIdTypedef*/ frameId();
 
   /**
    Loader identifier.
@@ -40,6 +40,11 @@ public interface RequestWillBeSentEventData {
   Number/*See org.chromium.sdk.internal.wip.protocol.common.network.TimestampTypedef*/ timestamp();
 
   /**
+   UTC Timestamp.
+   */
+  Number/*See org.chromium.sdk.internal.wip.protocol.common.network.TimestampTypedef*/ wallTime();
+
+  /**
    Request initiator.
    */
   org.chromium.sdk.internal.wip.protocol.input.network.InitiatorValue initiator();
@@ -49,6 +54,12 @@ public interface RequestWillBeSentEventData {
    */
   @org.chromium.sdk.internal.protocolparser.JsonOptionalField
   org.chromium.sdk.internal.wip.protocol.input.network.ResponseValue redirectResponse();
+
+  /**
+   Type of this resource.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  org.chromium.sdk.internal.wip.protocol.input.page.ResourceTypeEnum type();
 
   public static final org.chromium.sdk.internal.wip.protocol.input.WipEventType<org.chromium.sdk.internal.wip.protocol.input.network.RequestWillBeSentEventData> TYPE
       = new org.chromium.sdk.internal.wip.protocol.input.WipEventType<org.chromium.sdk.internal.wip.protocol.input.network.RequestWillBeSentEventData>("Network.requestWillBeSent", org.chromium.sdk.internal.wip.protocol.input.network.RequestWillBeSentEventData.class) {

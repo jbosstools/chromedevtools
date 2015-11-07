@@ -17,10 +17,13 @@ public interface WipTabList {
 
   @JsonType interface TabDescription {
     String id();
+    
+    @JsonOptionalField
     String faviconUrl();
     String title();
     String url();
 
+    @JsonOptionalField
     String thumbnailUrl();
 
     // TODO: consider adding enum here

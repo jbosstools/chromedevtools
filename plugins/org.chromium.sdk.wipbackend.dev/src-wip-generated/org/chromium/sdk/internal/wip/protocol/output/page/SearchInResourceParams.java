@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@102140
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.output.page;
 
@@ -15,7 +15,7 @@ public class SearchInResourceParams extends org.chromium.sdk.internal.wip.protoc
    @param caseSensitiveOpt If true, search is case sensitive.
    @param isRegexOpt If true, treats string parameter as regex.
    */
-  public SearchInResourceParams(String/*See org.chromium.sdk.internal.wip.protocol.common.network.FrameIdTypedef*/ frameId, String url, String query, Boolean caseSensitiveOpt, Boolean isRegexOpt) {
+  public SearchInResourceParams(String/*See org.chromium.sdk.internal.wip.protocol.common.page.FrameIdTypedef*/ frameId, String url, String query, Boolean caseSensitiveOpt, Boolean isRegexOpt) {
     this.put("frameId", frameId);
     this.put("url", url);
     this.put("query", query);

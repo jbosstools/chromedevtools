@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@92377
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.debugger;
 
@@ -28,5 +28,7 @@ public interface ScopeValue {
     WITH,
     CLOSURE,
     CATCH,
+    BLOCK,
+    SCRIPT,
   }
 }

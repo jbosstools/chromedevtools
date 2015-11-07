@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@135591
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.network;
 
@@ -63,15 +63,55 @@ public interface ResponseValue {
   Number connectionId();
 
   /**
+   Remote IP address.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  String remoteIPAddress();
+
+  /**
+   Remote port.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  Long remotePort();
+
+  /**
    Specifies that the request was served from the disk cache.
    */
   @org.chromium.sdk.internal.protocolparser.JsonOptionalField
   Boolean fromDiskCache();
 
   /**
+   Specifies that the request was served from the ServiceWorker.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  Boolean fromServiceWorker();
+
+  /**
+   Total number of bytes received for this request so far.
+   */
+  Number encodedDataLength();
+
+  /**
    Timing information for the given request.
    */
   @org.chromium.sdk.internal.protocolparser.JsonOptionalField
   org.chromium.sdk.internal.wip.protocol.input.network.ResourceTimingValue timing();
+
+  /**
+   Protocol used to fetch this request.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  String protocol();
+
+  /**
+   Security state of the request resource.
+   */
+  org.chromium.sdk.internal.wip.protocol.input.security.SecurityStateEnum securityState();
+
+  /**
+   Security details for the request.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  org.chromium.sdk.internal.wip.protocol.input.network.SecurityDetailsValue securityDetails();
 
 }

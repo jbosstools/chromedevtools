@@ -57,8 +57,8 @@ class WipScriptImpl extends ScriptBase<String> {
       @Override
       public void success(SetScriptSourceData value) {
         // TODO: support 'step in recommended' here.
-        RelayOk relayOk =
-            possiblyUpdateCallFrames(preview, value, updateCallback, guard.getRelay());
+        RelayOk relayOk = guard.getRelay().finish();
+            // possiblyUpdateCallFrames(preview, value, updateCallback, guard.getRelay());
         guard.discharge(relayOk);
       }
 
@@ -73,7 +73,7 @@ class WipScriptImpl extends ScriptBase<String> {
     WipCommandProcessor commandProcessor = scriptManager.getTabImpl().getCommandProcessor();
     return commandProcessor.send(params, commandCallback, guard.asSyncCallback());
   }
-
+/*
   private RelayOk possiblyUpdateCallFrames(boolean preview, final SetScriptSourceData data,
       final UpdateCallback updateCallback, RelaySyncCallback relay) {
 
@@ -115,5 +115,5 @@ class WipScriptImpl extends ScriptBase<String> {
           UpdateResultParser.wrapChangeDescription(liveEditResult);
       updateCallback.success(false, null, wrappedChangeDescription);
     }
-  }
+  }*/
 }

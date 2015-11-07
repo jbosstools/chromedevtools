@@ -464,7 +464,10 @@ class WipContextBuilder {
       private RelayOk handleRestartFrameData(RestartFrameData data,
           final GenericCallback<Boolean> callback, RelaySyncCallback relay) {
         // We are in Dispatch thread.
-        if (currentContext != WipDebugContextImpl.this) {
+        // FIXME This part should be implemented right way
+        //       Just return relay.finish() for now
+        return relay.finish();
+        /*if (currentContext != WipDebugContextImpl.this) {
           return finishSuccessfulRestart(false, callback, relay);
         }
         if (data.result().getUnderlyingObject().get("stack_update_needs_step_in") ==
@@ -489,7 +492,7 @@ class WipContextBuilder {
         } else {
           resetFrames(data.callFrames());
           return finishSuccessfulRestart(false, callback, relay);
-        }
+        }*/
       }
 
       private RelayOk finishSuccessfulRestart(boolean vmResumed,

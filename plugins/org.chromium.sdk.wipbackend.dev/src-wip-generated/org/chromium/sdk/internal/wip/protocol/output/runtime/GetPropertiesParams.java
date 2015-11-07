@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@102140
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.output.runtime;
 
@@ -11,11 +11,19 @@ public class GetPropertiesParams extends org.chromium.sdk.internal.wip.protocol.
   /**
    @param objectId Identifier of the object to return properties for.
    @param ownPropertiesOpt If true, returns properties belonging only to the element itself, not to its prototype chain.
+   @param accessorPropertiesOnlyOpt If true, returns accessor properties (with getter/setter) only; internal properties are not returned either.
+   @param generatePreviewOpt Whether preview should be generated for the results.
    */
-  public GetPropertiesParams(String/*See org.chromium.sdk.internal.wip.protocol.common.runtime.RemoteObjectIdTypedef*/ objectId, Boolean ownPropertiesOpt) {
+  public GetPropertiesParams(String/*See org.chromium.sdk.internal.wip.protocol.common.runtime.RemoteObjectIdTypedef*/ objectId, Boolean ownPropertiesOpt, Boolean accessorPropertiesOnlyOpt, Boolean generatePreviewOpt) {
     this.put("objectId", objectId);
     if (ownPropertiesOpt != null) {
       this.put("ownProperties", ownPropertiesOpt);
+    }
+    if (accessorPropertiesOnlyOpt != null) {
+      this.put("accessorPropertiesOnly", accessorPropertiesOnlyOpt);
+    }
+    if (generatePreviewOpt != null) {
+      this.put("generatePreview", generatePreviewOpt);
     }
   }
 

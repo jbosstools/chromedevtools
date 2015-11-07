@@ -281,7 +281,8 @@ class Generator {
 
         @Override
         public StandaloneTypeBinding visitEnum(List<String> enumConstants) {
-          throw new RuntimeException();
+        	return createStandaloneEnumInputTypeBinding(getType(), enumConstants,
+                    TypeData.Direction.OUTPUT);
         }
         @Override public StandaloneTypeBinding visitArray(final ArrayItemType items) {
 
@@ -2083,6 +2084,7 @@ class Generator {
     "Network",
     "Console",
     "DOM",
+    "Security"
   };
 
   private static void initializeKnownTypes(TypeMap typeMap) {

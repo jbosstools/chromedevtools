@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@116768
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.runtime;
 
@@ -15,9 +15,15 @@ public interface ExecutionContextDescriptionValue {
   long/*See org.chromium.sdk.internal.wip.protocol.common.runtime.ExecutionContextIdTypedef*/ id();
 
   /**
-   True if this is a context where inpspected web page scripts run. False if it is a content script isolated context.
+   Context type. It is used e.g. to distinguish content scripts from web page script.
    */
-  boolean isPageContext();
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  String type();
+
+  /**
+   Execution context origin.
+   */
+  String origin();
 
   /**
    Human readable name describing given context.
@@ -25,8 +31,8 @@ public interface ExecutionContextDescriptionValue {
   String name();
 
   /**
-   Id of the owning frame.
+   Id of the owning frame. May be an empty string if the context is not associated with a frame.
    */
-  String/*See org.chromium.sdk.internal.wip.protocol.common.network.FrameIdTypedef*/ frameId();
+  String frameId();
 
 }

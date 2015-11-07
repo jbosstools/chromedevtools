@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@106352
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.output.page;
 
@@ -12,7 +12,7 @@ public class SetDocumentContentParams extends org.chromium.sdk.internal.wip.prot
    @param frameId Frame id to set HTML for.
    @param html HTML content to set.
    */
-  public SetDocumentContentParams(String/*See org.chromium.sdk.internal.wip.protocol.common.network.FrameIdTypedef*/ frameId, String html) {
+  public SetDocumentContentParams(String/*See org.chromium.sdk.internal.wip.protocol.common.page.FrameIdTypedef*/ frameId, String html) {
     this.put("frameId", frameId);
     this.put("html", html);
   }

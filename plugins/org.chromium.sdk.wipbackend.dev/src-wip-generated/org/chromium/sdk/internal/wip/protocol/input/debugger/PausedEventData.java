@@ -28,7 +28,14 @@ public interface PausedEventData {
   /**
    Hit breakpoints IDs
    */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
   java.util.List<String> hitBreakpoints();
+
+  /**
+   Async stack trace, if any.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue asyncStackTrace();
 
   public static final org.chromium.sdk.internal.wip.protocol.input.WipEventType<org.chromium.sdk.internal.wip.protocol.input.debugger.PausedEventData> TYPE
       = new org.chromium.sdk.internal.wip.protocol.input.WipEventType<org.chromium.sdk.internal.wip.protocol.input.debugger.PausedEventData>("Debugger.paused", org.chromium.sdk.internal.wip.protocol.input.debugger.PausedEventData.class) {
@@ -46,6 +53,9 @@ public interface PausedEventData {
     EXCEPTION,
     ASSERT,
     CSPVIOLATION,
+    DEBUGCOMMAND,
+    PROMISEREJECTION,
+    ASYNCOPERATION,
     OTHER,
   }
   /**

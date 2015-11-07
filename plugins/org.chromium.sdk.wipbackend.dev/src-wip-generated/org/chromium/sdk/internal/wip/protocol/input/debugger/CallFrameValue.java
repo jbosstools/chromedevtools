@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@102140
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.debugger;
 
@@ -22,6 +22,12 @@ public interface CallFrameValue {
   /**
    Location in the source code.
    */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue functionLocation();
+
+  /**
+   Location in the source code.
+   */
   org.chromium.sdk.internal.wip.protocol.input.debugger.LocationValue location();
 
   /**
@@ -34,5 +40,11 @@ public interface CallFrameValue {
    */
   @org.chromium.sdk.internal.protocolparser.JsonField(jsonLiteralName="this")
   org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue getThis();
+
+  /**
+   The value being returned, if the function is at return point.
+   */
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  org.chromium.sdk.internal.wip.protocol.input.runtime.RemoteObjectValue returnValue();
 
 }

@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@96703
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.network;
 
@@ -53,6 +53,16 @@ public interface ResourceTimingValue {
    Finished SSL handshake.
    */
   Number sslEnd();
+
+  /**
+   Started running ServiceWorker.
+   */
+  Number workerStart();
+
+  /**
+   Finished Starting ServiceWorker.
+   */
+  Number workerReady();
 
   /**
    Started sending request.

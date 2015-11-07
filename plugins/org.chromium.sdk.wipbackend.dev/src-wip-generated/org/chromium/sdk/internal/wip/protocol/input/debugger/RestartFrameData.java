@@ -1,6 +1,6 @@
 // Generated source.
 // Generator: org.chromium.sdk.internal.wip.tools.protocolgenerator.Generator
-// Origin: http://svn.webkit.org/repository/webkit/trunk/Source/WebCore/inspector/Inspector.json@121014
+// Origin: http://src.chromium.org/blink/trunk/Source/devtools/protocol.json@<unknown>
 
 package org.chromium.sdk.internal.wip.protocol.input.debugger;
 
@@ -15,14 +15,9 @@ public interface RestartFrameData {
   java.util.List<org.chromium.sdk.internal.wip.protocol.input.debugger.CallFrameValue> callFrames();
 
   /**
-   VM-specific description.
+   Async stack trace, if any.
    */
-  Result result();
+  @org.chromium.sdk.internal.protocolparser.JsonOptionalField
+  org.chromium.sdk.internal.wip.protocol.input.debugger.StackTraceValue asyncStackTrace();
 
-  /**
-   VM-specific description.
-   */
-  @org.chromium.sdk.internal.protocolparser.JsonType(allowsOtherProperties=true)
-  public interface Result extends org.chromium.sdk.internal.protocolparser.JsonObjectBased {
-  }
 }
