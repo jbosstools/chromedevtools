@@ -24,5 +24,6 @@
 		<module>org.chromium.sdk.wip.eclipse</module>
 		<module>org.chromium.sdk.wipbackend.dev</module>
 		<module>org.chromium.sdk.wipbackend.protocol_1_0</module>
+		<module>org.chromium.sdk.wipbackend.protocol_1_1</module>
 	</modules>
 </project>
